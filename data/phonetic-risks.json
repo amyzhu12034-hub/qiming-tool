@@ -1,0 +1,16 @@
+{
+  "普通话": {
+    "coverage": "内置高风险连读词条，仅作初筛，不替代人工朗读确认。",
+    "rules": [
+      { "match": "吴清", "level": "review", "reason": "“吴清”连读与“无情”近似，建议完整朗读后确认。" },
+      { "match": "范统", "level": "high", "reason": "与“饭桶”谐音，不建议使用。" },
+      { "match": "史珍香", "level": "high", "reason": "与不雅表达近似，不建议使用。" },
+      { "match": "杜子腾", "level": "high", "reason": "与“肚子疼”谐音，不建议使用。" },
+      { "match": "苟史", "level": "high", "reason": "与不雅表达近似，不建议使用。" }
+    ]
+  },
+  "粤语": { "coverage": "方言词库待接入", "rules": [] },
+  "吴语": { "coverage": "方言词库待接入", "rules": [] },
+  "闽南语": { "coverage": "方言词库待接入", "rules": [] },
+  "四川话": { "coverage": "方言词库待接入", "rules": [] }
+}

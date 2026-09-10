@@ -1,0 +1,14 @@
+{
+  "name": "ming-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chinese naming tool backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "dependencies": {
+    "lunar-javascript": "^1.7.7"
+  }
+}

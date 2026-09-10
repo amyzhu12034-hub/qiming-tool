@@ -1,0 +1,63 @@
+/* “条件 + 填写内容”合并为同一条流程。 */
+.preference-flow {
+  border-top: 1px solid var(--line);
+}
+
+.condition-row {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.preference-flow .preference-card {
+  min-height: 0;
+  display: block;
+  padding: 18px 0 18px 24px;
+  border: 0;
+  background: transparent;
+}
+
+.preference-flow .preference-card.checked {
+  border-color: transparent;
+  background: transparent;
+}
+
+.preference-flow .preference-card b { font-size: 15px; }
+.preference-flow .preference-card small { font-size: 11px; }
+.preference-flow .check { top: 23px; right: auto; left: 0; }
+
+.condition-detail {
+  min-width: 0;
+  padding: 12px 0;
+}
+
+.condition-detail .field input,
+.condition-detail .field select {
+  height: 38px;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.condition-detail.three-fields,
+.condition-detail.two-fields {
+  display: grid;
+  gap: 18px;
+}
+
+.condition-detail.three-fields { grid-template-columns: repeat(3, 1fr); }
+.condition-detail.two-fields { grid-template-columns: repeat(2, 1fr); }
+.helper-text { color: var(--muted); font-size: 12px; line-height: 1.7; }
+
+/* 未选条件完全收起，不再显示置灰输入项。 */
+.data-field.disabled { display: none; }
+
+@media (max-width: 760px) {
+  .condition-row { display: block; padding: 15px 0; }
+  .preference-flow .preference-card { padding-top: 0; padding-bottom: 0; }
+  .preference-flow .check { top: 5px; }
+  .condition-detail { padding-top: 14px; }
+  .condition-detail.three-fields,
+  .condition-detail.two-fields { grid-template-columns: 1fr; gap: 12px; }
+}

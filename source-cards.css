@@ -1,0 +1,46 @@
+.source-block {
+  border-left: 2px solid var(--yellow);
+  padding: 4px 0 4px 11px;
+}
+
+.source-label,
+.source-extract {
+  display: block;
+}
+
+.source-label {
+  color: #6e7a70;
+  font-size: 10px;
+}
+
+.source-block q {
+  display: block;
+  margin: 3px 0;
+  color: var(--ink);
+  font: 500 13px/1.65 var(--serif);
+}
+
+.source-extract {
+  color: var(--accent);
+  font-size: 10px;
+}
+
+.name-card {
+  min-height: 368px;
+}
+
+.name-length-field {
+  width: 128px;
+}
+
+.lookup-link {
+  display: block;
+  margin-top: 2px;
+  color: var(--accent);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.lookup-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+{
+  "method": "康熙笔画（传统姓名学参考）",
+  "characters": {
+    "清": { "strokes": 12, "level": "common" }, "扬": { "strokes": 13, "level": "common" }, "维": { "strokes": 14, "level": "common" }, "桢": { "strokes": 13, "level": "uncommon" },
+    "攸": { "strokes": 7, "level": "uncommon" }, "宁": { "strokes": 14, "level": "common" }, "嘉": { "strokes": 14, "level": "common" }, "树": { "strokes": 16, "level": "common" },
+    "既": { "strokes": 9, "level": "common" }, "明": { "strokes": 8, "level": "common" }, "静": { "strokes": 16, "level": "common" }, "姝": { "strokes": 9, "level": "common" },
+    "其": { "strokes": 8, "level": "common" }, "琛": { "strokes": 13, "level": "uncommon" }, "燕": { "strokes": 16, "level": "common" }, "绥": { "strokes": 13, "level": "uncommon" },
+    "柔": { "strokes": 9, "level": "common" }, "怀": { "strokes": 20, "level": "common" }, "瑾": { "strokes": 16, "level": "uncommon" }, "乐": { "strokes": 15, "level": "common" },
+    "只": { "strokes": 5, "level": "common" }, "令": { "strokes": 5, "level": "common" }, "仪": { "strokes": 15, "level": "common" }, "蓁": { "strokes": 16, "level": "uncommon" },
+    "乔": { "strokes": 12, "level": "common" }, "昭": { "strokes": 9, "level": "common" }, "云": { "strokes": 12, "level": "common" }, "起": { "strokes": 10, "level": "common" },
+    "泉": { "strokes": 9, "level": "common" }, "春": { "strokes": 9, "level": "common" }, "晖": { "strokes": 13, "level": "uncommon" }, "星": { "strokes": 9, "level": "common" },
+    "垂": { "strokes": 8, "level": "uncommon" }, "长": { "strokes": 8, "level": "common" }, "风": { "strokes": 9, "level": "common" }, "欢": { "strokes": 22, "level": "common" },
+    "兰": { "strokes": 23, "level": "common" }, "舟": { "strokes": 6, "level": "common" }, "中": { "strokes": 4, "level": "common" }, "青": { "strokes": 8, "level": "common" }, "山": { "strokes": 3, "level": "common" }
+  },
+  "surnames": {
+    "王": 4, "李": 7, "张": 11, "刘": 15, "陈": 16, "杨": 13, "黄": 12, "赵": 14, "周": 8, "吴": 7, "林": 8,
+    "徐": 10, "孙": 10, "胡": 11, "朱": 6, "高": 10, "郭": 15, "何": 7, "罗": 20, "梁": 11, "宋": 7,
+    "郑": 19, "谢": 17, "韩": 17, "唐": 10, "冯": 12, "于": 3, "董": 15, "萧": 18, "程": 12, "曹": 11,
+    "袁": 10, "邓": 19, "许": 11, "傅": 12, "沈": 8, "曾": 12, "彭": 12, "吕": 7, "苏": 22, "卢": 16,
+    "蒋": 17, "蔡": 17, "贾": 13, "丁": 2, "魏": 18, "薛": 19, "叶": 15, "阎": 16, "余": 7, "潘": 16,
+    "杜": 7, "戴": 18, "夏": 10, "钟": 17, "汪": 8, "田": 5, "任": 6, "姜": 9, "范": 15, "方": 4,
+    "石": 5, "姚": 9, "廖": 14, "邹": 17, "熊": 14, "金": 8, "陆": 16, "郝": 14, "孔": 4, "白": 5,
+    "欧阳": 32, "司马": 15, "上官": 11, "诸葛": 31, "夏侯": 19, "东方": 12, "皇甫": 23
+  }
+}
