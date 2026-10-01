@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: qiming-tool
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
