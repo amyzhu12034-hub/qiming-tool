@@ -6,9 +6,14 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check app.js"
+    "check": "node --check server.js && node --check app.js && wrangler deploy --dry-run",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy"
   },
   "dependencies": {
     "lunar-javascript": "^1.7.7"
+  },
+  "devDependencies": {
+    "wrangler": "^4.59.1"
   }
 }

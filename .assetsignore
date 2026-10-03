@@ -1,0 +1,12 @@
+node_modules/**
+.git/**
+.env
+.env.*
+server.js
+worker.js
+wrangler.jsonc
+render.yaml
+package.json
+package-lock.json
+README.md
+data/**
