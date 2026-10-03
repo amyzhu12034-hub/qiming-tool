@@ -1,20 +1,34 @@
 /* “条件 + 填写内容”合并为同一条流程。 */
 .preference-flow {
-  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
 }
 
 .condition-row {
   display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
-  gap: 28px;
+  grid-template-columns: 1fr;
+  gap: 0;
   align-items: center;
-  border-bottom: 1px solid var(--line);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255,255,255,.65);
+  transition: border-color .2s, box-shadow .2s, background .2s;
+}
+
+/* 打开的选项占一整行，将条件和输入放在一起；未打开的选项两列紧凑排列。 */
+.condition-row:has(.data-field:not(.disabled)) {
+  grid-column: 1 / -1;
+  grid-template-columns: 190px minmax(0, 1fr);
+  border-color: #b8dcd0;
+  background: #fbfefd;
+  box-shadow: 0 3px 12px rgba(47, 116, 95, .05);
 }
 
 .preference-flow .preference-card {
   min-height: 0;
   display: block;
-  padding: 18px 0 18px 24px;
+  padding: 12px 12px 12px 28px;
   border: 0;
   background: transparent;
 }
@@ -24,13 +38,14 @@
   background: transparent;
 }
 
-.preference-flow .preference-card b { font-size: 15px; }
+.preference-flow .preference-card b { font-size: 14px; }
 .preference-flow .preference-card small { font-size: 11px; }
-.preference-flow .check { top: 23px; right: auto; left: 0; }
+.preference-flow .check { top: 17px; right: auto; left: 12px; border-color: #a7c7bc; }
+.preference-flow .checked .check { background: var(--accent); border-color: var(--accent); }
 
 .condition-detail {
   min-width: 0;
-  padding: 12px 0;
+  padding: 10px 16px 10px 0;
 }
 
 .condition-detail .field input,
@@ -54,10 +69,46 @@
 .data-field.disabled { display: none; }
 
 @media (max-width: 760px) {
-  .condition-row { display: block; padding: 15px 0; }
-  .preference-flow .preference-card { padding-top: 0; padding-bottom: 0; }
-  .preference-flow .check { top: 5px; }
-  .condition-detail { padding-top: 14px; }
+  .preference-flow { grid-template-columns: 1fr; gap: 8px; }
+  .condition-row,
+  .condition-row:has(.data-field:not(.disabled)) { display: block; grid-column: auto; }
+  .preference-flow .preference-card { padding-top: 11px; padding-bottom: 11px; }
+  .preference-flow .check { top: 16px; }
+  .condition-detail { padding: 2px 14px 14px; }
   .condition-detail.three-fields,
   .condition-detail.two-fields { grid-template-columns: 1fr; gap: 12px; }
+}
+
+/* 轻盈、紧凑的新版界面：保留信息层级，减少大面积留白。 */
+:root { --ink:#244b42; --muted:#6d827c; --paper:#f4faf7; --sand:#e8f4ee; --line:#d4e7df; --accent:#3c9a80; --yellow:#9dce92; }
+body { background:radial-gradient(circle at 12% 0%, #e1f4e9 0, transparent 26rem), var(--paper); }
+.grain { opacity:.035; }
+.site-header { height:76px; gap:14px; }
+.brand { font-size:27px; }
+.brand-note { padding-left:14px; }
+.intro { padding:48px 0 42px; }
+.eyebrow { margin-bottom:9px; color:var(--accent); }
+.intro h1 { max-width:790px; font-size:clamp(34px, 4.2vw, 56px); line-height:1.2; }
+.intro-copy { max-width:590px; margin:15px 0 30px; font-size:14px; line-height:1.75; }
+.naming-form { overflow:hidden; border:1px solid var(--line); border-top:3px solid var(--accent); border-radius:16px; background:rgba(255,255,255,.78); box-shadow:0 12px 36px rgba(44,105,86,.07); }
+.form-section { grid-template-columns:185px 1fr; gap:24px; padding:22px 26px; }
+.form-section:first-child { background:linear-gradient(90deg, rgba(222,244,234,.65), rgba(255,255,255,.1)); }
+.section-label strong { font-size:15px; }
+.primary-fields { gap:20px; }
+.field input, .field select { height:38px; margin-top:5px; font-size:14px; border-color:#aec6bd; }
+.surname-field { width:140px; }
+.segmented { margin-top:5px; }
+.segmented span { padding:8px 13px; background:rgba(255,255,255,.55); }
+.segmented input:checked + span { background:var(--ink); border-color:var(--ink); }
+.submit-row { padding:18px 26px; background:#f8fcfa; }
+.generate-button { padding:11px 16px 11px 20px; border-radius:8px; background:var(--accent); box-shadow:0 5px 12px rgba(60,154,128,.18); }
+.generate-button:hover { background:#2f806a; }
+.results { padding:45px 0 66px; }
+.revision-panel { margin-top:28px; padding:26px 30px; border-radius:14px; background:#244b42; }
+
+@media (max-width:760px) {
+  .intro { padding:36px 0; }
+  .naming-form { border-radius:12px; }
+  .form-section { padding:20px; }
+  .submit-row { padding:18px 20px; }
 }
