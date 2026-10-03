@@ -1,5 +1,6 @@
 import nameDictionary from './data/character-dictionary.json';
 import phoneticRisks from './data/phonetic-risks.json';
+import expandedCorpus from './data/expanded-corpus.json';
 import lunar from 'lunar-javascript';
 
 const { Solar } = lunar;
@@ -37,7 +38,9 @@ const corpus = [
   ['青山','中性','辛弃疾《菩萨蛮·书江西造口壁》','青山遮不住，毕竟东流去。','青山','青山长在，寓意坚韧沉静。',['自然','坚定'],'qīng shān']
 ].map(([name, gender, work, quote, extracted, meaning, themes, pinyin]) => ({ name, gender, work, quote, extracted, meaning, themes, pinyin }));
 
-const category = work => work.includes('诗经') ? '诗经' : work.includes('楚辞') ? '楚辞' : /王维|孟郊|杜甫|李白/.test(work) ? '唐诗' : /苏轼|李清照|辛弃疾/.test(work) ? '宋词' : '其他';
+corpus.push(...expandedCorpus.map(record => ({ ...record, extracted: record.extracted || record.name, pinyin: record.pinyin || '待读音校验' })));
+
+const category = work => work.includes('诗经') ? '诗经' : work.includes('楚辞') ? '楚辞' : /王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work) ? '唐诗' : /苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work) ? '宋词' : '其他';
 const element = number => ({ 1: '木', 2: '木', 3: '火', 4: '火', 5: '土', 6: '土', 7: '金', 8: '金', 9: '水', 0: '水' })[number % 10];
 const charElements = name => Array.from(name).map(char => nameDictionary.characters[char] ? element(nameDictionary.characters[char].strokes) : null).filter(Boolean);
 

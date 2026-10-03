@@ -4,6 +4,7 @@ const path = require('path');
 const { URL } = require('url');
 const nameDictionary = require('./data/character-dictionary.json');
 const phoneticRisks = require('./data/phonetic-risks.json');
+const expandedCorpus = require('./data/expanded-corpus.json');
 const { Solar } = require('lunar-javascript');
 
 const PORT = Number(process.env.PORT || 3000);
@@ -41,12 +42,14 @@ const corpus = [
   { name: '青山', gender: '中性', work: '辛弃疾《菩萨蛮·书江西造口壁》', quote: '青山遮不住，毕竟东流去。', extracted: '青山', meaning: '青山长在，寓意坚韧沉静。', themes: ['自然', '坚定'] }
 ];
 
+corpus.push(...expandedCorpus.map(record => ({ ...record, extracted: record.extracted || record.name })));
+
 const corsHeaders = { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'GET, POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' };
 function json(res, status, data) { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', ...corsHeaders }); res.end(JSON.stringify(data)); }
 function redirect(res, target) { res.writeHead(302, { Location: target, 'Cache-Control': 'no-store' }); res.end(); }
 function readBody(req) { return new Promise((resolve, reject) => { let raw = ''; req.on('data', chunk => { raw += chunk; if (raw.length > 100000) reject(new Error('请求过大')); }); req.on('end', () => { try { resolve(raw ? JSON.parse(raw) : {}); } catch { reject(new Error('请求格式不是 JSON')); } }); }); }
-function pinyin(name) { return ({ 清扬: 'qīng yáng', 维桢: 'wéi zhēn', 攸宁: 'yōu níng', 嘉树: 'jiā shù', 既明: 'jì míng', 静姝: 'jìng shū', 其琛: 'qí chēn', 燕绥: 'yàn suí', 柔嘉: 'róu jiā', 怀瑾: 'huái jǐn', 乐只: 'lè zhǐ', 令仪: 'lìng yí', 蓁: 'zhēn', 乔: 'qiáo', 宁: 'níng', 昭: 'zhāo', 乐: 'lè', 嘉: 'jiā', 云起: 'yún qǐ', 清泉: 'qīng quán', 春晖: 'chūn huī', 星垂: 'xīng chuí', 长风: 'cháng fēng', 清欢: 'qīng huān', 兰舟: 'lán zhōu', 云中: 'yún zhōng', 青山: 'qīng shān' })[name] || ''; }
-function sourceCategory(work) { if (work.includes('诗经')) return '诗经'; if (work.includes('楚辞')) return '楚辞'; if (/王维|孟郊|杜甫|李白/.test(work)) return '唐诗'; if (/苏轼|李清照|辛弃疾/.test(work)) return '宋词'; return '其他'; }
+function pinyin(name) { return ({ 清扬: 'qīng yáng', 维桢: 'wéi zhēn', 攸宁: 'yōu níng', 嘉树: 'jiā shù', 既明: 'jì míng', 静姝: 'jìng shū', 其琛: 'qí chēn', 燕绥: 'yàn suí', 柔嘉: 'róu jiā', 怀瑾: 'huái jǐn', 乐只: 'lè zhǐ', 令仪: 'lìng yí', 蓁: 'zhēn', 乔: 'qiáo', 宁: 'níng', 昭: 'zhāo', 乐: 'lè', 嘉: 'jiā', 云起: 'yún qǐ', 清泉: 'qīng quán', 春晖: 'chūn huī', 星垂: 'xīng chuí', 长风: 'cháng fēng', 清欢: 'qīng huān', 兰舟: 'lán zhōu', 云中: 'yún zhōng', 青山: 'qīng shān' })[name] || '待读音校验'; }
+function sourceCategory(work) { if (work.includes('诗经')) return '诗经'; if (work.includes('楚辞')) return '楚辞'; if (/王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work)) return '唐诗'; if (/苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work)) return '宋词'; return '其他'; }
 function numerologyElement(number) { return ({ 1: '木', 2: '木', 3: '火', 4: '火', 5: '土', 6: '土', 7: '金', 8: '金', 9: '水', 0: '水' })[number % 10]; }
 function nameStrokeElements(name) { return Array.from(name).map(char => nameDictionary.characters[char] ? numerologyElement(nameDictionary.characters[char].strokes) : null).filter(Boolean); }
 function analyzeName(surname, givenName, requested) {
