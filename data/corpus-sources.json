@@ -6,5 +6,13 @@
     "url": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
     "license": "MIT",
     "usage": "作为候选发现和原文出处校验来源；自动抽取记录必须经过人工复核后才进入正式推荐库。"
+  },
+  {
+    "id": "chinese-poetry-tang-song",
+    "name": "唐诗与宋词结构化文本",
+    "provider": "chinese-poetry/chinese-poetry",
+    "url": "https://github.com/chinese-poetry/chinese-poetry",
+    "license": "MIT",
+    "usage": "首批使用唐诗精选和宋词三百首建立待核验队列；全量分卷文本仅用于后续离线批处理，不能直接打包进 Worker。"
   }
 ]

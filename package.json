@@ -9,7 +9,8 @@
     "check": "node --check server.js && node --check app.js && wrangler deploy --dry-run",
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
-    "corpus:import:shijing": "node scripts/import-shijing.js"
+    "corpus:import:shijing": "node scripts/import-shijing.js",
+    "corpus:import:classics": "node scripts/import-classics.js"
   },
   "dependencies": {
     "lunar-javascript": "^1.7.7"

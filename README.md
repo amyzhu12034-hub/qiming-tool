@@ -14,7 +14,7 @@
 
 语料不直接从网页随机截字。`scripts/import-shijing.js` 会把带 MIT 许可的 `chinese-poetry/chinese-poetry`《诗经》JSON 生成带原句、篇章、来源哈希、初步主题标签的**待核验队列**。自动抽取结果不进入当前线上推荐库，也不标记为“已核验”；审核通过后才合并到 `data/expanded-corpus.json`。
 
-下载源文件后执行：`npm run corpus:import:shijing -- <shijing.json 的绝对路径>`。来源及许可登记在 `data/corpus-sources.json`。
+下载源文件后执行：`npm run corpus:import:shijing -- <shijing.json 的绝对路径>`。唐诗、宋词的同类初筛可用：`npm run corpus:import:classics -- tang|song <json 的绝对路径>`。来源及许可登记在 `data/corpus-sources.json`。
 
 未接入：全国同名人数的正式数据接口、当代公众人物结构化资料库、AI 偏好理解、真太阳时修正、粤语/吴语/闽南语/四川话完整读音词库。API 会明确返回相应状态，不展示虚假数字或未经字库验证的传统命名结论。
 
