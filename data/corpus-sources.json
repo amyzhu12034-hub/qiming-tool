@@ -1,0 +1,10 @@
+[
+  {
+    "id": "chinese-poetry-shijing",
+    "name": "《诗经》结构化文本",
+    "provider": "chinese-poetry/chinese-poetry",
+    "url": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+    "license": "MIT",
+    "usage": "作为候选发现和原文出处校验来源；自动抽取记录必须经过人工复核后才进入正式推荐库。"
+  }
+]
