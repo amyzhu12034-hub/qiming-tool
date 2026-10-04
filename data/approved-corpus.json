@@ -1264,5 +1264,269 @@
     },
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "32f762fd67d552ffaa61",
+    "collection": "wikisource",
+    "name": "志学",
+    "gender": "中性",
+    "work": "《论语·爲政第二》",
+    "quote": "吾十有五而志于學；三十而立；四十而不惑；五十而知天命；六十而耳順；七十而從心所欲，不踰矩。",
+    "extracted": "志学",
+    "meaning": "取自《论语·爲政第二》，原句意象偏向高远进取、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "志向",
+      "智慧"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.460Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.895Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "52e29b118167c6cdcd80",
+    "collection": "wikisource",
+    "name": "知新",
+    "gender": "中性",
+    "work": "《论语·爲政第二》",
+    "quote": "溫故而知新，可以爲師矣。",
+    "extracted": "知新",
+    "meaning": "取自《论语·爲政第二》，原句意象偏向明辨好学、高远进取；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "智慧",
+      "志向"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.461Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "b8267c11ce97effe19c6",
+    "collection": "wikisource",
+    "name": "安仁",
+    "gender": "中性",
+    "work": "《论语·里仁第四》",
+    "quote": "不仁者，不可以久處約，不可以長處樂。仁者安仁，知者利仁。",
+    "extracted": "安仁",
+    "meaning": "取自《论语·里仁第四》，原句意象偏向安定从容、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "平安",
+      "品性"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.461Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "413d8935cf5d9e51f3ab",
+    "collection": "wikisource",
+    "name": "忠恕",
+    "gender": "中性",
+    "work": "《论语·里仁第四》",
+    "quote": "夫子之道，忠恕而已矣！",
+    "extracted": "忠恕",
+    "meaning": "取自《论语·里仁第四》，原句意象偏向端正自持、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "品性",
+      "智慧"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.461Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "a968b31f9ec730f46fbd",
+    "collection": "wikisource",
+    "name": "敏行",
+    "gender": "中性",
+    "work": "《论语·里仁第四》",
+    "quote": "君子欲訥於言而敏於行。",
+    "extracted": "敏行",
+    "meaning": "取自《论语·里仁第四》，原句意象偏向端正自持、笃定有力；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "品性",
+      "坚定"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.461Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "ea1acaa1620f3868f2f2",
+    "collection": "wikisource",
+    "name": "德邻",
+    "gender": "中性",
+    "work": "《论语·里仁第四》",
+    "quote": "德不孤，必有鄰。",
+    "extracted": "德邻",
+    "meaning": "取自《论语·里仁第四》，原句意象偏向端正自持、和悦开朗；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "品性",
+      "喜乐"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.461Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "154be3ad51228e3bfe37",
+    "collection": "wikisource",
+    "name": "志道",
+    "gender": "中性",
+    "work": "《论语·里仁第四》",
+    "quote": "士志於道，而恥惡衣惡食者，未足與議也！",
+    "extracted": "志道",
+    "meaning": "取自《论语·里仁第四》，原句意象偏向高远进取、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "志向",
+      "品性"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.462Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "4b7774540eb176ec4e4e",
+    "collection": "wikisource",
+    "name": "弘毅",
+    "gender": "中性",
+    "work": "《论语·泰伯第八》",
+    "quote": "士不可以不弘毅，任重而道遠。仁以爲己任，不亦重乎；死而後已，不亦遠乎。",
+    "extracted": "弘毅",
+    "meaning": "取自《论语·泰伯第八》，原句意象偏向高远进取、笃定有力；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "志向",
+      "坚定"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.462Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "2943b8d07d88832867ff",
+    "collection": "wikisource",
+    "name": "笃信",
+    "gender": "中性",
+    "work": "《论语·泰伯第八》",
+    "quote": "篤信好學，守死善道。危邦不入，亂邦不居。天下有道則見，無道則隱。邦有道，貧且賤焉，恥也；邦無道，富且貴焉，恥也。",
+    "extracted": "笃信",
+    "meaning": "取自《论语·泰伯第八》，原句意象偏向端正自持、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "品性",
+      "智慧"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.462Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "755e26a5c57f024c633f",
+    "collection": "wikisource",
+    "name": "博学",
+    "gender": "中性",
+    "work": "《论语·雍也第六》",
+    "quote": "君子博學於文，約之以禮，亦可以弗畔矣夫！",
+    "extracted": "博学",
+    "meaning": "取自《论语·雍也第六》，原句意象偏向明辨好学、高远进取；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "智慧",
+      "志向"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.462Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "962b0b0d7a5b3ebbc62f",
+    "collection": "wikisource",
+    "name": "近思",
+    "gender": "中性",
+    "work": "《论语·子張第十九》",
+    "quote": "博學而篤志，切問而近思，仁在其中矣。",
+    "extracted": "近思",
+    "meaning": "取自《论语·子張第十九》，原句意象偏向明辨好学、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "themes": [
+      "智慧",
+      "品性"
+    ],
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "中文维基文库《论语》",
+      "sourceUrl": "https://zh.wikisource.org/wiki/論語",
+      "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+      "sourceSha256": "00f60b0d125af8d3ea99d4a46ce471fa560ca88e97bb992a946a89e505bf1115",
+      "importedAt": "2026-10-04T21:08:47.462Z"
+    },
+    "reviewedAt": "2026-10-04T21:08:47.896Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   }
 ]

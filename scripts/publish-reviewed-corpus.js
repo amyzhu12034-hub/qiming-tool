@@ -8,7 +8,7 @@ const approvedPath = path.join(root, 'data', 'approved-corpus.json');
 if (!fs.existsSync(decisionsPath)) throw new Error('尚未生成审核决定，不能发布。');
 
 const decisions = JSON.parse(fs.readFileSync(decisionsPath, 'utf8'));
-const queues = ['shijing', 'tang', 'song'].flatMap(source => {
+const queues = ['shijing', 'tang', 'song', 'wikisource'].flatMap(source => {
   const file = path.join(root, 'data', `review-queue-${source}.json`);
   return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : [];
 });
