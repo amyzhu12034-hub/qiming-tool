@@ -1,0 +1,28 @@
+{
+  "provider": "Chinese Text Project",
+  "providerUrl": "https://ctext.org/tools/api/ens",
+  "purpose": "对已由中文维基文库逐句定位的《论语》候选作第二来源交叉核验；不把 CTP 当作批量下载源。",
+  "checkedAt": "2026-10-05T00:00:00.000Z",
+  "apiAttempt": {
+    "endpoint": "https://api.ctext.org/gettext?urn=ctp%3Aanalects%2Fli-ren",
+    "result": "ERR_REQUIRES_AUTHENTICATION",
+    "interpretation": "公开 API 明确要求已注册 IP 或有效 API Key；未进行重试、绕过验证或批量抓取。"
+  },
+  "records": [
+    { "name": "志学", "urn": "ctp:analects/wei-zheng", "chapterUrl": "https://ctext.org/analects/wei-zheng", "status": "source_excerpt_confirmed", "evidence": "CTP 公开章节索引展示“吾十有五而志于學”。" },
+    { "name": "知新", "urn": "ctp:analects/wei-zheng", "chapterUrl": "https://ctext.org/analects/wei-zheng", "status": "chapter_located" },
+    { "name": "安仁", "urn": "ctp:analects/li-ren", "chapterUrl": "https://ctext.org/analects/li-ren", "status": "chapter_located" },
+    { "name": "忠恕", "urn": "ctp:analects/li-ren", "chapterUrl": "https://ctext.org/analects/li-ren", "status": "chapter_located" },
+    { "name": "敏行", "urn": "ctp:analects/li-ren", "chapterUrl": "https://ctext.org/analects/li-ren", "status": "chapter_located" },
+    { "name": "德邻", "urn": "ctp:analects/li-ren", "chapterUrl": "https://ctext.org/analects/li-ren", "status": "chapter_located" },
+    { "name": "志道", "urn": "ctp:analects/li-ren", "chapterUrl": "https://ctext.org/analects/li-ren", "status": "source_excerpt_confirmed", "evidence": "CTP 公开章节索引展示“士志於道，而恥惡衣惡食者，未足與議也”。" },
+    { "name": "弘毅", "urn": "ctp:analects/tai-bo", "chapterUrl": "https://ctext.org/analects/tai-bo", "status": "chapter_located" },
+    { "name": "笃信", "urn": "ctp:analects/tai-bo", "chapterUrl": "https://ctext.org/analects/tai-bo", "status": "chapter_located" },
+    { "name": "博学", "urn": "ctp:analects/yong-ye", "chapterUrl": "https://ctext.org/analects/yong-ye", "status": "source_excerpt_confirmed", "evidence": "CTP 公开检索结果展示“君子博學於文，約之以禮，亦可以弗畔矣夫”。" },
+    { "name": "近思", "urn": "ctp:analects/zi-zhang", "chapterUrl": "https://ctext.org/analects/zi-zhang", "status": "chapter_located" }
+  ],
+  "statusDefinitions": {
+    "source_excerpt_confirmed": "CTP 公开可访问的检索结果或章节索引含有对应原句片段。",
+    "chapter_located": "已按 CTP URN 和章节链接定位原典章节；因 API 认证限制，尚未将其表述为逐字二次核对完成。"
+  }
+}

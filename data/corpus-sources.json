@@ -21,7 +21,7 @@
     "provider": "Chinese Text Project",
     "url": "https://ctext.org/tools/api/ens",
     "license": "遵守站点 API 使用限制与条款",
-    "usage": "只用于人工交叉核验典籍篇章与出处；当前自动访问会触发安全验证，因此不进行绕过验证或批量抓取。"
+    "usage": "只用于人工交叉核验典籍篇章与出处；当前自动访问会触发认证限制，因此不进行绕过验证或批量抓取。核验进度与章节链接见 data/ctext-cross-verification.json。"
   },
   {
     "id": "wikisource-lunyu",
