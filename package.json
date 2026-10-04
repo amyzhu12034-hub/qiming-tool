@@ -6,11 +6,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check app.js && wrangler deploy --dry-run",
+    "check": "node --check server.js && node --check worker.js && node --check app.js && node --check review.js && node --check scripts/import-shijing.js && node --check scripts/import-classics.js && node --check scripts/publish-reviewed-corpus.js && wrangler deploy --dry-run",
     "cf:dev": "wrangler dev",
     "cf:deploy": "wrangler deploy",
     "corpus:import:shijing": "node scripts/import-shijing.js",
-    "corpus:import:classics": "node scripts/import-classics.js"
+    "corpus:import:classics": "node scripts/import-classics.js",
+    "corpus:publish": "node scripts/publish-reviewed-corpus.js"
   },
   "dependencies": {
     "lunar-javascript": "^1.7.7"

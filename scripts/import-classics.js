@@ -42,7 +42,8 @@ for (const item of poems) {
       const themes = themesFor(name);
       if (!themes.length) continue;
       seen.add(name);
-      result.push({ name, gender: genderFor(name), work: workOf(item), quote: sentence, extracted: name, themes,
+      const work = workOf(item);
+      result.push({ id: crypto.createHash('sha256').update(`${collection}|${work}|${name}|${sentence}`).digest('hex').slice(0, 20), collection, name, gender: genderFor(name), work, quote: sentence, extracted: name, themes,
         meaning: `取自${settings.label}原句，意象偏向${themes.join('、')}；这是规则初筛结果，需人工复核语境与释义。`,
         reviewStatus: 'auto_screened',
         provenance: { sourceName: 'chinese-poetry/chinese-poetry', sourceUrl: settings.sourceUrl, license: 'MIT', sourceSha256, importedAt: new Date().toISOString() }

@@ -53,6 +53,8 @@ for (const item of source) {
       if (!themes.length) continue;
       seen.add(name);
       candidates.push({
+        id: crypto.createHash('sha256').update(`shijing|${sourceLabel(item)}|${name}|${sentence}`).digest('hex').slice(0, 20),
+        collection: 'shijing',
         name,
         gender: genderFor(name),
         work: sourceLabel(item),

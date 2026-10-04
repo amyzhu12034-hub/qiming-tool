@@ -12,4 +12,7 @@ package-lock.json
 README.md
 data/**
 scripts/**
+review.html
+review.js
+review.css
 *.map

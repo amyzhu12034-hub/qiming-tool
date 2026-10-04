@@ -16,6 +16,12 @@
 
 下载源文件后执行：`npm run corpus:import:shijing -- <shijing.json 的绝对路径>`。唐诗、宋词的同类初筛可用：`npm run corpus:import:classics -- tang|song <json 的绝对路径>`。来源及许可登记在 `data/corpus-sources.json`。
 
+### 本地审核台
+
+在本机运行 `npm start` 后，访问 `http://localhost:3000/review.html`。审核台会展示原句、出处、主题初标、现实使用搜索链接和公安同名查询入口；可将每条候选标记为通过、暂缓或拒绝，并可修改寓意说明、记录审核备注。审核台接口只允许回环地址访问，且审核页面不会部署到 Cloudflare。
+
+选择“生成正式语料文件”后，会把通过记录写入 `data/approved-corpus.json`。检查该文件无误后提交、推送并运行 `npm run cf:deploy`，才会把新语料发布到公网。
+
 未接入：全国同名人数的正式数据接口、当代公众人物结构化资料库、AI 偏好理解、真太阳时修正、粤语/吴语/闽南语/四川话完整读音词库。API 会明确返回相应状态，不展示虚假数字或未经字库验证的传统命名结论。
 
 ## Cloudflare 免费部署

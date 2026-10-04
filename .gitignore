@@ -4,3 +4,4 @@ node_modules/
 npm-debug.log*
 .wrangler/
 data/review-queue-*.json
+data/review-decisions.json
