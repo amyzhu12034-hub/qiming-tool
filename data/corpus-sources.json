@@ -14,5 +14,21 @@
     "url": "https://github.com/chinese-poetry/chinese-poetry",
     "license": "MIT",
     "usage": "首批使用唐诗精选和宋词三百首建立待核验队列；全量分卷文本仅用于后续离线批处理，不能直接打包进 Worker。"
+  },
+  {
+    "id": "ctext-verification",
+    "name": "中国哲学书电子化计划",
+    "provider": "Chinese Text Project",
+    "url": "https://ctext.org/tools/api/ens",
+    "license": "遵守站点 API 使用限制与条款",
+    "usage": "只用于人工交叉核验典籍篇章与出处；当前自动访问会触发安全验证，因此不进行绕过验证或批量抓取。"
+  },
+  {
+    "id": "wikisource-lunyu",
+    "name": "维基文库《论语》",
+    "provider": "中文维基文库",
+    "url": "https://zh.wikisource.org/wiki/論語",
+    "license": "CC BY-SA 4.0 / GFDL（以页面标注为准）",
+    "usage": "用于少量补充候选与人工校对；产品记录页面链接、署名与许可信息，不混入现代译注或注疏内容。"
   }
 ]

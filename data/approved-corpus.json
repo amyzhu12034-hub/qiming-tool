@@ -1,1 +1,1268 @@
-[]
+[
+  {
+    "id": "667ff48f245d19481bb8",
+    "collection": "shijing",
+    "name": "佩玉",
+    "gender": "中性",
+    "work": "《诗经·国风·卫风·竹竿》",
+    "quote": "淇水在右，泉源在左。巧笑之瑳，佩玉之傩。",
+    "extracted": "佩玉",
+    "themes": [
+      "品性"
+    ],
+    "meaning": "取自《诗经·国风·卫风·竹竿》，原句意象偏向端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.917Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "b1c6840c4e9feb9255bb",
+    "collection": "shijing",
+    "name": "婉如",
+    "gender": "女孩",
+    "work": "《诗经·国风·郑风·野有蔓草》",
+    "quote": "野有蔓草，零露瀼瀼。有美一人，婉如清扬。邂逅相遇，与子偕臧。",
+    "extracted": "婉如",
+    "themes": [
+      "温柔"
+    ],
+    "meaning": "取自《诗经·国风·郑风·野有蔓草》，原句意象偏向温润柔和；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.918Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "5610fe9471e5f93971a5",
+    "collection": "shijing",
+    "name": "如玉",
+    "gender": "中性",
+    "work": "《诗经·国风·魏风·汾沮洳》",
+    "quote": "彼汾一曲，言采其藚。彼其之子，美如玉。美如玉，殊异乎公族。",
+    "extracted": "如玉",
+    "themes": [
+      "品性"
+    ],
+    "meaning": "取自《诗经·国风·魏风·汾沮洳》，原句意象偏向端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.919Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "f3307b343daf2d549981",
+    "collection": "shijing",
+    "name": "玉佩",
+    "gender": "中性",
+    "work": "《诗经·国风·秦风·渭阳》",
+    "quote": "我送舅氏，悠悠我思。何以赠之？琼瑰玉佩。",
+    "extracted": "玉佩",
+    "themes": [
+      "品性"
+    ],
+    "meaning": "取自《诗经·国风·秦风·渭阳》，原句意象偏向端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.919Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "263ad03a0e3b01b17484",
+    "collection": "shijing",
+    "name": "如松",
+    "gender": "中性",
+    "work": "《诗经·小雅·鹿鸣之什·天保》",
+    "quote": "如月之恒，如日之升。如南山之寿，不骞不崩。如松柏之茂，无不尔或承。",
+    "extracted": "如松",
+    "themes": [
+      "自然"
+    ],
+    "meaning": "取自《诗经·小雅·鹿鸣之什·天保》，原句意象偏向自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.920Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "e0b9f2c2f13615d7bc14",
+    "collection": "shijing",
+    "name": "高山",
+    "gender": "中性",
+    "work": "《诗经·小雅·甫田之什·车舝》",
+    "quote": "高山仰止，景行行止。四牡騑騑，六辔如琴。觏尔新婚，以慰我心。",
+    "extracted": "高山",
+    "themes": [
+      "志向",
+      "自然"
+    ],
+    "meaning": "取自《诗经·小雅·甫田之什·车舝》，原句意象偏向高远进取、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.923Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "1f3a11b9dff381fb56be",
+    "collection": "shijing",
+    "name": "明德",
+    "gender": "中性",
+    "work": "《诗经·大雅·文王之什·皇矣》",
+    "quote": "攘之剔之，其檿其柘。帝迁明德，串夷载路。天立厥配，受命既固。",
+    "extracted": "明德",
+    "themes": [
+      "明朗",
+      "智慧",
+      "品性"
+    ],
+    "meaning": "取自《诗经·大雅·文王之什·皇矣》，原句意象偏向光明开阔、明辨好学、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.924Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "2d1c270b5a147d0e6a2b",
+    "collection": "shijing",
+    "name": "昭明",
+    "gender": "中性",
+    "work": "《诗经·大雅·生民之什·既醉》",
+    "quote": "既醉以酒，尔肴既将。君子万年，介尔昭明。",
+    "extracted": "昭明",
+    "themes": [
+      "明朗",
+      "智慧"
+    ],
+    "meaning": "取自《诗经·大雅·生民之什·既醉》，原句意象偏向光明开阔、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.924Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "59ce937c72672fe35465",
+    "collection": "shijing",
+    "name": "静嘉",
+    "gender": "女孩",
+    "work": "《诗经·大雅·生民之什·既醉》",
+    "quote": "其告维何？笾豆静嘉。朋友攸摄，摄以威仪。",
+    "extracted": "静嘉",
+    "themes": [
+      "温柔",
+      "喜乐",
+      "品性"
+    ],
+    "meaning": "取自《诗经·大雅·生民之什·既醉》，原句意象偏向温润柔和、和悦开朗、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.924Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "7f4e19e71ae409ecbc79",
+    "collection": "shijing",
+    "name": "维宁",
+    "gender": "中性",
+    "work": "《诗经·大雅·生民之什·板》",
+    "quote": "怀德维宁，宗子维城。无俾城坏，无独斯畏。",
+    "extracted": "维宁",
+    "themes": [
+      "平安"
+    ],
+    "meaning": "取自《诗经·大雅·生民之什·板》，原句意象偏向安定从容；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.925Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "0230a18dfb064ab4b8db",
+    "collection": "shijing",
+    "name": "清风",
+    "gender": "中性",
+    "work": "《诗经·大雅·荡之什·烝民》",
+    "quote": "四牡骙骙，八鸾喈喈。仲山甫徂齐，式遄其归。吉甫作诵，穆如清风。仲山甫永怀，以慰其心。",
+    "extracted": "清风",
+    "themes": [
+      "清澈",
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自《诗经·大雅·荡之什·烝民》，原句意象偏向澄明纯净、舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.926Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "ecf6c587e6209e1a9a76",
+    "collection": "shijing",
+    "name": "文德",
+    "gender": "中性",
+    "work": "《诗经·大雅·荡之什·江汉》",
+    "quote": "虎拜稽首，对扬王休。作召公考：天子万寿！明明天子，令闻不已，矢其文德，洽此四国。",
+    "extracted": "文德",
+    "themes": [
+      "智慧",
+      "品性"
+    ],
+    "meaning": "取自《诗经·大雅·荡之什·江汉》，原句意象偏向明辨好学、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.926Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "e8ed575d2e163a4ba748",
+    "collection": "shijing",
+    "name": "维清",
+    "gender": "中性",
+    "work": "《诗经·周颂·清庙之什·维清》",
+    "quote": "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。",
+    "extracted": "维清",
+    "themes": [
+      "清澈"
+    ],
+    "meaning": "取自《诗经·周颂·清庙之什·维清》，原句意象偏向澄明纯净；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.926Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "5c12b7c51b450e8b07d3",
+    "collection": "shijing",
+    "name": "光明",
+    "gender": "中性",
+    "work": "《诗经·周颂·闵予小子之什·敬之》",
+    "quote": "维予小子，不聪敬止。日就月将，学有缉熙于光明。佛时仔肩，示我显德行。",
+    "extracted": "光明",
+    "themes": [
+      "明朗",
+      "智慧"
+    ],
+    "meaning": "取自《诗经·周颂·闵予小子之什·敬之》，原句意象偏向光明开阔、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.927Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "2bc040f586ceab65b4fe",
+    "collection": "shijing",
+    "name": "思乐",
+    "gender": "中性",
+    "work": "《诗经·鲁颂·駉之什·泮水》",
+    "quote": "思乐泮水，薄采其芹。鲁侯戾止，言观其旂。其旂茷茷，鸾声哕哕。无小无大，从公于迈。",
+    "extracted": "思乐",
+    "themes": [
+      "智慧",
+      "喜乐"
+    ],
+    "meaning": "取自《诗经·鲁颂·駉之什·泮水》，原句意象偏向明辨好学、和悦开朗；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.927Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "0a3b00c4630b4ca99e29",
+    "collection": "shijing",
+    "name": "音昭",
+    "gender": "中性",
+    "work": "《诗经·鲁颂·駉之什·泮水》",
+    "quote": "思乐泮水，薄采其藻。鲁侯戾止，其马蹻蹻。其马蹻蹻，其音昭昭。载色载笑，匪怒伊教。",
+    "extracted": "音昭",
+    "themes": [
+      "喜乐",
+      "明朗"
+    ],
+    "meaning": "取自《诗经·鲁颂·駉之什·泮水》，原句意象偏向和悦开朗、光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.927Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "4dcc065e01a2b4d92073",
+    "collection": "shijing",
+    "name": "思成",
+    "gender": "中性",
+    "work": "《诗经·商颂·那之什·那》",
+    "quote": "猗与那与！置我鞉鼓。奏鼓简简，衎我烈祖。汤孙奏假，绥我思成。",
+    "extracted": "思成",
+    "themes": [
+      "智慧",
+      "坚定"
+    ],
+    "meaning": "取自《诗经·商颂·那之什·那》，原句意象偏向明辨好学、笃定有力；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
+      "license": "MIT",
+      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
+      "importedAt": "2026-10-04T12:50:50.928Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "1257d501df42a17420ba",
+    "collection": "tang",
+    "name": "月明",
+    "gender": "中性",
+    "work": "李端《芜城》",
+    "quote": "城里月明时，精灵自来去。",
+    "extracted": "月明",
+    "themes": [
+      "明朗",
+      "自然",
+      "智慧"
+    ],
+    "meaning": "取自李端《芜城》，原句意象偏向光明开阔、自然生机、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "66cffe9ff33f707e6615",
+    "collection": "tang",
+    "name": "知春",
+    "gender": "中性",
+    "work": "刘方平《月夜》",
+    "quote": "今夜偏知春气暖，虫声新透绿窗纱。",
+    "extracted": "知春",
+    "themes": [
+      "智慧",
+      "喜乐",
+      "自然"
+    ],
+    "meaning": "取自刘方平《月夜》，原句意象偏向明辨好学、和悦开朗、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "2437bca6c6f347a2fd56",
+    "collection": "tang",
+    "name": "春风",
+    "gender": "中性",
+    "work": "岑参《白雪歌送武判官归京》",
+    "quote": "忽如一夜春风来，千树万树梨花开。",
+    "extracted": "春风",
+    "themes": [
+      "喜乐",
+      "自然",
+      "自在"
+    ],
+    "meaning": "取自岑参《白雪歌送武判官归京》，原句意象偏向和悦开朗、自然生机、舒展从容；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "7754776172b80be14354",
+    "collection": "tang",
+    "name": "白云",
+    "gender": "中性",
+    "work": "刘长卿《寻南溪常道士》",
+    "quote": "白云依静渚，芳草闭闲门。",
+    "extracted": "白云",
+    "themes": [
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自刘长卿《寻南溪常道士》，原句意象偏向舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "c9bbd77962f21f39c82a",
+    "collection": "tang",
+    "name": "白玉",
+    "gender": "中性",
+    "work": "张谓《早梅》",
+    "quote": "　一权寒梅白玉条，迥临村路傍溪桥。",
+    "extracted": "白玉",
+    "themes": [
+      "品性"
+    ],
+    "meaning": "取自张谓《早梅》，原句意象偏向端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "6e42b9bc1d2a3197dcc6",
+    "collection": "tang",
+    "name": "雪霁",
+    "gender": "中性",
+    "work": "杜甫《阁夜》",
+    "quote": "岁暮阴阳催短景，天涯霜雪霁寒宵。",
+    "extracted": "雪霁",
+    "themes": [
+      "清澈"
+    ],
+    "meaning": "取自杜甫《阁夜》，原句意象偏向澄明纯净；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "a03d68934116e5b51053",
+    "collection": "tang",
+    "name": "晴川",
+    "gender": "中性",
+    "work": "崔颢《黄鹤楼》",
+    "quote": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+    "extracted": "晴川",
+    "themes": [
+      "明朗"
+    ],
+    "meaning": "取自崔颢《黄鹤楼》，原句意象偏向光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "3e4eb527ecdc9bc26a72",
+    "collection": "tang",
+    "name": "青云",
+    "gender": "中性",
+    "work": "李白《古朗月行（节选）》",
+    "quote": "又疑瑶台镜，飞在青云端。",
+    "extracted": "青云",
+    "themes": [
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自李白《古朗月行（节选）》，原句意象偏向舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.328Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "94d326ba39848bbd2378",
+    "collection": "tang",
+    "name": "明月",
+    "gender": "中性",
+    "work": "王维《竹里馆》",
+    "quote": "深林人不知，明月来相照。",
+    "extracted": "明月",
+    "themes": [
+      "明朗",
+      "智慧",
+      "自然"
+    ],
+    "meaning": "取自王维《竹里馆》，原句意象偏向光明开阔、明辨好学、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "e3cca36c31a96a0ee3c4",
+    "collection": "tang",
+    "name": "春山",
+    "gender": "中性",
+    "work": "王维《鸟鸣涧》",
+    "quote": "人闲桂花落，夜静春山空。",
+    "extracted": "春山",
+    "themes": [
+      "喜乐",
+      "自然"
+    ],
+    "meaning": "取自王维《鸟鸣涧》，原句意象偏向和悦开朗、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "45ed351d756e75d0b611",
+    "collection": "tang",
+    "name": "明霁",
+    "gender": "中性",
+    "work": "祖咏《终南望余雪》",
+    "quote": "林表明霁色，城中增暮寒。",
+    "extracted": "明霁",
+    "themes": [
+      "明朗",
+      "智慧"
+    ],
+    "meaning": "取自祖咏《终南望余雪》，原句意象偏向光明开阔、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "452beca281fefdbb510b",
+    "collection": "tang",
+    "name": "清月",
+    "gender": "中性",
+    "work": "孟浩然《宿建德江》",
+    "quote": "野旷天低树，江清月近人。",
+    "extracted": "清月",
+    "themes": [
+      "清澈",
+      "明朗",
+      "自然"
+    ],
+    "meaning": "取自孟浩然《宿建德江》，原句意象偏向澄明纯净、光明开阔、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "10d07f2a35869fd91445",
+    "collection": "tang",
+    "name": "清秋",
+    "gender": "中性",
+    "work": "李贺《马诗》",
+    "quote": "何当金络脑，快走踏清秋。",
+    "extracted": "清秋",
+    "themes": [
+      "清澈",
+      "自然"
+    ],
+    "meaning": "取自李贺《马诗》，原句意象偏向澄明纯净、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "41d69df5613202e43bcf",
+    "collection": "tang",
+    "name": "秋光",
+    "gender": "中性",
+    "work": "杜牧《秋夕》",
+    "quote": "银烛秋光冷画屏，轻罗小扇扑流萤。",
+    "extracted": "秋光",
+    "themes": [
+      "自然",
+      "明朗"
+    ],
+    "meaning": "取自杜牧《秋夕》，原句意象偏向自然生机、光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "28d172436d9bc8f6be6f",
+    "collection": "tang",
+    "name": "青玉",
+    "gender": "中性",
+    "work": "杜牧《鹭鸶》",
+    "quote": "雪衣雪发青玉嘴，群捕鱼儿溪影中。",
+    "extracted": "青玉",
+    "themes": [
+      "品性"
+    ],
+    "meaning": "取自杜牧《鹭鸶》，原句意象偏向端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "3514c5f67340ba994944",
+    "collection": "tang",
+    "name": "新春",
+    "gender": "中性",
+    "work": "李商隐《春雨》",
+    "quote": "怅卧新春白袷衣，白门寥落意多违。",
+    "extracted": "新春",
+    "themes": [
+      "喜乐",
+      "自然"
+    ],
+    "meaning": "取自李商隐《春雨》，原句意象偏向和悦开朗、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "d305fce450f351e3ed45",
+    "collection": "tang",
+    "name": "高风",
+    "gender": "中性",
+    "work": "温庭筠《送人东归》",
+    "quote": "高风汉阳渡，初日郢门山。",
+    "extracted": "高风",
+    "themes": [
+      "志向",
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自温庭筠《送人东归》，原句意象偏向高远进取、舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "9ec78ad84a0a09d017b8",
+    "collection": "tang",
+    "name": "远山",
+    "gender": "中性",
+    "work": "许浑《早秋》",
+    "quote": "高树晓还密，远山晴更多。",
+    "extracted": "远山",
+    "themes": [
+      "志向",
+      "自然"
+    ],
+    "meaning": "取自许浑《早秋》，原句意象偏向高远进取、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "cb5bc69bdf4685435102",
+    "collection": "tang",
+    "name": "山晴",
+    "gender": "中性",
+    "work": "许浑《早秋》",
+    "quote": "高树晓还密，远山晴更多。",
+    "extracted": "山晴",
+    "themes": [
+      "自然",
+      "明朗"
+    ],
+    "meaning": "取自许浑《早秋》，原句意象偏向自然生机、光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
+      "license": "MIT",
+      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
+      "importedAt": "2026-10-04T12:50:51.329Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "c124f4ea9d555d3f68e4",
+    "collection": "song",
+    "name": "新晴",
+    "gender": "中性",
+    "work": "吴文英《风入松》",
+    "quote": "依旧赏新晴。",
+    "extracted": "新晴",
+    "themes": [
+      "明朗"
+    ],
+    "meaning": "取自吴文英《风入松》，原句意象偏向光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.720Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "117eb595785eb7fa0c56",
+    "collection": "song",
+    "name": "凌云",
+    "gender": "中性",
+    "work": "刘克庄《贺新郎》",
+    "quote": "少年自负凌云笔。",
+    "extracted": "凌云",
+    "themes": [
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自刘克庄《贺新郎》，原句意象偏向舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.721Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "4935d2ae7cae39443d70",
+    "collection": "song",
+    "name": "清露",
+    "gender": "中性",
+    "work": "张炎《绿意・疏影》",
+    "quote": "盘心清露如铅水，又一夜、西风吹折。",
+    "extracted": "清露",
+    "themes": [
+      "清澈"
+    ],
+    "meaning": "取自张炎《绿意・疏影》，原句意象偏向澄明纯净；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.721Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "df3e13c899bb4c5e1a79",
+    "collection": "song",
+    "name": "清光",
+    "gender": "中性",
+    "work": "晁端礼《绿头鸭・多丽》",
+    "quote": "料得来宵，清光未减，阴晴天气又争知。",
+    "extracted": "清光",
+    "themes": [
+      "清澈",
+      "明朗"
+    ],
+    "meaning": "取自晁端礼《绿头鸭・多丽》，原句意象偏向澄明纯净、光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.722Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "f788dfb58da45f2032cb",
+    "collection": "song",
+    "name": "兰芷",
+    "gender": "女孩",
+    "work": "贺铸《人南渡・感皇恩》",
+    "quote": "兰芷满芳洲，游思横路。",
+    "extracted": "兰芷",
+    "themes": [
+      "自然",
+      "温柔"
+    ],
+    "meaning": "取自贺铸《人南渡・感皇恩》，原句意象偏向自然生机、温润柔和；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.722Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "a7f7454c3ae3fddbdec2",
+    "collection": "song",
+    "name": "初晴",
+    "gender": "中性",
+    "work": "刘辰翁《永遇乐》",
+    "quote": "璧月初晴，黛云远澹，春事谁主。",
+    "extracted": "初晴",
+    "themes": [
+      "明朗"
+    ],
+    "meaning": "取自刘辰翁《永遇乐》，原句意象偏向光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.722Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "5828ad986998826b37c4",
+    "collection": "song",
+    "name": "思远",
+    "gender": "中性",
+    "work": "周密《绣鸾凤花犯・花犯》",
+    "quote": "春思远，谁叹赏、国香风味。",
+    "extracted": "思远",
+    "themes": [
+      "智慧",
+      "志向"
+    ],
+    "meaning": "取自周密《绣鸾凤花犯・花犯》，原句意象偏向明辨好学、高远进取；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.722Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "daf464d8c490e86b6ad4",
+    "collection": "song",
+    "name": "云飞",
+    "gender": "中性",
+    "work": "周密《高阳台》",
+    "quote": "酒酣应对燕山雪，正冰河月冻，晓陇云飞。",
+    "extracted": "云飞",
+    "themes": [
+      "自在",
+      "自然",
+      "志向"
+    ],
+    "meaning": "取自周密《高阳台》，原句意象偏向舒展从容、自然生机、高远进取；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.722Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "d4c27542b60f9d68952e",
+    "collection": "song",
+    "name": "天明",
+    "gender": "中性",
+    "work": "陈与义《临江仙》",
+    "quote": "杏花疏影里，吹笛到天明。",
+    "extracted": "天明",
+    "themes": [
+      "明朗",
+      "智慧"
+    ],
+    "meaning": "取自陈与义《临江仙》，原句意象偏向光明开阔、明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.723Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "a2be623250a513f7a547",
+    "collection": "song",
+    "name": "素云",
+    "gender": "中性",
+    "work": "姜夔《翠楼吟》",
+    "quote": "宜有词仙，拥素云黄鹤，与君游戏。",
+    "extracted": "素云",
+    "themes": [
+      "自在",
+      "自然"
+    ],
+    "meaning": "取自姜夔《翠楼吟》，原句意象偏向舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "2079ebceed3fb94e71ee",
+    "collection": "song",
+    "name": "秋霁",
+    "gender": "中性",
+    "work": "姜夔《翠楼吟》",
+    "quote": "晚来还卷，一帘秋霁。",
+    "extracted": "秋霁",
+    "themes": [
+      "自然"
+    ],
+    "meaning": "取自姜夔《翠楼吟》，原句意象偏向自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "e06d1e303dca7fd4d061",
+    "collection": "song",
+    "name": "月华",
+    "gender": "中性",
+    "work": "范仲淹《御街行》",
+    "quote": "年年今夜，月华如练，长是人千里。",
+    "extracted": "月华",
+    "themes": [
+      "明朗",
+      "自然"
+    ],
+    "meaning": "取自范仲淹《御街行》，原句意象偏向光明开阔、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "d04f2dcfe9f3d4b87c8c",
+    "collection": "song",
+    "name": "思悠",
+    "gender": "中性",
+    "work": "柳永《曲玉管》",
+    "quote": "思悠悠。",
+    "extracted": "思悠",
+    "themes": [
+      "智慧"
+    ],
+    "meaning": "取自柳永《曲玉管》，原句意象偏向明辨好学；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "26396bf10b311536fb1a",
+    "collection": "song",
+    "name": "兰心",
+    "gender": "女孩",
+    "work": "史达祖《东风第一枝》",
+    "quote": "巧沁兰心，偷黏草甲，东风欲障新暖。",
+    "extracted": "兰心",
+    "themes": [
+      "自然",
+      "温柔",
+      "品性"
+    ],
+    "meaning": "取自史达祖《东风第一枝》，原句意象偏向自然生机、温润柔和、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "58bdc2eb3ac97e14f2cd",
+    "collection": "song",
+    "name": "瑞锦",
+    "gender": "中性",
+    "work": "史达祖《夜合花》",
+    "quote": "芳机瑞锦，如何未织鸳鸯。",
+    "extracted": "瑞锦",
+    "themes": [
+      "明朗"
+    ],
+    "meaning": "取自史达祖《夜合花》，原句意象偏向光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.724Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "8d4c9fb3c928994e0cac",
+    "collection": "song",
+    "name": "新月",
+    "gender": "中性",
+    "work": "苏过《点绛唇》",
+    "quote": "新月娟娟，夜寒江静山衔斗。",
+    "extracted": "新月",
+    "themes": [
+      "明朗",
+      "自然"
+    ],
+    "meaning": "取自苏过《点绛唇》，原句意象偏向光明开阔、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.726Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  },
+  {
+    "id": "bf5485274b8ee7a125e3",
+    "collection": "song",
+    "name": "素月",
+    "gender": "中性",
+    "work": "张孝祥《念奴娇》",
+    "quote": "素月分辉，明河共影，表里俱澄澈。",
+    "extracted": "素月",
+    "themes": [
+      "明朗",
+      "自然"
+    ],
+    "meaning": "取自张孝祥《念奴娇》，原句意象偏向光明开阔、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
+    "reviewStatus": "approved",
+    "provenance": {
+      "sourceName": "chinese-poetry/chinese-poetry",
+      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
+      "license": "MIT",
+      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+      "importedAt": "2026-10-04T12:50:51.726Z"
+    },
+    "reviewedAt": "2026-10-04T12:58:41.558Z",
+    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
+  }
+]
