@@ -29,6 +29,18 @@
   min-height: 368px;
 }
 
+.style-notice {
+  display: inline-block;
+  margin: 2px 0 8px;
+  padding: 2px 7px;
+  border: 1px solid #d8b876;
+  border-radius: 999px;
+  color: #8a631a;
+  background: #fff7df;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
 .name-length-field {
   width: 128px;
 }

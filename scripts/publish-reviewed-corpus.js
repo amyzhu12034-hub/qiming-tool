@@ -22,6 +22,7 @@ const published = decisions
       ...source,
       themes: decision.themes?.length ? decision.themes : source.themes,
       meaning: decision.meaning?.trim() || source.meaning,
+      styleNotice: decision.styleNotice?.trim() || source.styleNotice?.trim() || '',
       reviewStatus: 'approved',
       reviewedAt: decision.updatedAt,
       reviewNote: decision.note?.trim() || ''

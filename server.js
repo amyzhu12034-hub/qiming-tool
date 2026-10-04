@@ -79,7 +79,7 @@ function publishReviewedCorpus() {
   const byId = new Map(reviewQueues().map(item => [item.id, item]));
   const approved = decisions.filter(item => item.status === 'approved').map(decision => {
     const record = byId.get(decision.id); if (!record) return null;
-    return { ...record, themes: decision.themes?.length ? decision.themes : record.themes, meaning: decision.meaning?.trim() || record.meaning, reviewStatus: 'approved', reviewedAt: decision.updatedAt, reviewNote: decision.note?.trim() || '' };
+    return { ...record, themes: decision.themes?.length ? decision.themes : record.themes, meaning: decision.meaning?.trim() || record.meaning, styleNotice: decision.styleNotice?.trim() || record.styleNotice?.trim() || '', reviewStatus: 'approved', reviewedAt: decision.updatedAt, reviewNote: decision.note?.trim() || '' };
   }).filter(Boolean);
   fs.writeFileSync(path.join(ROOT, 'data', 'approved-corpus.json'), JSON.stringify(approved, null, 2) + '\n', 'utf8');
   return approved;
@@ -184,7 +184,7 @@ function buildNames(input) {
     const matchedElements = nameStrokeElements(givenName).filter(element => baziTargets.includes(element));
     const baziNaming = bazi.status === 'calculated_reference' ? { status: 'partial_element_matching', targetElements: baziTargets, matchedNameElements: matchedElements, note: '按康熙笔画尾数五行进行基础匹配；不同传统流派的用字五行规则并不完全一致，仅供参考。' } : { status: 'not_requested' };
     const fullName = `${input.surname}${givenName}`;
-    return { fullName, givenName, pinyin: generationChar ? '组合名，待读音校验' : pinyin(record.name), meaning: record.meaning, source: { work: record.work, original: record.quote, extractedCharacters: generationChar ? sourceChar : record.extracted, note: sourceNote, verified: true }, nameAnalysis: analyzeName(input.surname, givenName, input.conditions || []), baziNaming, dialectCheck: checkDialect(fullName, input), rulesMatched: tags, duplicateName: { status: 'source_not_connected', count: null, source: '需接入经授权的全国同名数据源' }, publicFigures: { status: 'source_not_connected', entries: [], source: '历史人物可接 CBDB；当代人物数据源待接入' } };
+    return { fullName, givenName, pinyin: generationChar ? '组合名，待读音校验' : pinyin(record.name), meaning: record.meaning, styleNotice: record.styleNotice || '', source: { work: record.work, original: record.quote, extractedCharacters: generationChar ? sourceChar : record.extracted, note: sourceNote, verified: true }, nameAnalysis: analyzeName(input.surname, givenName, input.conditions || []), baziNaming, dialectCheck: checkDialect(fullName, input), rulesMatched: tags, duplicateName: { status: 'source_not_connected', count: null, source: '需接入经授权的全国同名数据源' }, publicFigures: { status: 'source_not_connected', entries: [], source: '历史人物可接 CBDB；当代人物数据源待接入' } };
   });
 }
 function serveStatic(req, res, pathname) { const requested = pathname === '/' ? '/index.html' : pathname; const file = path.normalize(path.join(ROOT, requested)); if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) return false; const type = requested.endsWith('.html') ? 'text/html; charset=utf-8' : requested.endsWith('.css') ? 'text/css; charset=utf-8' : requested.endsWith('.js') ? 'application/javascript; charset=utf-8' : 'application/octet-stream'; res.writeHead(200, { 'Content-Type': type }); fs.createReadStream(file).pipe(res); return true; }
