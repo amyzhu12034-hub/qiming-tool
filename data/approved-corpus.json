@@ -1,78 +1,5 @@
 [
   {
-    "id": "10049e0791e71000b198",
-    "collection": "shijing",
-    "name": "德音",
-    "gender": "中性",
-    "work": "《诗经·国风·邶风·日月》",
-    "quote": "日居月诸，出自东方。乃如之人兮，德音无良。胡能有定？俾也可忘。",
-    "extracted": "德音",
-    "themes": [
-      "品性",
-      "喜乐"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向品性、喜乐；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.916Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.081Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "7238db9a4ebefdd717fb",
-    "collection": "shijing",
-    "name": "景山",
-    "gender": "中性",
-    "work": "《诗经·国风·鄘风·定之方中》",
-    "quote": "升彼虚矣，以望楚矣。望楚与堂，景山与京。降观于桑，卜云其吉，终然允臧。",
-    "extracted": "景山",
-    "themes": [
-      "自然"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向自然；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.917Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "480e76669e00d256f287",
-    "collection": "shijing",
-    "name": "如星",
-    "gender": "中性",
-    "work": "《诗经·国风·卫风·淇奥》",
-    "quote": "瞻彼淇奥，绿竹青青。有匪君子，充耳秀莹，会弁如星。瑟兮僴兮。赫兮咺兮，有匪君子，终不可谖兮。",
-    "extracted": "如星",
-    "themes": [
-      "自然"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向自然；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.917Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "667ff48f245d19481bb8",
     "collection": "shijing",
     "name": "佩玉",
@@ -95,32 +22,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "e24676eb101ceaa919e5",
-    "collection": "shijing",
-    "name": "明星",
-    "gender": "中性",
-    "work": "《诗经·国风·郑风·女曰鸡鸣》",
-    "quote": "女曰鸡鸣，士曰昧旦。子兴视夜，明星有烂。将翱将翔，弋凫与雁。",
-    "extracted": "明星",
-    "themes": [
-      "明朗",
-      "智慧",
-      "自然"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向明朗、智慧、自然；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.918Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "b1c6840c4e9feb9255bb",
@@ -219,31 +120,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "7279b21493865ec2e895",
-    "collection": "shijing",
-    "name": "思柔",
-    "gender": "女孩",
-    "work": "《诗经·小雅·甫田之什·桑扈》",
-    "quote": "兕觥其觩，旨酒思柔。彼交匪敖，万福来求。",
-    "extracted": "思柔",
-    "themes": [
-      "智慧",
-      "温柔"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向智慧、温柔；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.923Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "e0b9f2c2f13615d7bc14",
     "collection": "shijing",
     "name": "高山",
@@ -267,81 +143,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "c4af9df4a4af24f7e7f4",
-    "collection": "shijing",
-    "name": "高飞",
-    "gender": "中性",
-    "work": "《诗经·小雅·鱼藻之什·菀柳》",
-    "quote": "有鸟高飞，亦傅于天。彼人之心，于何其臻。曷予靖之，居以凶矜。",
-    "extracted": "高飞",
-    "themes": [
-      "志向",
-      "自在"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向志向、自在；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.923Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "822e58017274f8b4b24f",
-    "collection": "shijing",
-    "name": "白华",
-    "gender": "中性",
-    "work": "《诗经·小雅·鱼藻之什·白华》",
-    "quote": "白华菅兮，白茅束兮。之子之远，俾我独兮。",
-    "extracted": "白华",
-    "themes": [
-      "明朗"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向明朗；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.923Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "88a5baa74ad7f50de56c",
-    "collection": "shijing",
-    "name": "清明",
-    "gender": "中性",
-    "work": "《诗经·大雅·文王之什·大明》",
-    "quote": "牧野洋洋，檀车煌煌，驷騵彭彭。维师尚父，时维鹰扬。凉彼武王，四伐大商，会朝清明。",
-    "extracted": "清明",
-    "themes": [
-      "清澈",
-      "明朗",
-      "智慧"
-    ],
-    "meaning": "取自《诗经》原句，意象偏向清澈、明朗、智慧；该释义由规则初标，需人工复核后方可作为正式推荐。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.924Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "1f3a11b9dff381fb56be",
@@ -620,180 +421,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "59df8b462af93b80f154",
-    "collection": "tang",
-    "name": "千秋",
-    "gender": "中性",
-    "work": "刘禹锡《蜀先主庙》",
-    "quote": "天地英雄气，千秋尚凛然。",
-    "extracted": "千秋",
-    "themes": [
-      "自然"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自然；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.326Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "c54139497a78a39a26c8",
-    "collection": "tang",
-    "name": "风清",
-    "gender": "中性",
-    "work": "王建《田家行》",
-    "quote": "五月虽热麦风清，檐头索索缲车鸣。",
-    "extracted": "风清",
-    "themes": [
-      "自在",
-      "自然",
-      "清澈"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自在、自然、清澈；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.327Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "3fa0242f7a0a2dd79884",
-    "collection": "tang",
-    "name": "星月",
-    "gender": "中性",
-    "work": "李益《水宿闻雁》",
-    "quote": "夜长人自起，星月满空江。",
-    "extracted": "星月",
-    "themes": [
-      "自然",
-      "明朗"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自然、明朗；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.327Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "b66df132620bef01d528",
-    "collection": "tang",
-    "name": "秋月",
-    "gender": "中性",
-    "work": "戴叔伦《江乡故人偶集客舍》",
-    "quote": "天秋月又满，城阙夜千重。",
-    "extracted": "秋月",
-    "themes": [
-      "自然",
-      "明朗"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自然、明朗；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.327Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "2927f63518c1cc3abcaf",
-    "collection": "tang",
-    "name": "白雪",
-    "gender": "中性",
-    "work": "柳中庸《征人怨》",
-    "quote": "三春白雪归青冢，万里黄河绕黑山。",
-    "extracted": "白雪",
-    "themes": [
-      "清澈"
-    ],
-    "meaning": "取自唐诗原句，意象偏向清澈；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "5e4274fd12acdd2cd8be",
-    "collection": "tang",
-    "name": "歌风",
-    "gender": "中性",
-    "work": "顾况《宫词》",
-    "quote": "玉楼天半起笙歌，风送宫嫔笑语和。",
-    "extracted": "歌风",
-    "themes": [
-      "喜乐",
-      "自在",
-      "自然"
-    ],
-    "meaning": "取自唐诗原句，意象偏向喜乐、自在、自然；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "7403b58d5791de7b1d5e",
-    "collection": "tang",
-    "name": "天晴",
-    "gender": "中性",
-    "work": "顾况《过山农家》",
-    "quote": "莫嗔焙茶烟暗，却喜晒谷天晴。",
-    "extracted": "天晴",
-    "themes": [
-      "明朗"
-    ],
-    "meaning": "取自唐诗原句，意象偏向明朗；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "1257d501df42a17420ba",
     "collection": "tang",
     "name": "月明",
@@ -943,81 +570,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "8b608f5568b4d1920223",
-    "collection": "tang",
-    "name": "音书",
-    "gender": "中性",
-    "work": "杜甫《阁夜》",
-    "quote": "卧龙跃马终黄土，人事音书漫寂寥。",
-    "extracted": "音书",
-    "themes": [
-      "喜乐",
-      "智慧"
-    ],
-    "meaning": "取自唐诗原句，意象偏向喜乐、智慧；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "d9ccc7eb102091587131",
-    "collection": "tang",
-    "name": "风景",
-    "gender": "中性",
-    "work": "杜甫《江南逢李龟年》",
-    "quote": "正是江南好风景，落花时节又逢君。",
-    "extracted": "风景",
-    "themes": [
-      "自在",
-      "自然"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自在、自然；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "ea92922ee42f0b5c3d69",
-    "collection": "tang",
-    "name": "秋雪",
-    "gender": "中性",
-    "work": "杜甫《绝句》",
-    "quote": "窗含西岭千秋雪，门泊东吴万里船。",
-    "extracted": "秋雪",
-    "themes": [
-      "自然",
-      "清澈"
-    ],
-    "meaning": "取自唐诗原句，意象偏向自然、清澈；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "a03d68934116e5b51053",
@@ -1270,30 +822,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "b74d1d3af563078da977",
-    "collection": "tang",
-    "name": "新知",
-    "gender": "中性",
-    "work": "李商隐《风雨》",
-    "quote": "新知遭薄俗，旧好隔良缘。",
-    "extracted": "新知",
-    "themes": [
-      "智慧"
-    ],
-    "meaning": "取自唐诗原句，意象偏向智慧；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.329Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "d305fce450f351e3ed45",
     "collection": "tang",
     "name": "高风",
@@ -1370,55 +898,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "7a83de91ed1ab4d95101",
-    "collection": "tang",
-    "name": "乐游",
-    "gender": "中性",
-    "work": "杜牧《将赴吴兴登乐游原》",
-    "quote": "欲把一麾江海去，乐游原上望昭陵。",
-    "extracted": "乐游",
-    "themes": [
-      "喜乐",
-      "自在"
-    ],
-    "meaning": "取自唐诗原句，意象偏向喜乐、自在；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.329Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "de7d59e2ef663d895852",
-    "collection": "tang",
-    "name": "华新",
-    "gender": "中性",
-    "work": "崔涂《除夜有怀》",
-    "quote": "那堪正漂泊，明日岁华新。",
-    "extracted": "华新",
-    "themes": [
-      "明朗"
-    ],
-    "meaning": "取自唐诗原句，意象偏向明朗；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.329Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "c124f4ea9d555d3f68e4",
     "collection": "song",
     "name": "新晴",
@@ -1441,204 +920,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "551b47df1c6583de9fb1",
-    "collection": "song",
-    "name": "青春",
-    "gender": "中性",
-    "work": "韩缜《凤箫吟・芳草》",
-    "quote": "遍绿野，嬉游醉眠，莫负青春。",
-    "extracted": "青春",
-    "themes": [
-      "喜乐",
-      "自然"
-    ],
-    "meaning": "取自宋词原句，意象偏向喜乐、自然；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.720Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "2b704edbe0cb5489ba92",
-    "collection": "song",
-    "name": "锦书",
-    "gender": "中性",
-    "work": "晏几道《清平乐》",
-    "quote": "此後锦书休寄，画楼云雨无凭。",
-    "extracted": "锦书",
-    "themes": [
-      "明朗",
-      "智慧"
-    ],
-    "meaning": "取自宋词原句，意象偏向明朗、智慧；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.720Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "88a11a3861602b1b2c62",
-    "collection": "song",
-    "name": "朝云",
-    "gender": "中性",
-    "work": "晏几道《木兰花・玉楼春》",
-    "quote": "朝云信断知何处。",
-    "extracted": "朝云",
-    "themes": [
-      "自在",
-      "自然"
-    ],
-    "meaning": "取自宋词原句，意象偏向自在、自然；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.720Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "2b1056e4fefaebce9084",
-    "collection": "song",
-    "name": "兰佩",
-    "gender": "女孩",
-    "work": "晏几道《阮郎归》",
-    "quote": "兰佩紫，菊簪黄。",
-    "extracted": "兰佩",
-    "themes": [
-      "自然",
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向自然、温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.721Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "d9be0e3d153d3bd4f1b7",
-    "collection": "song",
-    "name": "风静",
-    "gender": "女孩",
-    "work": "苏轼《临江仙》",
-    "quote": "夜阑风静縠纹平。",
-    "extracted": "风静",
-    "themes": [
-      "自在",
-      "自然",
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向自在、自然、温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.721Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "5ae484024480b83a6b37",
-    "collection": "song",
-    "name": "初静",
-    "gender": "女孩",
-    "work": "苏轼《卜算子》",
-    "quote": "缺月挂疏桐，漏断人初静。",
-    "extracted": "初静",
-    "themes": [
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.721Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "8718cea9d1399ccd4d36",
-    "collection": "song",
-    "name": "清景",
-    "gender": "中性",
-    "work": "苏轼《永遇乐》",
-    "quote": "明月如霜，好风如水，清景无限。",
-    "extracted": "清景",
-    "themes": [
-      "清澈"
-    ],
-    "meaning": "取自宋词原句，意象偏向清澈；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.721Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "59f09cc346dbd37ed1aa",
-    "collection": "song",
-    "name": "天涵",
-    "gender": "中性",
-    "work": "舒亶《虞美人》",
-    "quote": "芙蓉落尽天涵水。",
-    "extracted": "天涵",
-    "themes": [
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.721Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "117eb595785eb7fa0c56",
@@ -1740,30 +1021,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "55a8ac728e8bf3b889a5",
-    "collection": "song",
-    "name": "温柔",
-    "gender": "女孩",
-    "work": "吴文英《夜合花》",
-    "quote": "当时夜泊，温柔便入深乡。",
-    "extracted": "温柔",
-    "themes": [
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.722Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "a7f7454c3ae3fddbdec2",
     "collection": "song",
     "name": "初晴",
@@ -1786,31 +1043,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "f8cb149578fc8796ff4f",
-    "collection": "song",
-    "name": "芳景",
-    "gender": "女孩",
-    "work": "刘辰翁《永遇乐》",
-    "quote": "宣和旧日，临安南渡，芳景犹自如故。",
-    "extracted": "芳景",
-    "themes": [
-      "自然",
-      "温柔"
-    ],
-    "meaning": "取自宋词原句，意象偏向自然、温柔；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.722Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "5828ad986998826b37c4",
@@ -1862,59 +1094,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "b60cdb4624798a8d015c",
-    "collection": "song",
-    "name": "云和",
-    "gender": "中性",
-    "work": "贺铸《望湘人》",
-    "quote": "奈云和再鼓，曲终人远。",
-    "extracted": "云和",
-    "themes": [
-      "自在",
-      "自然",
-      "平安",
-      "品性"
-    ],
-    "meaning": "取自宋词原句，意象偏向自在、自然、平安、品性；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.723Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "63689ca9414ca2d6c360",
-    "collection": "song",
-    "name": "云高",
-    "gender": "中性",
-    "work": "仲殊《夏云峰》",
-    "quote": "天阔云高，溪横水远。",
-    "extracted": "云高",
-    "themes": [
-      "自在",
-      "自然",
-      "志向"
-    ],
-    "meaning": "取自宋词原句，意象偏向自在、自然、志向；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.723Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "d4c27542b60f9d68952e",
@@ -2090,31 +1269,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "037fa68e4f49926ea92b",
-    "collection": "song",
-    "name": "清华",
-    "gender": "中性",
-    "work": "吴文英《花犯》",
-    "quote": "料唤赏、清华池馆，台杯须满引。",
-    "extracted": "清华",
-    "themes": [
-      "清澈",
-      "明朗"
-    ],
-    "meaning": "取自宋词原句，意象偏向清澈、明朗；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.725Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
     "id": "39bc0609002d2be80cd6",
     "collection": "song",
     "name": "瑶佩",
@@ -2134,34 +1288,9 @@
       "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
       "importedAt": "2026-10-04T12:50:51.726Z"
     },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
-  },
-  {
-    "id": "5db56026d603936db2a3",
-    "collection": "song",
-    "name": "清游",
-    "gender": "中性",
-    "work": "张炎《甘州・八声甘州》",
-    "quote": "记玉关、踏雪事清游。",
-    "extracted": "清游",
-    "themes": [
-      "清澈",
-      "自在"
-    ],
-    "meaning": "取自宋词原句，意象偏向清澈、自在；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.726Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
+    "styleNotice": "",
+    "reviewedAt": "2026-10-04T21:44:38.272Z",
+    "reviewNote": "用户逐项确认保留：瑶佩可作为正式候选。"
   },
   {
     "id": "8d4c9fb3c928994e0cac",
@@ -2212,30 +1341,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "378d18574411156568eb",
-    "collection": "song",
-    "name": "然心",
-    "gender": "中性",
-    "work": "张孝祥《念奴娇》",
-    "quote": "悠然心会，妙处难与君说。",
-    "extracted": "然心",
-    "themes": [
-      "品性"
-    ],
-    "meaning": "取自宋词原句，意象偏向品性；这是规则初筛结果，需人工复核语境与释义。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/宋词",
-      "license": "MIT",
-      "sourceSha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
-      "importedAt": "2026-10-04T12:50:51.726Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-04T21:16:05.082Z",
-    "reviewNote": "按默认审核规则收录：出处与人名可用性成立；风格较特别，结果页将提示用户。"
   },
   {
     "id": "32f762fd67d552ffaa61",
