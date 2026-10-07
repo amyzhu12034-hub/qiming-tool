@@ -80,7 +80,7 @@
       conditions: conditions(input),
       names: ranked.map(({ record }) => ({
         name: record.name,
-        pinyin: record.pinyin || '读音待人工确认',
+        pinyin: record.pinyin,
         meaning: record.meaning || '取自可定位的古典原文。',
         styleNotice: record.styleNotice || '',
         work: record.work || '已审核古典语料',

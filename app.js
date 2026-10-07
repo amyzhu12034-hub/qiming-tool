@@ -73,7 +73,7 @@ function renderResults(isRevision = false) {
     const basis = selected.slice(0, 3).join('、');
     return `<article class="name-card">
       <div class="card-top"><span class="number">0${index + 1}</span><button class="save-btn" type="button" aria-pressed="false">♡ 收藏</button></div>
-      <h3 class="full-name">${escapeHtml(surname)}${item.name}</h3><p class="pinyin">${surname ? 'xìng ' : ''}${item.pinyin}</p>
+      <h3 class="full-name">${escapeHtml(surname)}${item.name}</h3>${item.pinyin ? `<p class="pinyin">${escapeHtml(item.pinyin)}</p>` : ''}
       <p class="meaning">${item.meaning}</p>${item.styleNotice ? `<p class="style-notice">${escapeHtml(item.styleNotice)}</p>` : ''}
       <div class="source-block"><span class="source-label">原文出处 · ${item.work}</span><q>${item.quote}</q><span class="source-extract">${item.extract}</span></div>
       <div class="facts"><div><span class="fact-label">笔画</span><span class="fact-value">${item.strokes}</span></div><div><span class="fact-label">全国同名</span><a class="lookup-link" href="${item.sameLink}" target="_blank" rel="noopener">${item.same} ↗</a></div></div>

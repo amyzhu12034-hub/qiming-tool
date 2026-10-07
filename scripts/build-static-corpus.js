@@ -19,6 +19,8 @@ const corpus = [...base, ...expanded, ...approved].filter(record => {
   seen.add(record.name);
   return true;
 });
+const missingPinyin = corpus.filter(record => !record.pinyin || /待|确认/.test(record.pinyin));
+if (missingPinyin.length) throw new Error(`静态语料存在 ${missingPinyin.length} 条未核验拼音，无法生成页面。`);
 
 const output = path.join(root, 'data', 'client-corpus.json');
 fs.writeFileSync(output, JSON.stringify(corpus, null, 2) + '\n', 'utf8');
