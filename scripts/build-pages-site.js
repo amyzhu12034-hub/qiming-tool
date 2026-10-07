@@ -27,5 +27,6 @@ fs.mkdirSync(path.join(output, 'data'), { recursive: true });
   'data/client-corpus.json', 'data/character-elements.json'
 ].forEach(copy);
 copyAs('node_modules/lunar-javascript/lunar.js', 'vendor/lunar.js');
+copyAs('node_modules/to-jyutping/dist/index.js', 'vendor/to-jyutping.js');
 fs.writeFileSync(path.join(output, '.nojekyll'), '', 'utf8');
 console.log(`GitHub Pages 静态站点已生成：${output}`);

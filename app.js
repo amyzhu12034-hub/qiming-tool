@@ -123,10 +123,10 @@ async function loadFromBackend(endpoint, payload) {
   backendConditions = data.conditions;
   generatedNames = data.names.map(item => {
     const analysis = item.nameAnalysis;
-    const strokeText = analysis.strokes ? `姓 ${analysis.strokes.surname}｜名 ${analysis.strokes.given.join(' / ')} 画` : '笔画字库待补充';
+    const strokeText = analysis.strokes ? `姓 ${analysis.strokes.surname}｜名 ${analysis.strokes.given.join(' / ')} 画｜全名 ${analysis.strokes.total} 画` : '笔画字库待补充';
     const gridText = analysis.status === 'calculated_reference' ? `五格参考：${Object.entries(analysis.grids).map(([label, value]) => `${label}${value.value}（${value.element}）`).join('、')}` : analysis.note || '五格未选择';
     const baziText = item.baziNaming.status === 'partial_element_matching' ? `八字：${Object.values(item.baziNaming.pillars || {}).join(' ') || '已排盘'}；显性偏少 ${item.baziNaming.targetElements.join('、') || '无'}；名字匹配 ${item.baziNaming.matchedNameElements.join('、') || '无'}` : '';
-    const dialectText = item.dialectCheck.status === 'partial_lexicon_check' ? `方言初筛：${item.dialectCheck.matches.length ? item.dialectCheck.matches.map(match => match.reason).join('；') : item.dialectCheck.note}` : item.dialectCheck.status === 'dictionary_not_configured' ? `方言提示：${item.dialectCheck.note}` : '';
+    const dialectText = item.dialectCheck.status === 'partial_lexicon_check' ? `方言初筛：${item.dialectCheck.reading ? `${item.dialectCheck.region}读音 ${item.dialectCheck.reading}；` : ''}${item.dialectCheck.matches.length ? item.dialectCheck.matches.map(match => match.reason).join('；') : item.dialectCheck.note}` : item.dialectCheck.status === 'dictionary_not_configured' ? `方言提示：${item.dialectCheck.note}` : '';
     return { name: item.givenName, pinyin: item.pinyin, meaning: item.meaning, styleNotice: item.styleNotice,
       work: item.source.work, quote: item.source.original, sourceLabel: item.source.label || '原文出处',
       extract: `${item.source.note || `取名自「${item.source.extractedCharacters}」`} · 已校验`,

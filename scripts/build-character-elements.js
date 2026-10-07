@@ -34,6 +34,7 @@ if (missing.length) throw new Error(`以下候选字缺少笔画数据：${missi
 const output = {
   method: '笔画五行基础匹配：优先康熙笔画，缺失字以开源现行笔画补全；仅作传统文化参考。',
   generatedAt: new Date().toISOString(),
+  surnames: JSON.parse(fs.readFileSync(path.join(root, 'data', 'character-dictionary.json'), 'utf8')).surnames,
   characters: items
 };
 fs.writeFileSync(path.join(root, 'data', 'character-elements.json'), JSON.stringify(output, null, 2) + '\n', 'utf8');
