@@ -44,6 +44,10 @@
   };
   const category = record => {
     const work = record.work || '';
+    if (record.collection === 'modern') return '现代常用好字';
+    if (record.collection === 'nature') return '自然意象';
+    if (record.collection === 'family') return '家庭故事';
+    if (record.collection === 'contemporary') return '当代文化灵感';
     if (record.collection === 'shijing' || work.includes('诗经')) return '诗经';
     if (record.collection === 'chuci' || work.includes('楚辞')) return '楚辞';
     if (record.collection === 'yuanqu') return '元曲';
@@ -60,9 +64,9 @@
   };
   const wants = (value, mapping) => Object.entries(mapping).filter(([word]) => value.includes(word)).flatMap(([, tags]) => tags);
   const hash = value => [...value].reduce((sum, char) => ((sum * 31) + char.codePointAt(0)) >>> 0, 7);
-  const conditions = (input, bazi, targets) => {
+  const conditions = (input, bazi, targets, corpusCount) => {
     const selected = input.conditions || [];
-    const tags = ['静态试用版 · 221 条已审核语料'];
+    const tags = [`静态试用版 · ${corpusCount} 条已审核 / 编辑灵感语料`];
     if (selected.includes('出生信息 / 八字') || selected.includes('八字')) {
       if (bazi.status === 'calculated_reference') tags.push(`八字：${Object.values(bazi.pillars).join(' ') } · ${targets.length ? `显性偏少 ${targets.join('、')}` : '五行相对均衡'}`);
       else tags.push(`八字：${bazi.note || '未计算'}`);
@@ -82,11 +86,16 @@
     const sourceTags = wants(input.source || '', {
       '诗经':['诗经'], '楚辞':['楚辞'], '唐诗':['唐诗'], '宋词':['宋词'], '论语':['论语'],
       '儒家':['儒家经典'], '周易':['十三经与诸子'], '古文':['古文'], '元曲':['元曲'],
-      '纳兰':['纳兰词'], '哲学':['哲学与先秦古籍']
+      '纳兰':['纳兰词'], '哲学':['哲学与先秦古籍'],
+      '现代':['现代常用好字'], '简洁':['现代常用好字'], '清爽':['现代常用好字'],
+      '自然':['自然意象'], '山':['自然意象'], '海':['自然意象'], '星空':['自然意象'], '森林':['自然意象'],
+      '家庭':['家庭故事'], '相识':['家庭故事'], '初见':['家庭故事'], '纪念':['家庭故事'], '家乡':['家庭故事'], '陪伴':['家庭故事'],
+      '电影':['当代文化灵感'], '游戏':['当代文化灵感'], '音乐':['当代文化灵感'], '动漫':['当代文化灵感'], '科幻':['当代文化灵感'], '哈利':['当代文化灵感'], '艺术':['当代文化灵感']
     });
     const wishTags = wants(input.wish || '', {
       '平安':['平安'], '喜乐':['喜乐'], '温柔':['温柔'], '智慧':['智慧'], '品性':['品性'],
-      '志向':['志向'], '自在':['自在'], '自然':['自然'], '坚定':['坚定'], '勇敢':['勇敢'], '明朗':['明朗']
+      '志向':['志向'], '自在':['自在'], '自然':['自然'], '坚定':['坚定'], '勇敢':['勇敢'], '明朗':['明朗'],
+      '陪伴':['陪伴'], '纪念':['纪念'], '探索':['探索'], '想象':['想象'], '成长':['成长'], '温暖':['温暖']
     });
     const avoid = input.avoid || '';
     const special = /不要.*古风|更现代/.test(input.revision || '');
@@ -118,12 +127,13 @@
     }).sort((a, b) => b.score - a.score).slice(0, 5);
     if (ranked.length < 5) throw new Error('条件过于严格，建议放宽避用字或辈分字位置');
     return {
-      conditions: conditions(input, bazi, targets),
+      conditions: conditions(input, bazi, targets, corpus.length),
       names: ranked.map(({ record, matchedElements }) => ({
         name: record.name,
         pinyin: record.pinyin,
         meaning: record.meaning || '取自可定位的古典原文。',
         styleNotice: record.styleNotice || '',
+        sourceLabel: record.sourceLabel || '原文出处',
         work: record.work || '已审核古典语料',
         quote: record.quote || '',
         extract: `取名自「${record.extracted || record.name}」· 已审核`,

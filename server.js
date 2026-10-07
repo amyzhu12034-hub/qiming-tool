@@ -7,6 +7,7 @@ const characterElements = require('./data/character-elements.json');
 const phoneticRisks = require('./data/phonetic-risks.json');
 const expandedCorpus = require('./data/expanded-corpus.json');
 const approvedCorpus = require('./data/approved-corpus.json');
+const modernInspirationCorpus = require('./data/modern-inspiration-corpus.json');
 const { Solar } = require('lunar-javascript');
 
 const PORT = Number(process.env.PORT || 3000);
@@ -46,6 +47,7 @@ const corpus = [
 
 corpus.push(...expandedCorpus.map(record => ({ ...record, extracted: record.extracted || record.name })));
 corpus.push(...approvedCorpus.map(record => ({ ...record, extracted: record.extracted || record.name })));
+corpus.push(...modernInspirationCorpus.map(record => ({ ...record, extracted: record.extracted || record.name })));
 // 同名候选只保留最早进入正式库的一条，避免不同批次导入造成重复推荐。
 const seenCorpusNames = new Set();
 const uniqueCorpus = corpus.filter(record => {
@@ -92,7 +94,7 @@ function json(res, status, data) { res.writeHead(status, { 'Content-Type': 'appl
 function redirect(res, target) { res.writeHead(302, { Location: target, 'Cache-Control': 'no-store' }); res.end(); }
 function readBody(req) { return new Promise((resolve, reject) => { let raw = ''; req.on('data', chunk => { raw += chunk; if (raw.length > 100000) reject(new Error('请求过大')); }); req.on('end', () => { try { resolve(raw ? JSON.parse(raw) : {}); } catch { reject(new Error('请求格式不是 JSON')); } }); }); }
 function pinyin(name) { return ({ 清扬: 'qīng yáng', 维桢: 'wéi zhēn', 攸宁: 'yōu níng', 嘉树: 'jiā shù', 既明: 'jì míng', 静姝: 'jìng shū', 其琛: 'qí chēn', 燕绥: 'yàn suí', 柔嘉: 'róu jiā', 怀瑾: 'huái jǐn', 乐只: 'lè zhǐ', 令仪: 'lìng yí', 蓁: 'zhēn', 乔: 'qiáo', 宁: 'níng', 昭: 'zhāo', 乐: 'lè', 嘉: 'jiā', 云起: 'yún qǐ', 清泉: 'qīng quán', 春晖: 'chūn huī', 星垂: 'xīng chuí', 长风: 'cháng fēng', 清欢: 'qīng huān', 兰舟: 'lán zhōu', 云中: 'yún zhōng', 青山: 'qīng shān' })[name] || ''; }
-function sourceCategory(input) { const record = typeof input === 'string' ? { work: input } : input; const work = record.work || ''; if (record.collection === 'shijing' || work.includes('诗经')) return '诗经'; if (record.collection === 'chuci' || work.includes('楚辞')) return '楚辞'; if (record.collection === 'tang' || /王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work)) return '唐诗'; if (record.collection === 'song' || /苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work)) return '宋词'; if (record.collection === 'yuanqu') return '元曲'; if (record.collection === 'wudai') return '五代词'; if (record.collection === 'nalan') return '纳兰词'; if (record.collection === 'prose') return '古文'; if (record.collection === 'philosophy') return '哲学与先秦古籍'; if (record.collection === 'wikisource' || work.includes('论语')) return '论语'; if (record.collection === 'confucian' || /大学|中庸|孟子/.test(work)) return '儒家经典'; if (record.collection === 'classics' || /尚书|礼记|周易|孝经|尔雅|春秋/.test(work)) return '十三经与诸子'; return '其他'; }
+function sourceCategory(input) { const record = typeof input === 'string' ? { work: input } : input; const work = record.work || ''; if (record.collection === 'modern') return '现代常用好字'; if (record.collection === 'nature') return '自然意象'; if (record.collection === 'family') return '家庭故事'; if (record.collection === 'contemporary') return '当代文化灵感'; if (record.collection === 'shijing' || work.includes('诗经')) return '诗经'; if (record.collection === 'chuci' || work.includes('楚辞')) return '楚辞'; if (record.collection === 'tang' || /王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work)) return '唐诗'; if (record.collection === 'song' || /苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work)) return '宋词'; if (record.collection === 'yuanqu') return '元曲'; if (record.collection === 'wudai') return '五代词'; if (record.collection === 'nalan') return '纳兰词'; if (record.collection === 'prose') return '古文'; if (record.collection === 'philosophy') return '哲学与先秦古籍'; if (record.collection === 'wikisource' || work.includes('论语')) return '论语'; if (record.collection === 'confucian' || /大学|中庸|孟子/.test(work)) return '儒家经典'; if (record.collection === 'classics' || /尚书|礼记|周易|孝经|尔雅|春秋/.test(work)) return '十三经与诸子'; return '其他'; }
 function numerologyElement(number) { return ({ 1: '木', 2: '木', 3: '火', 4: '火', 5: '土', 6: '土', 7: '金', 8: '金', 9: '水', 0: '水' })[number % 10]; }
 function nameStrokeElements(name) { return Array.from(name).map(char => characterElements.characters[char] ? numerologyElement(characterElements.characters[char].strokes) : null).filter(Boolean); }
 function analyzeName(surname, givenName, requested) {
@@ -164,7 +166,11 @@ function buildNames(input) {
   const targetLength = input.givenNameLength || 'two';
   const bazi = calculateBazi(input);
   const baziTargets = bazi.status === 'calculated_reference' ? weakerBaziElements(bazi.visibleElementCounts) : [];
-  const requestedSources = ['诗经', '楚辞', '唐诗', '宋词', '论语', '儒家经典', '十三经与诸子', '哲学与先秦古籍', '元曲', '五代词', '纳兰词', '古文'].filter(category => (input.source || '').includes(category));
+  const sourceText = input.source || '';
+  const requestedSources = [
+    ['诗经', '诗经'], ['楚辞', '楚辞'], ['唐诗', '唐诗'], ['宋词', '宋词'], ['论语', '论语'], ['儒家经典', '儒家'], ['十三经与诸子', '周易'], ['哲学与先秦古籍', '哲学'], ['元曲', '元曲'], ['五代词', '五代'], ['纳兰词', '纳兰'], ['古文', '古文'],
+    ['现代常用好字', '现代|简洁|清爽'], ['自然意象', '自然|山|海|星空|森林'], ['家庭故事', '家庭|相识|初见|纪念|家乡|陪伴'], ['当代文化灵感', '电影|游戏|音乐|动漫|科幻|哈利|艺术']
+  ].filter(([, cues]) => new RegExp(cues).test(sourceText)).map(([category]) => category);
   const chosen = corpus.map((record, index) => {
     let score = -index / 10000;
     if (input.gender === '中性' || record.gender === '中性' || record.gender === input.gender) score += 2;
@@ -192,7 +198,7 @@ function buildNames(input) {
     const matchedElements = nameStrokeElements(givenName).filter(element => baziTargets.includes(element));
     const baziNaming = bazi.status === 'calculated_reference' ? { status: 'partial_element_matching', pillars: bazi.pillars, targetElements: baziTargets, matchedNameElements: matchedElements, note: characterElements.method } : { status: 'not_requested' };
     const fullName = `${input.surname}${givenName}`;
-    return { fullName, givenName, pinyin: generationChar ? '' : (record.pinyin || pinyin(record.name)), meaning: record.meaning, styleNotice: record.styleNotice || '', source: { work: record.work, original: record.quote, extractedCharacters: generationChar ? sourceChar : record.extracted, note: sourceNote, verified: true }, nameAnalysis: analyzeName(input.surname, givenName, input.conditions || []), baziNaming, dialectCheck: checkDialect(fullName, input), rulesMatched: tags, duplicateName: { status: 'source_not_connected', count: null, source: '需接入经授权的全国同名数据源' }, publicFigures: { status: 'source_not_connected', entries: [], source: '历史人物可接 CBDB；当代人物数据源待接入' } };
+    return { fullName, givenName, pinyin: generationChar ? '' : (record.pinyin || pinyin(record.name)), meaning: record.meaning, styleNotice: record.styleNotice || '', source: { label: record.sourceLabel || '原文出处', work: record.work, original: record.quote, extractedCharacters: generationChar ? sourceChar : record.extracted, note: sourceNote, verified: true }, nameAnalysis: analyzeName(input.surname, givenName, input.conditions || []), baziNaming, dialectCheck: checkDialect(fullName, input), rulesMatched: tags, duplicateName: { status: 'source_not_connected', count: null, source: '需接入经授权的全国同名数据源' }, publicFigures: { status: 'source_not_connected', entries: [], source: '历史人物可接 CBDB；当代人物数据源待接入' } };
   });
 }
 function serveStatic(req, res, pathname) { const requested = pathname === '/' ? '/index.html' : pathname; const file = path.normalize(path.join(ROOT, requested)); if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) return false; const type = requested.endsWith('.html') ? 'text/html; charset=utf-8' : requested.endsWith('.css') ? 'text/css; charset=utf-8' : requested.endsWith('.js') ? 'application/javascript; charset=utf-8' : 'application/octet-stream'; res.writeHead(200, { 'Content-Type': type }); fs.createReadStream(file).pipe(res); return true; }
@@ -233,7 +239,7 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === 'GET' && url.pathname === '/api/health') return json(res, 200, { ok: true, corpusRecords: corpus.length });
     if (req.method === 'GET' && url.pathname === '/api/catalog') {
-      const categories = ['诗经', '楚辞', '唐诗', '宋词', '论语', '儒家经典', '十三经与诸子', '哲学与先秦古籍', '元曲', '五代词', '纳兰词', '古文'].map(category => ({ category, records: corpus.filter(record => sourceCategory(record) === category).length }));
+      const categories = ['诗经', '楚辞', '唐诗', '宋词', '论语', '儒家经典', '十三经与诸子', '哲学与先秦古籍', '元曲', '五代词', '纳兰词', '古文', '现代常用好字', '自然意象', '家庭故事', '当代文化灵感'].map(category => ({ category, records: corpus.filter(record => sourceCategory(record) === category).length }));
       return json(res, 200, { categories, policies: { uncommonCharacters: '默认不推荐生僻字；最终以字库分级校验为准', traditionalNaming: '五行、三才五格、八字均为用户主动选择的传统文化参考' } });
     }
     if (req.method === 'GET' && url.pathname === '/api/lookups/same-name') { const target = 'https://ywtb.mps.gov.cn/newhome/portal/cmcx'; return url.searchParams.get('redirect') === '1' ? redirect(res, target) : json(res, 200, { status: 'official_redirect', label: '前往公安部查询同名人数页面（需自行填写姓名）', url: target }); }

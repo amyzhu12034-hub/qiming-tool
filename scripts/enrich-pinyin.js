@@ -6,7 +6,7 @@ const path = require('path');
 const { pinyin } = require('pinyin-pro');
 
 const root = path.join(__dirname, '..');
-const files = ['expanded-corpus.json', 'approved-corpus.json'].map(file => path.join(root, 'data', file));
+const files = ['expanded-corpus.json', 'approved-corpus.json', 'modern-inspiration-corpus.json'].map(file => path.join(root, 'data', file));
 const editorialOverrides = {
   景行: 'jǐng xíng', 缉熙: 'jī xī', 于飞: 'yú fēi', 容与: 'róng yǔ',
   孤帆: 'gū fān', 长河: 'cháng hé', 长天: 'cháng tiān', 燕归: 'yàn guī',

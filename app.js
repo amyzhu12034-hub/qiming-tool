@@ -75,7 +75,7 @@ function renderResults(isRevision = false) {
       <div class="card-top"><span class="number">0${index + 1}</span><button class="save-btn" type="button" aria-pressed="false">♡ 收藏</button></div>
       <h3 class="full-name">${escapeHtml(surname)}${item.name}</h3>${item.pinyin ? `<p class="pinyin">${escapeHtml(item.pinyin)}</p>` : ''}
       <p class="meaning">${item.meaning}</p>${item.styleNotice ? `<p class="style-notice">${escapeHtml(item.styleNotice)}</p>` : ''}
-      <div class="source-block"><span class="source-label">原文出处 · ${item.work}</span><q>${item.quote}</q><span class="source-extract">${item.extract}</span></div>
+      <div class="source-block"><span class="source-label">${escapeHtml(item.sourceLabel || '原文出处')} · ${escapeHtml(item.work)}</span><q>${escapeHtml(item.quote)}</q><span class="source-extract">${escapeHtml(item.extract)}</span></div>
       <div class="facts"><div><span class="fact-label">笔画</span><span class="fact-value">${item.strokes}</span></div><div><span class="fact-label">全国同名</span><a class="lookup-link" href="${item.sameLink}" target="_blank" rel="noopener">${item.same} ↗</a></div></div>
       <p class="basis">依据：结合${escapeHtml(basis)}推荐。<br>${escapeHtml(item.traditional)}<br>公开同名人物：<a class="lookup-link" href="${item.figureLink}" target="_blank" rel="noopener">${item.figure} ↗</a></p>
     </article>`;
@@ -128,7 +128,7 @@ async function loadFromBackend(endpoint, payload) {
     const baziText = item.baziNaming.status === 'partial_element_matching' ? `八字：${Object.values(item.baziNaming.pillars || {}).join(' ') || '已排盘'}；显性偏少 ${item.baziNaming.targetElements.join('、') || '无'}；名字匹配 ${item.baziNaming.matchedNameElements.join('、') || '无'}` : '';
     const dialectText = item.dialectCheck.status === 'partial_lexicon_check' ? `方言初筛：${item.dialectCheck.matches.length ? item.dialectCheck.matches.map(match => match.reason).join('；') : item.dialectCheck.note}` : item.dialectCheck.status === 'dictionary_not_configured' ? `方言提示：${item.dialectCheck.note}` : '';
     return { name: item.givenName, pinyin: item.pinyin, meaning: item.meaning, styleNotice: item.styleNotice,
-      work: item.source.work, quote: item.source.original,
+      work: item.source.work, quote: item.source.original, sourceLabel: item.source.label || '原文出处',
       extract: `${item.source.note || `取名自「${item.source.extractedCharacters}」`} · 已校验`,
       strokes: strokeText, same: '查询同名人数（公安部）', figure: '百度搜索', sameLink: backendUrl('/api/lookups/same-name?redirect=1'), figureLink: backendUrl(`/api/lookups/public-figures?redirect=1&name=${encodeURIComponent(item.fullName)}`), traditional: `${gridText}${baziText ? `；${baziText}` : ''}${dialectText ? `；${dialectText}` : ''}` };
   });

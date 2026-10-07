@@ -1,0 +1,1013 @@
+[
+  {
+    "name": "予安",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“予”与“安”的音形义组合，强调温和、给予与安稳。",
+    "extracted": "予安",
+    "meaning": "温柔笃定，愿一生安然自在。",
+    "themes": [
+      "平安",
+      "温柔",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "简洁",
+      "温柔"
+    ],
+    "pinyin": "yǔ ān"
+  },
+  {
+    "name": "予宁",
+    "gender": "女孩",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以常用字“予、宁”组合，读写简洁，寓意安宁。",
+    "extracted": "予宁",
+    "meaning": "心怀安宁，也保有温柔的给予感。",
+    "themes": [
+      "平安",
+      "温柔",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "简洁",
+      "安宁"
+    ],
+    "pinyin": "yǔ níng"
+  },
+  {
+    "name": "予乐",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“予”与“乐”表达分享快乐的现代语义。",
+    "extracted": "予乐",
+    "meaning": "愿拥有感受快乐、传递快乐的能力。",
+    "themes": [
+      "喜乐",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "快乐",
+      "简洁"
+    ],
+    "pinyin": "yǔ lè"
+  },
+  {
+    "name": "知言",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“知、言”的清晰读音与沟通意象筛选。",
+    "extracted": "知言",
+    "meaning": "知分寸、善表达，清醒而真诚。",
+    "themes": [
+      "智慧",
+      "品性",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "沟通",
+      "阅读"
+    ],
+    "pinyin": "zhī yán"
+  },
+  {
+    "name": "知行",
+    "gender": "男孩",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“知行合一”的当代教育价值为灵感。",
+    "extracted": "知行",
+    "meaning": "知而能行，既有思考也有行动力。",
+    "themes": [
+      "智慧",
+      "志向",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "成长",
+      "行动"
+    ],
+    "pinyin": "zhī xíng"
+  },
+  {
+    "name": "亦安",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以常用字“亦、安”构成轻盈自然的名字节奏。",
+    "extracted": "亦安",
+    "meaning": "从容自洽，安稳而不失个性。",
+    "themes": [
+      "平安",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "简洁",
+      "安宁"
+    ],
+    "pinyin": "yì ān"
+  },
+  {
+    "name": "亦宁",
+    "gender": "女孩",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“亦、宁”形成柔和、好读的现代组合。",
+    "extracted": "亦宁",
+    "meaning": "宁静自持，温和而有主见。",
+    "themes": [
+      "平安",
+      "温柔",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "简洁",
+      "安宁"
+    ],
+    "pinyin": "yì níng"
+  },
+  {
+    "name": "允和",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“允”之真诚与“和”之平衡为灵感。",
+    "extracted": "允和",
+    "meaning": "真诚和善，待人有分寸。",
+    "themes": [
+      "品性",
+      "温柔",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "平和",
+      "品性"
+    ],
+    "pinyin": "yǔn hé"
+  },
+  {
+    "name": "书言",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以阅读、思考与表达三种现代生活意象筛选。",
+    "extracted": "书言",
+    "meaning": "有书卷气，也敢于表达自己的想法。",
+    "themes": [
+      "智慧",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "阅读",
+      "表达"
+    ],
+    "pinyin": "shū yán"
+  },
+  {
+    "name": "书昀",
+    "gender": "女孩",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以“书”与日光意象“昀”构成明朗组合。",
+    "extracted": "书昀",
+    "meaning": "心有书香，如日光般明亮温暖。",
+    "themes": [
+      "智慧",
+      "明朗",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "阅读",
+      "阳光"
+    ],
+    "pinyin": "shū yún"
+  },
+  {
+    "name": "昕然",
+    "gender": "女孩",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以晨光初现的“昕”搭配自然舒展的“然”。",
+    "extracted": "昕然",
+    "meaning": "如晨光初起，明朗而自然。",
+    "themes": [
+      "明朗",
+      "喜乐",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "阳光",
+      "自然"
+    ],
+    "pinyin": "xīn rán"
+  },
+  {
+    "name": "明澈",
+    "gender": "中性",
+    "collection": "modern",
+    "sourceLabel": "灵感依据",
+    "work": "现代常用好字库",
+    "quote": "以清晰、通透的现代审美意象筛选。",
+    "extracted": "明澈",
+    "meaning": "内心明净，眼界清澈。",
+    "themes": [
+      "智慧",
+      "明朗",
+      "现代"
+    ],
+    "keywords": [
+      "现代",
+      "清爽",
+      "通透"
+    ],
+    "pinyin": "míng chè"
+  },
+  {
+    "name": "沐阳",
+    "gender": "中性",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取晨光与沐浴阳光的自然感受。",
+    "extracted": "沐阳",
+    "meaning": "如沐暖阳，明朗有生命力。",
+    "themes": [
+      "自然",
+      "明朗",
+      "喜乐"
+    ],
+    "keywords": [
+      "自然",
+      "阳光",
+      "春天"
+    ],
+    "pinyin": "mù yáng"
+  },
+  {
+    "name": "听澜",
+    "gender": "中性",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取聆听海浪、安静观海的画面。",
+    "extracted": "听澜",
+    "meaning": "心有开阔，也保有安静的感受力。",
+    "themes": [
+      "自然",
+      "自在"
+    ],
+    "keywords": [
+      "自然",
+      "海",
+      "旅行"
+    ],
+    "pinyin": "tīng lán"
+  },
+  {
+    "name": "星野",
+    "gender": "中性",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取星空与旷野的辽阔画面。",
+    "extracted": "星野",
+    "meaning": "眼里有星光，心中有旷野。",
+    "themes": [
+      "自然",
+      "志向",
+      "自在"
+    ],
+    "keywords": [
+      "自然",
+      "星空",
+      "探索"
+    ],
+    "pinyin": "xīng yě"
+  },
+  {
+    "name": "映川",
+    "gender": "男孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取光影映照河川的流动意象。",
+    "extracted": "映川",
+    "meaning": "明朗开阔，如江河般自在前行。",
+    "themes": [
+      "自然",
+      "明朗",
+      "志向"
+    ],
+    "keywords": [
+      "自然",
+      "河流",
+      "旅行"
+    ],
+    "pinyin": "yìng chuān"
+  },
+  {
+    "name": "清禾",
+    "gender": "女孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取清新禾苗的生长感。",
+    "extracted": "清禾",
+    "meaning": "清新朴实，蓬勃而有韧性。",
+    "themes": [
+      "自然",
+      "喜乐",
+      "坚定"
+    ],
+    "keywords": [
+      "自然",
+      "植物",
+      "成长"
+    ],
+    "pinyin": "qīng hé"
+  },
+  {
+    "name": "云舒",
+    "gender": "女孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取云卷云舒的舒展心境。",
+    "extracted": "云舒",
+    "meaning": "自在舒展，拥有从容的心境。",
+    "themes": [
+      "自然",
+      "自在",
+      "温柔"
+    ],
+    "keywords": [
+      "自然",
+      "云",
+      "自在"
+    ],
+    "pinyin": "yún shū"
+  },
+  {
+    "name": "栖月",
+    "gender": "女孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取月色栖落枝头的安静画面。",
+    "extracted": "栖月",
+    "meaning": "温柔宁静，自有光亮。",
+    "themes": [
+      "自然",
+      "温柔",
+      "平安"
+    ],
+    "keywords": [
+      "自然",
+      "月亮",
+      "安静"
+    ],
+    "pinyin": "qī yuè"
+  },
+  {
+    "name": "望野",
+    "gender": "中性",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取远望旷野的探索感与开阔感。",
+    "extracted": "望野",
+    "meaning": "目光开阔，心向远方。",
+    "themes": [
+      "自然",
+      "志向",
+      "自在"
+    ],
+    "keywords": [
+      "自然",
+      "旷野",
+      "探索"
+    ],
+    "pinyin": "wàng yě"
+  },
+  {
+    "name": "南枝",
+    "gender": "女孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取向阳枝头的温暖、生长意象。",
+    "extracted": "南枝",
+    "meaning": "向阳而生，温暖且有生机。",
+    "themes": [
+      "自然",
+      "温柔",
+      "明朗"
+    ],
+    "keywords": [
+      "自然",
+      "植物",
+      "阳光"
+    ],
+    "pinyin": "nán zhī"
+  },
+  {
+    "name": "晴岚",
+    "gender": "女孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取晴日山间雾气的轻盈景象。",
+    "extracted": "晴岚",
+    "meaning": "清朗轻盈，如山间微风。",
+    "themes": [
+      "自然",
+      "明朗",
+      "温柔"
+    ],
+    "keywords": [
+      "自然",
+      "山",
+      "晴天"
+    ],
+    "pinyin": "qíng lán"
+  },
+  {
+    "name": "林泉",
+    "gender": "男孩",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取树林与清泉的安定、清澈意象。",
+    "extracted": "林泉",
+    "meaning": "沉静清澈，也有自然生长的力量。",
+    "themes": [
+      "自然",
+      "平安",
+      "坚定"
+    ],
+    "keywords": [
+      "自然",
+      "森林",
+      "泉水"
+    ],
+    "pinyin": "lín quán"
+  },
+  {
+    "name": "见山",
+    "gender": "中性",
+    "collection": "nature",
+    "sourceLabel": "灵感依据",
+    "work": "自然意象库",
+    "quote": "取“见山是山”的朴素、笃定感。",
+    "extracted": "见山",
+    "meaning": "看见本真，踏实而有定力。",
+    "themes": [
+      "自然",
+      "品性",
+      "坚定"
+    ],
+    "keywords": [
+      "自然",
+      "山",
+      "坚定"
+    ],
+    "pinyin": "jiàn shān"
+  },
+  {
+    "name": "念初",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念相识、初见或人生新篇章。",
+    "extracted": "念初",
+    "meaning": "珍惜最初的心意，也记得一路的温柔。",
+    "themes": [
+      "纪念",
+      "温柔",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "初见",
+      "相识",
+      "纪念"
+    ],
+    "pinyin": "niàn chū"
+  },
+  {
+    "name": "遇安",
+    "gender": "中性",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念相遇、陪伴与平安成长。",
+    "extracted": "遇安",
+    "meaning": "因相遇而心安，愿一生安稳。",
+    "themes": [
+      "纪念",
+      "平安",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "相遇",
+      "陪伴"
+    ],
+    "pinyin": "yù ān"
+  },
+  {
+    "name": "同心",
+    "gender": "中性",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合表达家庭相伴、同心同行的愿望。",
+    "extracted": "同心",
+    "meaning": "心意相通，懂得爱与陪伴。",
+    "themes": [
+      "陪伴",
+      "品性",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "陪伴",
+      "家人"
+    ],
+    "pinyin": "tóng xīn"
+  },
+  {
+    "name": "予诺",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念父母彼此承诺或对孩子的守护。",
+    "extracted": "予诺",
+    "meaning": "真诚守诺，被爱也懂得给予。",
+    "themes": [
+      "品性",
+      "家庭",
+      "温柔"
+    ],
+    "keywords": [
+      "家庭故事",
+      "承诺",
+      "守护"
+    ],
+    "pinyin": "yǔ nuò"
+  },
+  {
+    "name": "承欢",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合表达家人相伴、共享欢欣的情感。",
+    "extracted": "承欢",
+    "meaning": "承接爱意，也把欢喜带给家人。",
+    "themes": [
+      "喜乐",
+      "陪伴",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "家人",
+      "喜乐"
+    ],
+    "pinyin": "chéng huān"
+  },
+  {
+    "name": "初宁",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念初为父母时的安静期待。",
+    "extracted": "初宁",
+    "meaning": "初心安宁，愿成长从容顺遂。",
+    "themes": [
+      "平安",
+      "纪念",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "初为父母",
+      "纪念"
+    ],
+    "pinyin": "chū níng"
+  },
+  {
+    "name": "怀恩",
+    "gender": "中性",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合表达感恩、传承与被珍视的心意。",
+    "extracted": "怀恩",
+    "meaning": "心怀感恩，懂得珍惜人与关系。",
+    "themes": [
+      "品性",
+      "家庭",
+      "温柔"
+    ],
+    "keywords": [
+      "家庭故事",
+      "感恩",
+      "传承"
+    ],
+    "pinyin": "huái ēn"
+  },
+  {
+    "name": "予念",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念一段重要旅程、地点或共同心愿。",
+    "extracted": "予念",
+    "meaning": "心中有念，也把温柔给予他人。",
+    "themes": [
+      "纪念",
+      "温柔",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "纪念",
+      "旅行"
+    ],
+    "pinyin": "yǔ niàn"
+  },
+  {
+    "name": "乐同",
+    "gender": "中性",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合表达一家人共享日常快乐的愿望。",
+    "extracted": "乐同",
+    "meaning": "愿有人同行，也能共享欢喜。",
+    "themes": [
+      "喜乐",
+      "陪伴",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "陪伴",
+      "喜乐"
+    ],
+    "pinyin": "lè tóng"
+  },
+  {
+    "name": "安禾",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合以丰收、生长与安稳为家庭纪念。",
+    "extracted": "安禾",
+    "meaning": "安稳生长，如禾苗般丰茂。",
+    "themes": [
+      "平安",
+      "自然",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "成长",
+      "家乡"
+    ],
+    "pinyin": "ān hé"
+  },
+  {
+    "name": "思圆",
+    "gender": "女孩",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合寄托团圆、圆满与彼此惦念。",
+    "extracted": "思圆",
+    "meaning": "心有圆满，也珍惜相聚。",
+    "themes": [
+      "喜乐",
+      "纪念",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "团圆",
+      "家人"
+    ],
+    "pinyin": "sī yuán"
+  },
+  {
+    "name": "嘉遇",
+    "gender": "中性",
+    "collection": "family",
+    "sourceLabel": "灵感依据",
+    "work": "家庭故事关键词库",
+    "quote": "适合纪念一场美好相遇或重要旅程。",
+    "extracted": "嘉遇",
+    "meaning": "珍惜每一次美好的遇见。",
+    "themes": [
+      "喜乐",
+      "纪念",
+      "家庭"
+    ],
+    "keywords": [
+      "家庭故事",
+      "相遇",
+      "旅行"
+    ],
+    "pinyin": "jiā yù"
+  },
+  {
+    "name": "星愿",
+    "gender": "女孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以科幻、电影与星空叙事中的愿望感为灵感，不使用角色名。",
+    "extracted": "星愿",
+    "meaning": "眼里有星光，心中有愿望。",
+    "themes": [
+      "想象",
+      "自然",
+      "喜乐"
+    ],
+    "keywords": [
+      "电影",
+      "科幻",
+      "星空",
+      "当代文化"
+    ],
+    "pinyin": "xīng yuàn"
+  },
+  {
+    "name": "远航",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以旅行、冒险游戏与成长故事中的启程意象为灵感。",
+    "extracted": "远航",
+    "meaning": "敢于出发，向着更远的世界前行。",
+    "themes": [
+      "探索",
+      "勇敢",
+      "志向"
+    ],
+    "keywords": [
+      "游戏",
+      "旅行",
+      "冒险",
+      "当代文化"
+    ],
+    "pinyin": "yuǎn háng"
+  },
+  {
+    "name": "曜然",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以光亮、能量与当代视觉文化的明快感为灵感。",
+    "extracted": "曜然",
+    "meaning": "光明坦然，有自己的热力与方向。",
+    "themes": [
+      "明朗",
+      "勇敢",
+      "现代"
+    ],
+    "keywords": [
+      "电影",
+      "艺术",
+      "光",
+      "当代文化"
+    ],
+    "pinyin": "yào rán"
+  },
+  {
+    "name": "以恒",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以成长叙事里长期坚持的价值为灵感。",
+    "extracted": "以恒",
+    "meaning": "持之以恒，安静而坚定地成长。",
+    "themes": [
+      "坚定",
+      "志向",
+      "现代"
+    ],
+    "keywords": [
+      "成长",
+      "运动",
+      "当代文化"
+    ],
+    "pinyin": "yǐ héng"
+  },
+  {
+    "name": "启明",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以探索、科技与清晨启明的双重意象为灵感。",
+    "extracted": "启明",
+    "meaning": "开启光亮，保持好奇与求知。",
+    "themes": [
+      "智慧",
+      "明朗",
+      "探索"
+    ],
+    "keywords": [
+      "科幻",
+      "科技",
+      "探索",
+      "当代文化"
+    ],
+    "pinyin": "qǐ míng"
+  },
+  {
+    "name": "乐川",
+    "gender": "中性",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以音乐、旅行与自由流动的生活方式为灵感。",
+    "extracted": "乐川",
+    "meaning": "自在开阔，心中有流动的快乐。",
+    "themes": [
+      "喜乐",
+      "自在",
+      "自然"
+    ],
+    "keywords": [
+      "音乐",
+      "旅行",
+      "当代文化"
+    ],
+    "pinyin": "lè chuān"
+  },
+  {
+    "name": "予光",
+    "gender": "中性",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以“给予光亮”的成长故事意象为灵感。",
+    "extracted": "予光",
+    "meaning": "心有光亮，也愿照见他人。",
+    "themes": [
+      "温暖",
+      "品性",
+      "现代"
+    ],
+    "keywords": [
+      "电影",
+      "成长",
+      "当代文化"
+    ],
+    "pinyin": "yǔ guāng"
+  },
+  {
+    "name": "拾光",
+    "gender": "中性",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以影像、摄影与珍藏日常片段的当代生活意象为灵感。",
+    "extracted": "拾光",
+    "meaning": "珍惜日常细微而明亮的时刻。",
+    "themes": [
+      "纪念",
+      "明朗",
+      "现代"
+    ],
+    "keywords": [
+      "摄影",
+      "艺术",
+      "纪念",
+      "当代文化"
+    ],
+    "pinyin": "shí guāng"
+  },
+  {
+    "name": "澄意",
+    "gender": "中性",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以设计、艺术中清晰而有意图的表达为灵感。",
+    "extracted": "澄意",
+    "meaning": "内心澄澈，表达真诚。",
+    "themes": [
+      "智慧",
+      "品性",
+      "现代"
+    ],
+    "keywords": [
+      "艺术",
+      "设计",
+      "当代文化"
+    ],
+    "pinyin": "chéng yì"
+  },
+  {
+    "name": "行远",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以探索世界、持续成长的当代叙事为灵感。",
+    "extracted": "行远",
+    "meaning": "脚步坚定，志在远方。",
+    "themes": [
+      "探索",
+      "志向",
+      "勇敢"
+    ],
+    "keywords": [
+      "游戏",
+      "旅行",
+      "探索",
+      "当代文化"
+    ],
+    "pinyin": "xíng yuǎn"
+  },
+  {
+    "name": "希言",
+    "gender": "中性",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以简洁表达、独立思考的现代价值为灵感。",
+    "extracted": "希言",
+    "meaning": "言语有分寸，心中有期待。",
+    "themes": [
+      "智慧",
+      "品性",
+      "现代"
+    ],
+    "keywords": [
+      "阅读",
+      "艺术",
+      "当代文化"
+    ],
+    "pinyin": "xī yán"
+  },
+  {
+    "name": "望远",
+    "gender": "男孩",
+    "collection": "contemporary",
+    "sourceLabel": "灵感依据",
+    "work": "当代文化灵感库",
+    "quote": "以运动、旅行与远方想象为灵感。",
+    "extracted": "望远",
+    "meaning": "眼界开阔，始终向更远处生长。",
+    "themes": [
+      "志向",
+      "探索",
+      "勇敢"
+    ],
+    "keywords": [
+      "旅行",
+      "运动",
+      "当代文化"
+    ],
+    "pinyin": "wàng yuǎn"
+  }
+]

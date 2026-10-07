@@ -1,6 +1,6 @@
 {
   "method": "笔画五行基础匹配：优先康熙笔画，缺失字以开源现行笔画补全；仅作传统文化参考。",
-  "generatedAt": "2026-10-07T04:58:03.309Z",
+  "generatedAt": "2026-10-07T05:11:49.290Z",
   "characters": {
     "与": {
       "strokes": 3,
@@ -26,6 +26,14 @@
       "strokes": 12,
       "source": "kangxi"
     },
+    "书": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "予": {
+      "strokes": 4,
+      "source": "modern"
+    },
     "于": {
       "strokes": 3,
       "source": "modern"
@@ -33,6 +41,10 @@
     "云": {
       "strokes": 12,
       "source": "kangxi"
+    },
+    "亦": {
+      "strokes": 6,
+      "source": "modern"
     },
     "亭": {
       "strokes": 9,
@@ -49,6 +61,10 @@
     "令": {
       "strokes": 5,
       "source": "kangxi"
+    },
+    "以": {
+      "strokes": 4,
+      "source": "modern"
     },
     "仪": {
       "strokes": 15,
@@ -130,7 +146,19 @@
       "strokes": 5,
       "source": "kangxi"
     },
+    "同": {
+      "strokes": 6,
+      "source": "modern"
+    },
     "含": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "听": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "启": {
       "strokes": 7,
       "source": "modern"
     },
@@ -145,6 +173,10 @@
     "嘉": {
       "strokes": 14,
       "source": "kangxi"
+    },
+    "圆": {
+      "strokes": 10,
+      "source": "modern"
     },
     "均": {
       "strokes": 7,
@@ -218,12 +250,20 @@
       "strokes": 3,
       "source": "kangxi"
     },
+    "岚": {
+      "strokes": 7,
+      "source": "modern"
+    },
     "川": {
       "strokes": 3,
       "source": "modern"
     },
     "帆": {
       "strokes": 6,
+      "source": "modern"
+    },
+    "希": {
+      "strokes": 7,
       "source": "modern"
     },
     "建": {
@@ -262,6 +302,10 @@
       "strokes": 8,
       "source": "modern"
     },
+    "念": {
+      "strokes": 8,
+      "source": "modern"
+    },
     "怀": {
       "strokes": 20,
       "source": "kangxi"
@@ -270,7 +314,15 @@
       "strokes": 9,
       "source": "modern"
     },
+    "恒": {
+      "strokes": 9,
+      "source": "modern"
+    },
     "恕": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "恩": {
       "strokes": 10,
       "source": "modern"
     },
@@ -280,6 +332,14 @@
     },
     "悠": {
       "strokes": 11,
+      "source": "modern"
+    },
+    "意": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "愿": {
+      "strokes": 14,
       "source": "modern"
     },
     "慎": {
@@ -296,6 +356,14 @@
     },
     "扶": {
       "strokes": 7,
+      "source": "modern"
+    },
+    "承": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "拾": {
+      "strokes": 9,
       "source": "modern"
     },
     "搖": {
@@ -346,9 +414,17 @@
       "strokes": 7,
       "source": "modern"
     },
+    "昀": {
+      "strokes": 8,
+      "source": "modern"
+    },
     "明": {
       "strokes": 8,
       "source": "kangxi"
+    },
+    "昕": {
+      "strokes": 8,
+      "source": "modern"
     },
     "星": {
       "strokes": 9,
@@ -384,6 +460,10 @@
     },
     "暗": {
       "strokes": 13,
+      "source": "modern"
+    },
+    "曜": {
+      "strokes": 18,
       "source": "modern"
     },
     "月": {
@@ -429,6 +509,10 @@
     "树": {
       "strokes": 16,
       "source": "kangxi"
+    },
+    "栖": {
+      "strokes": 10,
+      "source": "modern"
     },
     "桑": {
       "strokes": 10,
@@ -478,6 +562,10 @@
       "strokes": 7,
       "source": "modern"
     },
+    "沐": {
+      "strokes": 7,
+      "source": "modern"
+    },
     "河": {
       "strokes": 8,
       "source": "modern"
@@ -522,6 +610,18 @@
       "strokes": 14,
       "source": "modern"
     },
+    "澄": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "澈": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "澜": {
+      "strokes": 15,
+      "source": "modern"
+    },
     "灵": {
       "strokes": 7,
       "source": "modern"
@@ -532,6 +632,10 @@
     },
     "烟": {
       "strokes": 10,
+      "source": "modern"
+    },
+    "然": {
+      "strokes": 12,
       "source": "modern"
     },
     "熙": {
@@ -614,6 +718,10 @@
       "strokes": 14,
       "source": "modern"
     },
+    "禾": {
+      "strokes": 5,
+      "source": "modern"
+    },
     "秉": {
       "strokes": 8,
       "source": "modern"
@@ -685,6 +793,10 @@
     "舟": {
       "strokes": 6,
       "source": "kangxi"
+    },
+    "航": {
+      "strokes": 10,
+      "source": "modern"
     },
     "良": {
       "strokes": 7,
@@ -758,8 +870,20 @@
       "strokes": 9,
       "source": "modern"
     },
+    "见": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "言": {
+      "strokes": 7,
+      "source": "modern"
+    },
     "诚": {
       "strokes": 8,
+      "source": "modern"
+    },
+    "诺": {
+      "strokes": 10,
       "source": "modern"
     },
     "质": {
@@ -798,6 +922,10 @@
       "strokes": 11,
       "source": "modern"
     },
+    "遇": {
+      "strokes": 12,
+      "source": "modern"
+    },
     "道": {
       "strokes": 12,
       "source": "modern"
@@ -808,6 +936,10 @@
     },
     "邻": {
       "strokes": 7,
+      "source": "modern"
+    },
+    "野": {
+      "strokes": 11,
       "source": "modern"
     },
     "金": {
@@ -828,6 +960,10 @@
     },
     "阑": {
       "strokes": 12,
+      "source": "modern"
+    },
+    "阳": {
+      "strokes": 6,
       "source": "modern"
     },
     "雅": {

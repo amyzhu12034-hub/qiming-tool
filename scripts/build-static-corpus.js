@@ -13,8 +13,9 @@ const baseRows = vm.runInNewContext(`(${worker.slice(start, end)})`);
 const base = baseRows.map(([name, gender, work, quote, extracted, meaning, themes, pinyin]) => ({ name, gender, work, quote, extracted, meaning, themes, pinyin }));
 const expanded = JSON.parse(fs.readFileSync(path.join(root, 'data', 'expanded-corpus.json'), 'utf8'));
 const approved = JSON.parse(fs.readFileSync(path.join(root, 'data', 'approved-corpus.json'), 'utf8'));
+const modern = JSON.parse(fs.readFileSync(path.join(root, 'data', 'modern-inspiration-corpus.json'), 'utf8'));
 const seen = new Set();
-const corpus = [...base, ...expanded, ...approved].filter(record => {
+const corpus = [...base, ...expanded, ...approved, ...modern].filter(record => {
   if (seen.has(record.name)) return false;
   seen.add(record.name);
   return true;
