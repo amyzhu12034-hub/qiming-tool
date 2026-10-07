@@ -5,3 +5,5 @@ npm-debug.log*
 .wrangler/
 data/review-queue-*.json
 data/review-decisions.json
+data-sources/
+site/

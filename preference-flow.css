@@ -112,3 +112,80 @@ body { background:radial-gradient(circle at 12% 0%, #e1f4e9 0, transparent 26rem
   .form-section { padding:20px; }
   .submit-row { padding:18px 20px; }
 }
+
+/* 手机优先：面向小红书等移动端入口，减小横向占用并提升单手操作体验。 */
+@media (max-width:760px) {
+  html { -webkit-text-size-adjust:100%; }
+  body { min-width:320px; font-size:14px; }
+  .site-header, main, footer { width:min(100% - 28px, 560px); }
+  .site-header { height:64px; }
+  .brand { font-size:25px; }
+  .intro { padding:28px 0 30px; }
+  .eyebrow { font-size:10px; letter-spacing:1.1px; }
+  .intro h1 { font-size:clamp(31px, 9vw, 42px); line-height:1.25; letter-spacing:-1.5px; }
+  .intro-copy { margin:12px 0 24px; font-size:13px; line-height:1.75; }
+
+  .naming-form { border-radius:14px; }
+  .form-section { padding:18px 16px; }
+  .section-label { display:flex; flex-wrap:wrap; gap:6px 9px; margin-bottom:16px; }
+  .section-label strong { font-size:16px; }
+  .section-label i { width:100%; margin-left:25px; font-size:10px; }
+
+  .primary-fields { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); gap:16px 14px; }
+  .surname-field, .name-length-field { width:100%; margin:0; }
+  .gender-field { grid-column:1 / -1; }
+  .field input, .field select { height:42px; padding:0 4px; font-size:16px; }
+  .segmented { width:100%; }
+  .segmented label { flex:1; }
+  .segmented span { min-height:42px; padding:10px 5px; text-align:center; font-size:13px; }
+
+  .preference-flow { gap:8px; }
+  .condition-row, .condition-row:has(.data-field:not(.disabled)) { border-radius:9px; }
+  .preference-flow .preference-card { min-height:66px; padding:11px 12px 11px 31px; }
+  .preference-flow .preference-card b { font-size:14px; line-height:1.45; }
+  .preference-flow .preference-card small { margin-top:1px; font-size:10px; line-height:1.4; }
+  .preference-flow .check { top:18px; left:12px; width:15px; height:15px; }
+  .condition-row:has(.data-field:not(.disabled)) { border-color:#8ccab8; box-shadow:0 4px 14px rgba(47,116,95,.08); }
+  .condition-detail { padding:1px 12px 14px; }
+  .condition-detail .field input, .condition-detail .field select { height:40px; font-size:16px; }
+  .helper-text { padding-top:2px; font-size:12px; }
+
+  .submit-row { display:block; padding:16px; background:#f4fbf7; }
+  .submit-row p { margin:0 0 12px; font-size:11px; }
+  .generate-button { width:100%; min-height:48px; padding:12px 18px; border-radius:10px; font-size:15px; }
+  .generate-button:active { transform:scale(.985); }
+
+  .results { padding:29px 0 46px; }
+  .results-heading { display:block; padding-bottom:15px; }
+  .results-heading h2 { margin-top:2px; font-size:30px; letter-spacing:-1px; }
+  .results-heading .text-button { min-height:40px; margin-top:8px; padding:8px 0; color:var(--accent); }
+  .condition-strip { gap:6px; padding:14px 0; }
+  .condition-tag { padding:5px 8px; font-size:10px; border-radius:5px; }
+  .result-grid { gap:8px; border:0; background:transparent; }
+  .name-card, .name-card:nth-child(5) { min-height:0; padding:21px 18px 19px; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.82); }
+  .full-name { margin:13px 0 3px; font-size:31px; letter-spacing:2px; }
+  .meaning { margin-top:16px; font-size:15px; line-height:1.65; }
+  .source-block { margin-top:11px; padding-left:9px; }
+  .source-block q { font-size:12px; line-height:1.65; }
+  .facts { margin-top:16px; padding-top:12px; gap:12px; }
+  .fact-value, .lookup-link { font-size:12px; }
+  .basis { margin-top:11px; font-size:10px; line-height:1.7; }
+  .save-btn { min-height:36px; padding:7px 0 7px 12px; font-size:12px; }
+  .style-notice { margin:1px 0 6px; font-size:10px; }
+
+  .revision-panel { margin-top:22px; padding:23px 18px; border-radius:12px; }
+  .revision-panel h3 { font-size:20px; }
+  .revision-panel p { font-size:11px; line-height:1.7; }
+  .revision-action { display:block; width:100%; margin-top:17px; border:0; }
+  .revision-action input { min-height:42px; padding:10px 0; border-bottom:1px solid #718077; font-size:14px; }
+  .revision-action button { width:100%; min-height:43px; margin-top:12px; border:1px solid rgba(255,255,255,.25); border-radius:8px; color:var(--yellow); font-size:13px; }
+  footer { padding:20px 0 calc(26px + env(safe-area-inset-bottom)); font-size:10px; }
+}
+
+@media (max-width:380px) {
+  .site-header, main, footer { width:calc(100% - 24px); }
+  .form-section { padding-inline:14px; }
+  .primary-fields { gap:12px; }
+  .segmented span { font-size:12px; }
+  .results-heading h2 { font-size:28px; }
+}

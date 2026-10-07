@@ -1,0 +1,45 @@
+[
+  {
+    "id": "chinese-poetry",
+    "name": "chinese-poetry/chinese-poetry",
+    "license": "MIT",
+    "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry",
+    "coverage": ["诗经", "论语", "大学", "中庸", "孟子", "楚辞", "唐诗", "宋词", "五代词", "元曲", "纳兰词", "古文观止", "千家诗", "蒙学"],
+    "localCache": "data-sources/chinese-poetry/",
+    "policy": "原文只用于本机候选发现与出处核对；经人工审核后才可进入正式推荐库。"
+  },
+  {
+    "id": "gujilab-classical-corpus",
+    "name": "gujilab/chinese-classical-corpus",
+    "license": "CC0-1.0（output 数据）",
+    "sourceUrl": "https://github.com/gujilab/chinese-classical-corpus",
+    "coverage": ["十三经", "说文解字", "史记至隋书", "资治通鉴"],
+    "localCache": "data-sources/classical-corpus/corpus.jsonl",
+    "policy": "完整公开底座保存在本机，不随网页发布；经、子、古文优先进入候选审核，史书默认只用于典故与出处核验。"
+  },
+  {
+    "id": "wikisource",
+    "name": "中文维基文库",
+    "license": "CC BY-SA 4.0 / GFDL（以具体页面标注为准）",
+    "sourceUrl": "https://zh.wikisource.org/",
+    "coverage": ["用于补充原文与人工校对"],
+    "policy": "仅做少量、可回链的补充；正式使用时保留页面链接、署名与许可信息。"
+  },
+  {
+    "id": "early-chinese-text-corpus",
+    "name": "Early Chinese Text Corpus / Kanseki Repository",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://github.com/direct-phonology/ect-krp",
+    "coverage": ["老子道德经", "庄子", "荀子", "山海经", "列子", "淮南子", "战国策", "墨子"],
+    "localCache": "data-sources/ect-krp/",
+    "policy": "原始无标点文本仅供本机候选发现；正式发布必须保留出处、署名和 CC BY-SA 许可信息，风格较特别的神话意象默认提示。"
+  },
+  {
+    "id": "ctext",
+    "name": "中国哲学书电子化计划",
+    "license": "遵守站点 API 与页面使用限制",
+    "sourceUrl": "https://ctext.org/tools/api/ens",
+    "coverage": ["典籍章节交叉核验"],
+    "policy": "当前 API 访问需要认证，不绕过认证也不批量抓取；仅在取得授权后用于交叉核验。"
+  }
+]

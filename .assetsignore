@@ -11,6 +11,8 @@ package.json
 package-lock.json
 README.md
 data/**
+data-sources/**
+site/**
 scripts/**
 review.html
 review.js

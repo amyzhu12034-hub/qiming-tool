@@ -2,6 +2,8 @@ const $ = selector => document.querySelector(selector);
 const list = $('#list');
 const notice = $('#notice');
 const template = $('#card-template');
+let offset = 0;
+let nextOffset = null;
 
 function setNotice(message, error = false) { notice.textContent = message; notice.style.color = error ? '#a54d4d' : ''; }
 function renderSummary(summary) { $('#summary').replaceChildren(...Object.entries(summary).map(([label, count]) => { const el = document.createElement('span'); el.textContent = `${label} ${count}`; return el; })); }
@@ -27,10 +29,12 @@ function card(item) {
   });
   return node;
 }
-async function load() {
+async function load(reset = false) {
+  if (reset) offset = 0;
   setNotice('正在读取本地审核队列…');
-  try { const data = await api(`/api/review/queue?source=${$('#source').value}&status=${$('#status').value}`); renderSummary(data.summary); list.replaceChildren(...data.items.map(card)); setNotice(data.items.length ? `显示 ${data.items.length} 条记录。` : '没有符合条件的记录。'); } catch (error) { setNotice(error.message, true); }
+  try { const data = await api(`/api/review/queue?source=${$('#source').value}&status=${$('#status').value}&offset=${offset}&limit=30`); renderSummary(data.summary); list.replaceChildren(...data.items.map(card)); nextOffset = data.nextOffset; $('#next').disabled = nextOffset === null; setNotice(data.items.length ? `显示第 ${data.offset + 1}–${data.offset + data.items.length} 条，共 ${data.total} 条。` : '没有符合条件的记录。'); } catch (error) { setNotice(error.message, true); }
 }
-$('#reload').addEventListener('click', load); $('#source').addEventListener('change', load); $('#status').addEventListener('change', load);
+$('#reload').addEventListener('click', () => load(true)); $('#source').addEventListener('change', () => load(true)); $('#status').addEventListener('change', () => load(true));
+$('#next').addEventListener('click', () => { if (nextOffset !== null) { offset = nextOffset; load(); } });
 $('#publish').addEventListener('click', async () => { try { const result = await api('/api/review/publish', { method:'POST' }); setNotice(`已生成 ${result.count} 条正式语料。部署前请检查 Git 变更。`); load(); } catch (error) { setNotice(error.message, true); } });
 load();

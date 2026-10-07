@@ -1,5 +1,1439 @@
 [
   {
+    "name": "清扬",
+    "gender": "女孩",
+    "work": "《诗经·郑风·野有蔓草》",
+    "quote": "有美一人，清扬婉兮。",
+    "extracted": "清扬",
+    "meaning": "清秀明朗，神采飞扬，温柔而有朝气。",
+    "themes": [
+      "温柔",
+      "明朗",
+      "喜乐"
+    ],
+    "pinyin": "qīng yáng"
+  },
+  {
+    "name": "维桢",
+    "gender": "中性",
+    "work": "《诗经·大雅·文王》",
+    "quote": "王国克生，维周之桢。",
+    "extracted": "维桢",
+    "meaning": "桢为栋梁，寓意坚实、可靠与担当。",
+    "themes": [
+      "志向",
+      "坚定",
+      "品性"
+    ],
+    "pinyin": "wéi zhēn"
+  },
+  {
+    "name": "攸宁",
+    "gender": "中性",
+    "work": "《诗经·小雅·斯干》",
+    "quote": "君子攸宁。",
+    "extracted": "攸宁",
+    "meaning": "心有所安，愿一生安稳自在。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ],
+    "pinyin": "yōu níng"
+  },
+  {
+    "name": "嘉树",
+    "gender": "男孩",
+    "work": "《楚辞·九章·橘颂》",
+    "quote": "后皇嘉树，橘徕服兮。",
+    "extracted": "嘉树",
+    "meaning": "嘉美如树，根深叶茂，生机盎然。",
+    "themes": [
+      "自然",
+      "志向",
+      "品性"
+    ],
+    "pinyin": "jiā shù"
+  },
+  {
+    "name": "既明",
+    "gender": "男孩",
+    "work": "《诗经·大雅·烝民》",
+    "quote": "既明且哲，以保其身。",
+    "extracted": "既明",
+    "meaning": "明辨通达，也有清醒温和的内心。",
+    "themes": [
+      "智慧",
+      "品性"
+    ],
+    "pinyin": "jì míng"
+  },
+  {
+    "name": "静姝",
+    "gender": "女孩",
+    "work": "《诗经·邶风·静女》",
+    "quote": "静女其姝，俟我于城隅。",
+    "extracted": "静姝",
+    "meaning": "娴静美好，温柔而自有光彩。",
+    "themes": [
+      "温柔",
+      "品性"
+    ],
+    "pinyin": "jìng shū"
+  },
+  {
+    "name": "其琛",
+    "gender": "中性",
+    "work": "《诗经·鲁颂·泮水》",
+    "quote": "憬彼淮夷，来献其琛。",
+    "extracted": "其琛",
+    "meaning": "琛为珍宝，寓意珍贵、端正。",
+    "themes": [
+      "品性",
+      "喜乐"
+    ],
+    "pinyin": "qí chēn"
+  },
+  {
+    "name": "燕绥",
+    "gender": "女孩",
+    "work": "《诗经·小雅·南有嘉鱼》",
+    "quote": "君子有酒，嘉宾式燕绥之。",
+    "extracted": "燕绥",
+    "meaning": "宴乐安舒，愿人生从容顺遂。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ],
+    "pinyin": "yàn suí"
+  },
+  {
+    "name": "柔嘉",
+    "gender": "女孩",
+    "work": "《诗经·大雅·抑》",
+    "quote": "敬尔威仪，无不柔嘉。",
+    "extracted": "柔嘉",
+    "meaning": "温润善良，同时具备美好的品性。",
+    "themes": [
+      "温柔",
+      "品性"
+    ],
+    "pinyin": "róu jiā"
+  },
+  {
+    "name": "怀瑾",
+    "gender": "男孩",
+    "work": "《楚辞·九章·怀沙》",
+    "quote": "怀瑾握瑜兮，穷不知所示。",
+    "extracted": "怀瑾",
+    "meaning": "怀抱美玉，比喻高洁美好的品德。",
+    "themes": [
+      "品性",
+      "智慧"
+    ],
+    "pinyin": "huái jǐn"
+  },
+  {
+    "name": "乐只",
+    "gender": "中性",
+    "work": "《诗经·周南·樛木》",
+    "quote": "乐只君子，福履绥之。",
+    "extracted": "乐只",
+    "meaning": "心存喜乐，也拥有安稳福气。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ],
+    "pinyin": "lè zhǐ"
+  },
+  {
+    "name": "令仪",
+    "gender": "女孩",
+    "work": "《诗经·小雅·湛露》",
+    "quote": "岂弟君子，莫不令仪。",
+    "extracted": "令仪",
+    "meaning": "仪态端正，温和而有分寸。",
+    "themes": [
+      "温柔",
+      "品性"
+    ],
+    "pinyin": "lìng yí"
+  },
+  {
+    "name": "蓁",
+    "gender": "女孩",
+    "work": "《诗经·周南·桃夭》",
+    "quote": "桃之夭夭，其叶蓁蓁。",
+    "extracted": "蓁",
+    "meaning": "草木茂盛，寓意蓬勃成长。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ],
+    "pinyin": "zhēn"
+  },
+  {
+    "name": "乔",
+    "gender": "中性",
+    "work": "《诗经·周南·汉广》",
+    "quote": "南有乔木，不可休思。",
+    "extracted": "乔",
+    "meaning": "高大挺拔的树木，寓意从容向上。",
+    "themes": [
+      "自然",
+      "志向"
+    ],
+    "pinyin": "qiáo"
+  },
+  {
+    "name": "宁",
+    "gender": "中性",
+    "work": "《诗经·小雅·斯干》",
+    "quote": "君子攸宁。",
+    "extracted": "宁",
+    "meaning": "安宁平和，愿一生自在。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ],
+    "pinyin": "níng"
+  },
+  {
+    "name": "昭",
+    "gender": "中性",
+    "work": "《诗经·大雅·文王》",
+    "quote": "文王在上，于昭于天。",
+    "extracted": "昭",
+    "meaning": "光明昭著，寓意清朗通达。",
+    "themes": [
+      "明朗",
+      "智慧"
+    ],
+    "pinyin": "zhāo"
+  },
+  {
+    "name": "乐",
+    "gender": "中性",
+    "work": "《诗经·周南·樛木》",
+    "quote": "乐只君子，福履绥之。",
+    "extracted": "乐",
+    "meaning": "心存喜乐，福气安稳。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ],
+    "pinyin": "lè"
+  },
+  {
+    "name": "嘉",
+    "gender": "中性",
+    "work": "《诗经·小雅·鹿鸣》",
+    "quote": "我有嘉宾，鼓瑟吹笙。",
+    "extracted": "嘉",
+    "meaning": "嘉美、善美，寓意品性可贵。",
+    "themes": [
+      "品性",
+      "喜乐"
+    ],
+    "pinyin": "jiā"
+  },
+  {
+    "name": "云起",
+    "gender": "中性",
+    "work": "王维《终南别业》",
+    "quote": "行到水穷处，坐看云起时。",
+    "extracted": "云起",
+    "meaning": "从容自在，于平静处自有新境。",
+    "themes": [
+      "自然",
+      "自在"
+    ],
+    "pinyin": "yún qǐ"
+  },
+  {
+    "name": "清泉",
+    "gender": "中性",
+    "work": "王维《山居秋暝》",
+    "quote": "明月松间照，清泉石上流。",
+    "extracted": "清泉",
+    "meaning": "澄澈纯净，心境明朗。",
+    "themes": [
+      "自然",
+      "清澈"
+    ],
+    "pinyin": "qīng quán"
+  },
+  {
+    "name": "春晖",
+    "gender": "中性",
+    "work": "孟郊《游子吟》",
+    "quote": "谁言寸草心，报得三春晖。",
+    "extracted": "春晖",
+    "meaning": "春日阳光，寓意温暖、感恩与希望。",
+    "themes": [
+      "温暖",
+      "喜乐"
+    ],
+    "pinyin": "chūn huī"
+  },
+  {
+    "name": "星垂",
+    "gender": "男孩",
+    "work": "杜甫《旅夜书怀》",
+    "quote": "星垂平野阔，月涌大江流。",
+    "extracted": "星垂",
+    "meaning": "星光低垂于阔野，心怀辽阔。",
+    "themes": [
+      "自然",
+      "志向"
+    ],
+    "pinyin": "xīng chuí"
+  },
+  {
+    "name": "长风",
+    "gender": "男孩",
+    "work": "李白《行路难·其一》",
+    "quote": "长风破浪会有时，直挂云帆济沧海。",
+    "extracted": "长风",
+    "meaning": "长风破浪，寓意勇气与进取。",
+    "themes": [
+      "勇敢",
+      "志向"
+    ],
+    "pinyin": "cháng fēng"
+  },
+  {
+    "name": "清欢",
+    "gender": "中性",
+    "work": "苏轼《浣溪沙·细雨斜风作晓寒》",
+    "quote": "人间有味是清欢。",
+    "extracted": "清欢",
+    "meaning": "清淡而有滋味的欢喜，平和自在。",
+    "themes": [
+      "平安",
+      "喜乐",
+      "自在"
+    ],
+    "pinyin": "qīng huān"
+  },
+  {
+    "name": "兰舟",
+    "gender": "女孩",
+    "work": "李清照《一剪梅·红藕香残玉簟秋》",
+    "quote": "轻解罗裳，独上兰舟。",
+    "extracted": "兰舟",
+    "meaning": "兰舟轻行，雅致而从容。",
+    "themes": [
+      "温柔",
+      "自然"
+    ],
+    "pinyin": "lán zhōu"
+  },
+  {
+    "name": "云中",
+    "gender": "中性",
+    "work": "李清照《一剪梅·红藕香残玉簟秋》",
+    "quote": "云中谁寄锦书来，雁字回时，月满西楼。",
+    "extracted": "云中",
+    "meaning": "云中寄书，寓意心怀远方与美好相念。",
+    "themes": [
+      "自然",
+      "自在"
+    ],
+    "pinyin": "yún zhōng"
+  },
+  {
+    "name": "青山",
+    "gender": "中性",
+    "work": "辛弃疾《菩萨蛮·书江西造口壁》",
+    "quote": "青山遮不住，毕竟东流去。",
+    "extracted": "青山",
+    "meaning": "青山长在，寓意坚韧沉静。",
+    "themes": [
+      "自然",
+      "坚定"
+    ],
+    "pinyin": "qīng shān"
+  },
+  {
+    "name": "灼华",
+    "gender": "女孩",
+    "work": "《诗经·周南·桃夭》",
+    "quote": "桃之夭夭，灼灼其华。",
+    "meaning": "如桃花般明丽而有生命力。",
+    "themes": [
+      "明朗",
+      "喜乐",
+      "自然"
+    ]
+  },
+  {
+    "name": "伊人",
+    "gender": "女孩",
+    "work": "《诗经·秦风·蒹葭》",
+    "quote": "所谓伊人，在水一方。",
+    "meaning": "温柔清雅，心有所向。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "如琢",
+    "gender": "中性",
+    "work": "《诗经·卫风·淇奥》",
+    "quote": "如切如磋，如琢如磨。",
+    "meaning": "勤于修习，温润有度。",
+    "themes": [
+      "品性",
+      "坚定"
+    ]
+  },
+  {
+    "name": "琼琚",
+    "gender": "女孩",
+    "work": "《诗经·卫风·木瓜》",
+    "quote": "投我以木瓜，报之以琼琚。",
+    "meaning": "美玉相赠，珍贵而有情义。",
+    "themes": [
+      "品性",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "鹿鸣",
+    "gender": "中性",
+    "work": "《诗经·小雅·鹿鸣》",
+    "quote": "呦呦鹿鸣，食野之苹。",
+    "meaning": "自然和悦，宾朋相亲。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "景行",
+    "gender": "男孩",
+    "work": "《诗经·小雅·车舝》",
+    "quote": "高山仰止，景行行止。",
+    "meaning": "心怀高远，行事端正。",
+    "themes": [
+      "志向",
+      "品性"
+    ]
+  },
+  {
+    "name": "缉熙",
+    "gender": "中性",
+    "work": "《诗经·大雅·文王》",
+    "quote": "穆穆文王，于缉熙敬止。",
+    "meaning": "光明而敬谨，内心澄澈。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "未央",
+    "gender": "女孩",
+    "work": "《诗经·小雅·庭燎》",
+    "quote": "夜如何其？夜未央。",
+    "meaning": "长夜未尽，寓意绵长与从容。",
+    "themes": [
+      "自在",
+      "温柔"
+    ]
+  },
+  {
+    "name": "舜华",
+    "gender": "女孩",
+    "work": "《诗经·郑风·有女同车》",
+    "quote": "有女同车，颜如舜华。",
+    "meaning": "如木槿盛放，明丽自然。",
+    "themes": [
+      "明朗",
+      "自然"
+    ]
+  },
+  {
+    "name": "淑慎",
+    "gender": "女孩",
+    "work": "《诗经·邶风·燕燕》",
+    "quote": "终温且惠，淑慎其身。",
+    "meaning": "温和谨慎，品性端雅。",
+    "themes": [
+      "温柔",
+      "品性"
+    ]
+  },
+  {
+    "name": "德音",
+    "gender": "中性",
+    "work": "《诗经·郑风·有女同车》",
+    "quote": "彼美孟姜，德音不忘。",
+    "meaning": "德行与声名相称。",
+    "themes": [
+      "品性",
+      "智慧"
+    ]
+  },
+  {
+    "name": "静好",
+    "gender": "女孩",
+    "work": "《诗经·郑风·女曰鸡鸣》",
+    "quote": "琴瑟在御，莫不静好。",
+    "meaning": "岁月安宁，琴瑟和悦。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "子衿",
+    "gender": "中性",
+    "work": "《诗经·郑风·子衿》",
+    "quote": "青青子衿，悠悠我心。",
+    "meaning": "青衿书卷，含蓄而有学养。",
+    "themes": [
+      "智慧",
+      "温柔"
+    ]
+  },
+  {
+    "name": "清婉",
+    "gender": "女孩",
+    "work": "《诗经·郑风·野有蔓草》",
+    "quote": "有美一人，婉如清扬。",
+    "meaning": "清秀婉约，明朗自然。",
+    "themes": [
+      "温柔",
+      "明朗"
+    ]
+  },
+  {
+    "name": "嘉卉",
+    "gender": "女孩",
+    "work": "《诗经·小雅·四月》",
+    "quote": "山有嘉卉，侯栗侯梅。",
+    "meaning": "嘉美草木，寓意丰茂。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "思齐",
+    "gender": "中性",
+    "work": "《诗经·大雅·思齐》",
+    "quote": "思齐大任，文王之母。",
+    "meaning": "见贤思齐，端正自省。",
+    "themes": [
+      "品性",
+      "智慧"
+    ]
+  },
+  {
+    "name": "思成",
+    "gender": "中性",
+    "work": "《诗经·周颂·那》",
+    "quote": "绥我思成，来假来飨。",
+    "meaning": "心愿圆成，安稳笃定。",
+    "themes": [
+      "平安",
+      "坚定"
+    ]
+  },
+  {
+    "name": "敬之",
+    "gender": "中性",
+    "work": "《诗经·周颂·敬之》",
+    "quote": "敬之敬之，天维显思。",
+    "meaning": "持敬存心，明辨自守。",
+    "themes": [
+      "品性",
+      "智慧"
+    ]
+  },
+  {
+    "name": "于飞",
+    "gender": "中性",
+    "work": "《诗经·大雅·卷阿》",
+    "quote": "凤凰于飞，翙翙其羽。",
+    "meaning": "如凤凰展翼，自在高远。",
+    "themes": [
+      "志向",
+      "自在"
+    ]
+  },
+  {
+    "name": "和鸣",
+    "gender": "中性",
+    "work": "《诗经·大雅·卷阿》",
+    "quote": "凤凰于飞，和鸣锵锵。",
+    "meaning": "和而不同，声韵清朗。",
+    "themes": [
+      "品性",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "温玉",
+    "gender": "男孩",
+    "work": "《诗经·秦风·小戎》",
+    "quote": "言念君子，温其如玉。",
+    "meaning": "温润如玉，谦和坚实。",
+    "themes": [
+      "温柔",
+      "品性"
+    ]
+  },
+  {
+    "name": "皎月",
+    "gender": "女孩",
+    "work": "《诗经·陈风·月出》",
+    "quote": "月出皎兮，佼人僚兮。",
+    "meaning": "月色清朗，温柔明净。",
+    "themes": [
+      "明朗",
+      "温柔"
+    ]
+  },
+  {
+    "name": "子佩",
+    "gender": "中性",
+    "work": "《诗经·郑风·子衿》",
+    "quote": "青青子佩，悠悠我思。",
+    "meaning": "佩玉有节，文雅含蓄。",
+    "themes": [
+      "品性",
+      "温柔"
+    ]
+  },
+  {
+    "name": "秉文",
+    "gender": "男孩",
+    "work": "《诗经·周颂·清庙》",
+    "quote": "济济多士，秉文之德。",
+    "meaning": "秉持文德，谦厚有学。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "维清",
+    "gender": "中性",
+    "work": "《诗经·周颂·维清》",
+    "quote": "维清缉熙，文王之典。",
+    "meaning": "清明有序，内心澄澈。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "正则",
+    "gender": "男孩",
+    "work": "《楚辞·离骚》",
+    "quote": "名余曰正则兮，字余曰灵均。",
+    "meaning": "端正有法则，守正自持。",
+    "themes": [
+      "品性",
+      "坚定"
+    ]
+  },
+  {
+    "name": "灵均",
+    "gender": "男孩",
+    "work": "《楚辞·离骚》",
+    "quote": "名余曰正则兮，字余曰灵均。",
+    "meaning": "灵秀而持衡，清正通达。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "修远",
+    "gender": "男孩",
+    "work": "《楚辞·离骚》",
+    "quote": "路漫漫其修远兮，吾将上下而求索。",
+    "meaning": "志向长远，勇于求索。",
+    "themes": [
+      "志向",
+      "勇敢"
+    ]
+  },
+  {
+    "name": "杜若",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·湘君》",
+    "quote": "采芳洲兮杜若，将以遗兮下女。",
+    "meaning": "香草清芬，自有风骨。",
+    "themes": [
+      "自然",
+      "品性"
+    ]
+  },
+  {
+    "name": "安歌",
+    "gender": "中性",
+    "work": "《楚辞·九歌·东皇太一》",
+    "quote": "扬枹兮拊鼓，疏缓节兮安歌。",
+    "meaning": "安然歌行，舒展从容。",
+    "themes": [
+      "平安",
+      "自在"
+    ]
+  },
+  {
+    "name": "芳芷",
+    "gender": "女孩",
+    "work": "《楚辞·离骚》",
+    "quote": "扈江离与辟芷兮，纫秋兰以为佩。",
+    "meaning": "芳草兰芷，清雅芬芳。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "望舒",
+    "gender": "中性",
+    "work": "《楚辞·离骚》",
+    "quote": "前望舒使先驱兮，后飞廉使奔属。",
+    "meaning": "望舒为月御，清朗而有方向。",
+    "themes": [
+      "明朗",
+      "志向"
+    ]
+  },
+  {
+    "name": "云旗",
+    "gender": "中性",
+    "work": "《楚辞·离骚》",
+    "quote": "驾八龙之婉婉兮，载云旗之委蛇。",
+    "meaning": "云旗舒展，胸怀辽阔。",
+    "themes": [
+      "志向",
+      "自在"
+    ]
+  },
+  {
+    "name": "怀信",
+    "gender": "中性",
+    "work": "《楚辞·九章·涉江》",
+    "quote": "怀信侘傺，忽乎吾将行兮。",
+    "meaning": "心怀诚信，坚定前行。",
+    "themes": [
+      "品性",
+      "坚定"
+    ]
+  },
+  {
+    "name": "昭质",
+    "gender": "中性",
+    "work": "《楚辞·离骚》",
+    "quote": "芳与泽其杂糅兮，唯昭质其犹未亏。",
+    "meaning": "本质清明，守住初心。",
+    "themes": [
+      "品性",
+      "智慧"
+    ]
+  },
+  {
+    "name": "辰良",
+    "gender": "中性",
+    "work": "《楚辞·九歌·东皇太一》",
+    "quote": "吉日兮辰良，穆将愉兮上皇。",
+    "meaning": "良辰吉日，安和喜悦。",
+    "themes": [
+      "平安",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "青云",
+    "gender": "中性",
+    "work": "《楚辞·九歌·大司命》",
+    "quote": "青云衣兮白霓裳，举长矢兮射天狼。",
+    "meaning": "青云高远，志趣不凡。",
+    "themes": [
+      "志向",
+      "明朗"
+    ]
+  },
+  {
+    "name": "横波",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·河伯》",
+    "quote": "与女游兮九河，冲风起兮横波。",
+    "meaning": "水波舒展，灵动自在。",
+    "themes": [
+      "自然",
+      "自在"
+    ]
+  },
+  {
+    "name": "沅芷",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·湘夫人》",
+    "quote": "沅有芷兮澧有兰，思公子兮未敢言。",
+    "meaning": "香草相映，清雅坚贞。",
+    "themes": [
+      "自然",
+      "品性"
+    ]
+  },
+  {
+    "name": "杜衡",
+    "gender": "中性",
+    "work": "《楚辞·九歌·山鬼》",
+    "quote": "被石兰兮带杜衡，折芳馨兮遗所思。",
+    "meaning": "佩香草而行，雅正有度。",
+    "themes": [
+      "自然",
+      "品性"
+    ]
+  },
+  {
+    "name": "芳馨",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·山鬼》",
+    "quote": "被石兰兮带杜衡，折芳馨兮遗所思。",
+    "meaning": "芬芳温润，心意美好。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "女萝",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·山鬼》",
+    "quote": "若有人兮山之阿，被薜荔兮带女萝。",
+    "meaning": "藤萝依山，自然柔韧。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "若英",
+    "gender": "女孩",
+    "work": "《楚辞·九歌·云中君》",
+    "quote": "浴兰汤兮沐芳，华采衣兮若英。",
+    "meaning": "如花绽放，明丽清新。",
+    "themes": [
+      "明朗",
+      "自然"
+    ]
+  },
+  {
+    "name": "容与",
+    "gender": "中性",
+    "work": "《楚辞·九歌·湘夫人》",
+    "quote": "时不可兮再得，聊逍遥兮容与。",
+    "meaning": "从容自在，舒展安然。",
+    "themes": [
+      "自在",
+      "平安"
+    ]
+  },
+  {
+    "name": "修能",
+    "gender": "中性",
+    "work": "《楚辞·离骚》",
+    "quote": "纷吾既有此内美兮，又重之以修能。",
+    "meaning": "内修德性，兼具才能。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "新雨",
+    "gender": "中性",
+    "work": "王维《山居秋暝》",
+    "quote": "空山新雨后，天气晚来秋。",
+    "meaning": "新雨洗山，清新宁静。",
+    "themes": [
+      "自然",
+      "清澈"
+    ]
+  },
+  {
+    "name": "松间",
+    "gender": "中性",
+    "work": "王维《山居秋暝》",
+    "quote": "明月松间照，清泉石上流。",
+    "meaning": "松间明月，安静清朗。",
+    "themes": [
+      "自然",
+      "平安"
+    ]
+  },
+  {
+    "name": "春山",
+    "gender": "中性",
+    "work": "王维《鸟鸣涧》",
+    "quote": "人闲桂花落，夜静春山空。",
+    "meaning": "春山静谧，心境澄明。",
+    "themes": [
+      "自然",
+      "平安"
+    ]
+  },
+  {
+    "name": "长河",
+    "gender": "男孩",
+    "work": "王维《使至塞上》",
+    "quote": "大漠孤烟直，长河落日圆。",
+    "meaning": "长河辽阔，心怀壮远。",
+    "themes": [
+      "志向",
+      "自然"
+    ]
+  },
+  {
+    "name": "露华",
+    "gender": "女孩",
+    "work": "李白《清平调·其一》",
+    "quote": "云想衣裳花想容，春风拂槛露华浓。",
+    "meaning": "露华晶莹，明丽温柔。",
+    "themes": [
+      "明朗",
+      "温柔"
+    ]
+  },
+  {
+    "name": "孤帆",
+    "gender": "男孩",
+    "work": "李白《望天门山》",
+    "quote": "两岸青山相对出，孤帆一片日边来。",
+    "meaning": "孤帆向远，勇敢从容。",
+    "themes": [
+      "勇敢",
+      "志向"
+    ]
+  },
+  {
+    "name": "逸兴",
+    "gender": "中性",
+    "work": "李白《宣州谢朓楼饯别校书叔云》",
+    "quote": "俱怀逸兴壮思飞，欲上青天揽明月。",
+    "meaning": "逸兴飞扬，志趣开阔。",
+    "themes": [
+      "志向",
+      "自在"
+    ]
+  },
+  {
+    "name": "芙蓉",
+    "gender": "女孩",
+    "work": "李白《经乱离后天恩流夜郎忆旧游书怀赠江夏韦太守良宰》",
+    "quote": "清水出芙蓉，天然去雕饰。",
+    "meaning": "天然清丽，不饰而美。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "凌绝",
+    "gender": "男孩",
+    "work": "杜甫《望岳》",
+    "quote": "会当凌绝顶，一览众山小。",
+    "meaning": "登临高处，志向坚定。",
+    "themes": [
+      "志向",
+      "勇敢"
+    ]
+  },
+  {
+    "name": "润物",
+    "gender": "中性",
+    "work": "杜甫《春夜喜雨》",
+    "quote": "随风潜入夜，润物细无声。",
+    "meaning": "温润无声，滋养万物。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "知时",
+    "gender": "中性",
+    "work": "杜甫《春夜喜雨》",
+    "quote": "好雨知时节，当春乃发生。",
+    "meaning": "知时顺势，温和有度。",
+    "themes": [
+      "智慧",
+      "自然"
+    ]
+  },
+  {
+    "name": "翠柳",
+    "gender": "女孩",
+    "work": "杜甫《绝句》",
+    "quote": "两个黄鹂鸣翠柳，一行白鹭上青天。",
+    "meaning": "翠柳生机，明快自然。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "蓝田",
+    "gender": "中性",
+    "work": "李商隐《锦瑟》",
+    "quote": "沧海月明珠有泪，蓝田日暖玉生烟。",
+    "meaning": "蓝田暖玉，温润而有光。",
+    "themes": [
+      "温柔",
+      "明朗"
+    ]
+  },
+  {
+    "name": "灵犀",
+    "gender": "中性",
+    "work": "李商隐《无题》",
+    "quote": "身无彩凤双飞翼，心有灵犀一点通。",
+    "meaning": "心思通明，聪慧有感知。",
+    "themes": [
+      "智慧",
+      "品性"
+    ]
+  },
+  {
+    "name": "千帆",
+    "gender": "中性",
+    "work": "刘禹锡《酬乐天扬州初逢席上见赠》",
+    "quote": "沉舟侧畔千帆过，病树前头万木春。",
+    "meaning": "历经前行，仍有新生。",
+    "themes": [
+      "坚定",
+      "志向"
+    ]
+  },
+  {
+    "name": "碧霄",
+    "gender": "中性",
+    "work": "刘禹锡《秋词》",
+    "quote": "晴空一鹤排云上，便引诗情到碧霄。",
+    "meaning": "碧空高远，意气清朗。",
+    "themes": [
+      "志向",
+      "明朗"
+    ]
+  },
+  {
+    "name": "春生",
+    "gender": "中性",
+    "work": "白居易《赋得古原草送别》",
+    "quote": "野火烧不尽，春风吹又生。",
+    "meaning": "生生不息，充满希望。",
+    "themes": [
+      "喜乐",
+      "坚定"
+    ]
+  },
+  {
+    "name": "秋光",
+    "gender": "女孩",
+    "work": "杜牧《秋夕》",
+    "quote": "银烛秋光冷画屏，轻罗小扇扑流萤。",
+    "meaning": "秋光澄澈，雅致温柔。",
+    "themes": [
+      "温柔",
+      "明朗"
+    ]
+  },
+  {
+    "name": "江清",
+    "gender": "中性",
+    "work": "孟浩然《宿建德江》",
+    "quote": "野旷天低树，江清月近人。",
+    "meaning": "江月清澈，心境宁静。",
+    "themes": [
+      "自然",
+      "清澈"
+    ]
+  },
+  {
+    "name": "秋水",
+    "gender": "中性",
+    "work": "王勃《滕王阁序》",
+    "quote": "落霞与孤鹜齐飞，秋水共长天一色。",
+    "meaning": "秋水长天，开阔澄明。",
+    "themes": [
+      "自然",
+      "志向"
+    ]
+  },
+  {
+    "name": "长天",
+    "gender": "中性",
+    "work": "王勃《滕王阁序》",
+    "quote": "落霞与孤鹜齐飞，秋水共长天一色。",
+    "meaning": "长天空阔，胸怀舒展。",
+    "themes": [
+      "自然",
+      "自在"
+    ]
+  },
+  {
+    "name": "晴川",
+    "gender": "中性",
+    "work": "崔颢《黄鹤楼》",
+    "quote": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+    "meaning": "晴川明净，视野清朗。",
+    "themes": [
+      "明朗",
+      "自然"
+    ]
+  },
+  {
+    "name": "芳草",
+    "gender": "女孩",
+    "work": "崔颢《黄鹤楼》",
+    "quote": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
+    "meaning": "芳草萋萋，柔和有生机。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "春江",
+    "gender": "中性",
+    "work": "张若虚《春江花月夜》",
+    "quote": "春江潮水连海平，海上明月共潮生。",
+    "meaning": "春江潮起，生机与辽阔并存。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "江月",
+    "gender": "中性",
+    "work": "张若虚《春江花月夜》",
+    "quote": "江畔何人初见月？江月何年初照人？",
+    "meaning": "江月相照，清朗而悠远。",
+    "themes": [
+      "自然",
+      "明朗"
+    ]
+  },
+  {
+    "name": "花林",
+    "gender": "女孩",
+    "work": "张若虚《春江花月夜》",
+    "quote": "江流宛转绕芳甸，月照花林皆似霰。",
+    "meaning": "花林映月，雅致温柔。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "烟雨",
+    "gender": "中性",
+    "work": "苏轼《定风波》",
+    "quote": "莫听穿林打叶声，何妨吟啸且徐行。",
+    "meaning": "风雨之中仍从容前行。",
+    "themes": [
+      "自在",
+      "勇敢"
+    ]
+  },
+  {
+    "name": "寒枝",
+    "gender": "中性",
+    "work": "苏轼《卜算子·黄州定慧院寓居作》",
+    "quote": "拣尽寒枝不肯栖，寂寞沙洲冷。",
+    "meaning": "自守本心，清醒坚定。",
+    "themes": [
+      "坚定",
+      "品性"
+    ]
+  },
+  {
+    "name": "潋滟",
+    "gender": "女孩",
+    "work": "苏轼《饮湖上初晴后雨》",
+    "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "meaning": "水光摇曳，灵动明丽。",
+    "themes": [
+      "自然",
+      "明朗"
+    ]
+  },
+  {
+    "name": "溪亭",
+    "gender": "女孩",
+    "work": "李清照《如梦令·常记溪亭日暮》",
+    "quote": "常记溪亭日暮，沉醉不知归路。",
+    "meaning": "溪亭日暮，温柔有记忆感。",
+    "themes": [
+      "自然",
+      "温柔"
+    ]
+  },
+  {
+    "name": "晚舟",
+    "gender": "中性",
+    "work": "李清照《如梦令·常记溪亭日暮》",
+    "quote": "兴尽晚回舟，误入藕花深处。",
+    "meaning": "晚舟归来，自在明朗。",
+    "themes": [
+      "自然",
+      "自在"
+    ]
+  },
+  {
+    "name": "细雨",
+    "gender": "女孩",
+    "work": "李清照《声声慢》",
+    "quote": "梧桐更兼细雨，到黄昏、点点滴滴。",
+    "meaning": "细雨轻柔，心思细腻。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "清风",
+    "gender": "中性",
+    "work": "辛弃疾《西江月·夜行黄沙道中》",
+    "quote": "明月别枝惊鹊，清风半夜鸣蝉。",
+    "meaning": "清风明月，清醒自在。",
+    "themes": [
+      "自然",
+      "自在"
+    ]
+  },
+  {
+    "name": "千树",
+    "gender": "中性",
+    "work": "辛弃疾《青玉案·元夕》",
+    "quote": "东风夜放花千树，更吹落、星如雨。",
+    "meaning": "花树盛放，明亮热烈。",
+    "themes": [
+      "喜乐",
+      "明朗"
+    ]
+  },
+  {
+    "name": "阑珊",
+    "gender": "女孩",
+    "work": "辛弃疾《青玉案·元夕》",
+    "quote": "众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。",
+    "meaning": "灯火将尽，含蓄而有余韵。",
+    "themes": [
+      "温柔",
+      "自在"
+    ]
+  },
+  {
+    "name": "连营",
+    "gender": "男孩",
+    "work": "辛弃疾《破阵子》",
+    "quote": "醉里挑灯看剑，梦回吹角连营。",
+    "meaning": "心怀担当，勇敢坚毅。",
+    "themes": [
+      "勇敢",
+      "志向"
+    ]
+  },
+  {
+    "name": "花明",
+    "gender": "中性",
+    "work": "陆游《游山西村》",
+    "quote": "山重水复疑无路，柳暗花明又一村。",
+    "meaning": "柳暗花明，终见新境。",
+    "themes": [
+      "喜乐",
+      "坚定"
+    ]
+  },
+  {
+    "name": "如故",
+    "gender": "中性",
+    "work": "陆游《卜算子·咏梅》",
+    "quote": "零落成泥碾作尘，只有香如故。",
+    "meaning": "不改本色，坚守初心。",
+    "themes": [
+      "品性",
+      "坚定"
+    ]
+  },
+  {
+    "name": "燕归",
+    "gender": "女孩",
+    "work": "晏殊《浣溪沙》",
+    "quote": "无可奈何花落去，似曾相识燕归来。",
+    "meaning": "燕子归来，温柔而有希望。",
+    "themes": [
+      "喜乐",
+      "温柔"
+    ]
+  },
+  {
+    "name": "溶月",
+    "gender": "女孩",
+    "work": "晏殊《寓意》",
+    "quote": "梨花院落溶溶月，柳絮池塘淡淡风。",
+    "meaning": "月色融融，温柔清亮。",
+    "themes": [
+      "温柔",
+      "明朗"
+    ]
+  },
+  {
+    "name": "久长",
+    "gender": "中性",
+    "work": "秦观《鹊桥仙》",
+    "quote": "两情若是久长时，又岂在朝朝暮暮。",
+    "meaning": "情意长久，安定真挚。",
+    "themes": [
+      "平安",
+      "品性"
+    ]
+  },
+  {
+    "name": "金风",
+    "gender": "中性",
+    "work": "秦观《鹊桥仙》",
+    "quote": "金风玉露一相逢，便胜却人间无数。",
+    "meaning": "秋风清朗，珍贵有韵。",
+    "themes": [
+      "明朗",
+      "自然"
+    ]
+  },
+  {
+    "name": "玉露",
+    "gender": "女孩",
+    "work": "秦观《鹊桥仙》",
+    "quote": "金风玉露一相逢，便胜却人间无数。",
+    "meaning": "如露如玉，清润温柔。",
+    "themes": [
+      "温柔",
+      "清澈"
+    ]
+  },
+  {
+    "name": "映日",
+    "gender": "中性",
+    "work": "杨万里《晓出净慈寺送林子方》",
+    "quote": "接天莲叶无穷碧，映日荷花别样红。",
+    "meaning": "映日而生，明朗热烈。",
+    "themes": [
+      "明朗",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "寒烟",
+    "gender": "中性",
+    "work": "范仲淹《苏幕遮》",
+    "quote": "碧云天，黄叶地，秋色连波，波上寒烟翠。",
+    "meaning": "烟波清远，沉静有度。",
+    "themes": [
+      "自然",
+      "平安"
+    ]
+  },
+  {
+    "name": "柳梢",
+    "gender": "女孩",
+    "work": "欧阳修《生查子·元夕》",
+    "quote": "月上柳梢头，人约黄昏后。",
+    "meaning": "柳梢月上，柔和有情。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "江南",
+    "gender": "中性",
+    "work": "王安石《泊船瓜洲》",
+    "quote": "春风又绿江南岸，明月何时照我还。",
+    "meaning": "江南春色，温润而有生机。",
+    "themes": [
+      "自然",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "晴方",
+    "gender": "女孩",
+    "work": "苏轼《饮湖上初晴后雨》",
+    "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "meaning": "晴日正好，明朗从容。",
+    "themes": [
+      "明朗",
+      "自在"
+    ]
+  },
+  {
+    "name": "山色",
+    "gender": "中性",
+    "work": "苏轼《饮湖上初晴后雨》",
+    "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "meaning": "山色空蒙，自然澄静。",
+    "themes": [
+      "自然",
+      "平安"
+    ]
+  },
+  {
+    "name": "疏影",
+    "gender": "女孩",
+    "work": "林逋《山园小梅》",
+    "quote": "疏影横斜水清浅，暗香浮动月黄昏。",
+    "meaning": "疏影清浅，雅致有分寸。",
+    "themes": [
+      "温柔",
+      "品性"
+    ]
+  },
+  {
+    "name": "暗香",
+    "gender": "女孩",
+    "work": "林逋《山园小梅》",
+    "quote": "疏影横斜水清浅，暗香浮动月黄昏。",
+    "meaning": "暗香浮动，含蓄而温暖。",
+    "themes": [
+      "温柔",
+      "自然"
+    ]
+  },
+  {
+    "name": "星如",
+    "gender": "女孩",
+    "work": "辛弃疾《青玉案·元夕》",
+    "quote": "东风夜放花千树，更吹落、星如雨。",
+    "meaning": "星光如雨，明丽灵动。",
+    "themes": [
+      "明朗",
+      "喜乐"
+    ]
+  },
+  {
+    "name": "归鸿",
+    "gender": "中性",
+    "work": "苏轼《卜算子·黄州定慧院寓居作》",
+    "quote": "谁见幽人独往来，缥缈孤鸿影。",
+    "meaning": "如归鸿远行，自在有方向。",
+    "themes": [
+      "自在",
+      "志向"
+    ]
+  },
+  {
     "id": "667ff48f245d19481bb8",
     "collection": "shijing",
     "name": "佩玉",
@@ -246,32 +1680,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "0230a18dfb064ab4b8db",
-    "collection": "shijing",
-    "name": "清风",
-    "gender": "中性",
-    "work": "《诗经·大雅·荡之什·烝民》",
-    "quote": "四牡骙骙，八鸾喈喈。仲山甫徂齐，式遄其归。吉甫作诵，穆如清风。仲山甫永怀，以慰其心。",
-    "extracted": "清风",
-    "themes": [
-      "清澈",
-      "自在",
-      "自然"
-    ],
-    "meaning": "取自《诗经·大雅·荡之什·烝民》，原句意象偏向澄明纯净、舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.926Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
     "id": "ecf6c587e6209e1a9a76",
     "collection": "shijing",
     "name": "文德",
@@ -284,30 +1692,6 @@
       "品性"
     ],
     "meaning": "取自《诗经·大雅·荡之什·江汉》，原句意象偏向明辨好学、端正自持；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.926Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "e8ed575d2e163a4ba748",
-    "collection": "shijing",
-    "name": "维清",
-    "gender": "中性",
-    "work": "《诗经·周颂·清庙之什·维清》",
-    "quote": "维清缉熙，文王之典。肇禋，迄用有成，维周之祯。",
-    "extracted": "维清",
-    "themes": [
-      "清澈"
-    ],
-    "meaning": "取自《诗经·周颂·清庙之什·维清》，原句意象偏向澄明纯净；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
     "reviewStatus": "approved",
     "provenance": {
       "sourceName": "chinese-poetry/chinese-poetry",
@@ -390,31 +1774,6 @@
       "license": "MIT",
       "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
       "importedAt": "2026-10-04T12:50:50.927Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "4dcc065e01a2b4d92073",
-    "collection": "shijing",
-    "name": "思成",
-    "gender": "中性",
-    "work": "《诗经·商颂·那之什·那》",
-    "quote": "猗与那与！置我鞉鼓。奏鼓简简，衎我烈祖。汤孙奏假，绥我思成。",
-    "extracted": "思成",
-    "themes": [
-      "智慧",
-      "坚定"
-    ],
-    "meaning": "取自《诗经·商颂·那之什·那》，原句意象偏向明辨好学、笃定有力；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/诗经",
-      "license": "MIT",
-      "sourceSha256": "3c7ca54d59424542ada99adfcc85420287fbbd5c8a511e9baf705cb2b04051e7",
-      "importedAt": "2026-10-04T12:50:50.928Z"
     },
     "styleNotice": "",
     "reviewedAt": "2026-10-04T12:58:41.558Z",
@@ -572,55 +1931,6 @@
     "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
   },
   {
-    "id": "a03d68934116e5b51053",
-    "collection": "tang",
-    "name": "晴川",
-    "gender": "中性",
-    "work": "崔颢《黄鹤楼》",
-    "quote": "晴川历历汉阳树，芳草萋萋鹦鹉洲。",
-    "extracted": "晴川",
-    "themes": [
-      "明朗"
-    ],
-    "meaning": "取自崔颢《黄鹤楼》，原句意象偏向光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "3e4eb527ecdc9bc26a72",
-    "collection": "tang",
-    "name": "青云",
-    "gender": "中性",
-    "work": "李白《古朗月行（节选）》",
-    "quote": "又疑瑶台镜，飞在青云端。",
-    "extracted": "青云",
-    "themes": [
-      "自在",
-      "自然"
-    ],
-    "meaning": "取自李白《古朗月行（节选）》，原句意象偏向舒展从容、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.328Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
     "id": "94d326ba39848bbd2378",
     "collection": "tang",
     "name": "明月",
@@ -634,31 +1944,6 @@
       "自然"
     ],
     "meaning": "取自王维《竹里馆》，原句意象偏向光明开阔、明辨好学、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.329Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "e3cca36c31a96a0ee3c4",
-    "collection": "tang",
-    "name": "春山",
-    "gender": "中性",
-    "work": "王维《鸟鸣涧》",
-    "quote": "人闲桂花落，夜静春山空。",
-    "extracted": "春山",
-    "themes": [
-      "喜乐",
-      "自然"
-    ],
-    "meaning": "取自王维《鸟鸣涧》，原句意象偏向和悦开朗、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
     "reviewStatus": "approved",
     "provenance": {
       "sourceName": "chinese-poetry/chinese-poetry",
@@ -735,31 +2020,6 @@
       "自然"
     ],
     "meaning": "取自李贺《马诗》，原句意象偏向澄明纯净、自然生机；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/tree/master/水墨唐诗",
-      "license": "MIT",
-      "sourceSha256": "e175adf044f015cd7283d96a793eedde89a2847f567ecd58cd8d605a7ce69f8a",
-      "importedAt": "2026-10-04T12:50:51.329Z"
-    },
-    "styleNotice": "",
-    "reviewedAt": "2026-10-04T12:58:41.558Z",
-    "reviewNote": "首轮编辑核验通过：出处可追溯，语境与人名可用性符合上线标准。"
-  },
-  {
-    "id": "41d69df5613202e43bcf",
-    "collection": "tang",
-    "name": "秋光",
-    "gender": "中性",
-    "work": "杜牧《秋夕》",
-    "quote": "银烛秋光冷画屏，轻罗小扇扑流萤。",
-    "extracted": "秋光",
-    "themes": [
-      "自然",
-      "明朗"
-    ],
-    "meaning": "取自杜牧《秋夕》，原句意象偏向自然生机、光明开阔；经首轮编辑核验，读音与人名感自然，可作为正式候选。",
     "reviewStatus": "approved",
     "provenance": {
       "sourceName": "chinese-poetry/chinese-poetry",
@@ -1749,31 +3009,6 @@
     "reviewNote": "编辑审核通过：出处可追溯、语境正向且有姓名可用性；古典气息较强，页面将提示“风格较特别”。"
   },
   {
-    "id": "4f06c50deaee49be1f46",
-    "collection": "chuci",
-    "name": "灵均",
-    "gender": "中性",
-    "work": "屈原《离骚》",
-    "quote": "名余曰正则兮，字余曰灵均",
-    "extracted": "灵均",
-    "themes": [
-      "明朗",
-      "平安"
-    ],
-    "meaning": "取自屈原《离骚》：“名余曰正则兮，字余曰灵均”。出处可定位，语境正向，适合作为姓名候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry",
-      "license": "MIT",
-      "sourceSha256": "5069e733d93781cecd55405c6d4699a7c17125b3f13cf79810d68792482e5b9b",
-      "importedAt": "2026-10-04T21:52:33.392Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-05T06:12:34.077Z",
-    "reviewNote": "编辑审核通过：出处可追溯、语境正向且有姓名可用性；古典气息较强，页面将提示“风格较特别”。"
-  },
-  {
     "id": "284436539d02c8c78202",
     "collection": "chuci",
     "name": "木兰",
@@ -1822,30 +3057,6 @@
     "styleNotice": "",
     "reviewedAt": "2026-10-05T06:12:34.077Z",
     "reviewNote": "编辑审核通过：出处可追溯、语境正向，读音与现代人名感符合正式推荐标准。"
-  },
-  {
-    "id": "b46b125fb99ae0bd8b87",
-    "collection": "chuci",
-    "name": "修能",
-    "gender": "中性",
-    "work": "屈原《离骚》",
-    "quote": "纷吾既有此内美兮，又重之以修能",
-    "extracted": "修能",
-    "themes": [
-      "品性"
-    ],
-    "meaning": "取自屈原《离骚》：“纷吾既有此内美兮，又重之以修能”。出处可定位，语境正向，适合作为姓名候选。",
-    "reviewStatus": "approved",
-    "provenance": {
-      "sourceName": "chinese-poetry/chinese-poetry",
-      "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry",
-      "license": "MIT",
-      "sourceSha256": "5069e733d93781cecd55405c6d4699a7c17125b3f13cf79810d68792482e5b9b",
-      "importedAt": "2026-10-04T21:52:33.392Z"
-    },
-    "styleNotice": "风格较特别",
-    "reviewedAt": "2026-10-05T06:12:34.077Z",
-    "reviewNote": "编辑审核通过：出处可追溯、语境正向且有姓名可用性；古典气息较强，页面将提示“风格较特别”。"
   },
   {
     "id": "df17e226815153aa6e4a",

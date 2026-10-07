@@ -111,6 +111,12 @@ function buildPayload(revision = '', generationRound = 0) {
 }
 
 async function loadFromBackend(endpoint, payload) {
+  if (window.StaticNaming?.isStaticSite) {
+    const data = await window.StaticNaming.generate(payload);
+    backendConditions = data.conditions;
+    generatedNames = data.names;
+    return;
+  }
   const response = await fetch(backendUrl(endpoint), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error || '生成失败');
@@ -124,7 +130,7 @@ async function loadFromBackend(endpoint, payload) {
     return { name: item.givenName, pinyin: item.pinyin, meaning: item.meaning, styleNotice: item.styleNotice,
       work: item.source.work, quote: item.source.original,
       extract: `${item.source.note || `取名自「${item.source.extractedCharacters}」`} · 已校验`,
-      strokes: strokeText, same: '前往官方查询', figure: '百度搜索', sameLink: backendUrl('/api/lookups/same-name?redirect=1'), figureLink: backendUrl(`/api/lookups/public-figures?redirect=1&name=${encodeURIComponent(item.fullName)}`), traditional: `${gridText}${baziText ? `；${baziText}` : ''}${dialectText ? `；${dialectText}` : ''}` };
+      strokes: strokeText, same: '打开官方查询页', figure: '百度搜索', sameLink: backendUrl('/api/lookups/same-name?redirect=1'), figureLink: backendUrl(`/api/lookups/public-figures?redirect=1&name=${encodeURIComponent(item.fullName)}`), traditional: `${gridText}${baziText ? `；${baziText}` : ''}${dialectText ? `；${dialectText}` : ''}` };
   });
 }
 
@@ -134,7 +140,7 @@ form.addEventListener('submit', async event => {
   const label = button.textContent;
   button.disabled = true; button.textContent = '正在从语料库检索…';
   try { round = 0; await loadFromBackend('/api/names/generate', buildPayload('', round)); renderResults(); }
-  catch (error) { window.alert(`${error.message}。请运行 node server.js，并通过 http://localhost:3000 打开页面。`); }
+  catch (error) { window.alert(window.StaticNaming?.isStaticSite ? `${error.message}。请刷新页面后重试。` : `${error.message}。请运行 node server.js，并通过 http://localhost:3000 打开页面。`); }
   finally { button.disabled = false; button.textContent = label; }
 });
 

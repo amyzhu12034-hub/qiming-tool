@@ -16,6 +16,30 @@
     "usage": "首批使用唐诗精选和宋词三百首建立待核验队列；全量分卷文本仅用于后续离线批处理，不能直接打包进 Worker。"
   },
   {
+    "id": "chinese-poetry-open-classics",
+    "name": "儒家经典、楚辞、元曲、五代词与古文结构化文本",
+    "provider": "chinese-poetry/chinese-poetry",
+    "url": "https://github.com/chinese-poetry/chinese-poetry",
+    "license": "MIT",
+    "usage": "本地缓存原文后生成待审核候选；每类最多保留 300 个规则初筛结果，未经审核绝不进入正式推荐库或公网。"
+  },
+  {
+    "id": "gujilab-classical-corpus",
+    "name": "中国古典文献结构化语料集",
+    "provider": "gujilab/chinese-classical-corpus",
+    "url": "https://github.com/gujilab/chinese-classical-corpus",
+    "license": "CC0-1.0（output 数据）",
+    "usage": "作为十三经、史书与字书的本机公开语料底座；只从经、子、古文的预设候选中提取供审核，史书默认仅用于典故与出处核验。原始 97 部典籍不打包进 Worker。"
+  },
+  {
+    "id": "early-chinese-text-corpus",
+    "name": "Early Chinese Text Corpus / Kanseki Repository",
+    "provider": "direct-phonology/ect-krp",
+    "url": "https://github.com/direct-phonology/ect-krp",
+    "license": "CC BY-SA 4.0",
+    "usage": "本地缓存 64 部先秦两汉文本；当前从老子、庄子、荀子、山海经、列子、淮南子提取待审核候选。若进入正式库，保留来源、署名和相同方式分享所需信息。"
+  },
+  {
     "id": "ctext-verification",
     "name": "中国哲学书电子化计划",
     "provider": "Chinese Text Project",

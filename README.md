@@ -16,6 +16,14 @@
 
 下载源文件后执行：`npm run corpus:import:shijing -- <shijing.json 的绝对路径>`。唐诗、宋词的同类初筛可用：`npm run corpus:import:classics -- tang|song <json 的绝对路径>`。来源及许可登记在 `data/corpus-sources.json`。
 
+扩充来源时，原文先缓存到被 Git 忽略的 `data-sources/`，绝不作为网页静态资源上传。现有两条本机导入管线：
+
+- `npm run corpus:import:open-classics -- all <chinese-poetry 数据目录>`：儒家经典、楚辞、元曲、五代词、纳兰词、古文与小品。
+- `npm run corpus:import:classical-corpus -- <corpus.jsonl>`：CC0 的十三经与史书/字书公开底座；仅生成待核验候选。
+- `npm run corpus:import:early-chinese -- <ect-krp 目录>`：CC BY-SA 的先秦两汉古籍底座；当前覆盖老子、庄子、荀子、山海经等，正式发布需保留归属信息。
+
+候选一律进入 `data/review-queue-*.json`（本机、Git 忽略），经审核通过并执行 `npm run corpus:publish` 后，才会写入正式库。
+
 ### 本地审核台
 
 在本机运行 `npm start` 后，访问 `http://localhost:3000/review.html`。审核台会展示原句、出处、主题初标、现实使用搜索链接和公安同名查询入口；可将每条候选标记为通过、暂缓或拒绝，并可修改寓意说明、记录审核备注。审核台接口只允许回环地址访问，且审核页面不会部署到 Cloudflare。

@@ -8,11 +8,11 @@ const approvedPath = path.join(root, 'data', 'approved-corpus.json');
 if (!fs.existsSync(decisionsPath)) throw new Error('尚未生成审核决定，不能发布。');
 
 const decisions = JSON.parse(fs.readFileSync(decisionsPath, 'utf8'));
-const queues = ['shijing', 'tang', 'song', 'wikisource'].flatMap(source => {
-  const file = path.join(root, 'data', `review-queue-${source}.json`);
-  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : [];
-});
+const queues = fs.readdirSync(path.join(root, 'data'))
+  .filter(file => /^review-queue-[a-z]+\.json$/.test(file))
+  .flatMap(file => JSON.parse(fs.readFileSync(path.join(root, 'data', file), 'utf8')));
 const byId = new Map(queues.map(item => [item.id, item]));
+const seenNames = new Set();
 const published = decisions
   .filter(item => item.status === 'approved')
   .map(decision => {
@@ -28,7 +28,12 @@ const published = decisions
       reviewNote: decision.note?.trim() || ''
     };
   })
-  .filter(Boolean);
+  .filter(Boolean)
+  .filter(record => {
+    if (seenNames.has(record.name)) return false;
+    seenNames.add(record.name);
+    return true;
+  });
 
 fs.writeFileSync(approvedPath, JSON.stringify(published, null, 2) + '\n', 'utf8');
 console.log(`已生成 ${published.length} 条正式发布语料：${approvedPath}`);

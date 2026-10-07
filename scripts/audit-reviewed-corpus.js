@@ -48,6 +48,24 @@ if (queueFiles.length && fs.existsSync(decisionsPath)) {
   };
 }
 
+const intakeQueueFiles = fs.readdirSync(path.join(root, 'data'))
+  .filter(file => /^review-queue-[a-z]+\.json$/.test(file))
+  .map(file => path.join(root, 'data', file))
+  .filter(file => !queueFiles.includes(file));
+const intakeDecisions = fs.existsSync(decisionsPath) ? JSON.parse(fs.readFileSync(decisionsPath, 'utf8')) : [];
+const intakeDecisionById = new Map(intakeDecisions.map(item => [item.id, item]));
+const intakeReview = intakeQueueFiles.map(file => {
+  const records = JSON.parse(fs.readFileSync(file, 'utf8'));
+  return {
+    collection: path.basename(file, '.json').replace('review-queue-', ''),
+    candidates: records.length,
+    pending: records.filter(record => !intakeDecisionById.has(record.id)).length,
+    approved: records.filter(record => intakeDecisionById.get(record.id)?.status === 'approved').length,
+    rejected: records.filter(record => intakeDecisionById.get(record.id)?.status === 'rejected').length,
+    held: records.filter(record => intakeDecisionById.get(record.id)?.status === 'hold').length
+  };
+});
+
 if (errors.length) {
   console.error(JSON.stringify({ ok: false, errors }, null, 2));
   process.exit(1);
@@ -57,5 +75,6 @@ console.log(JSON.stringify({
   formalRecords: approved.length,
   distinctiveRecords: approved.filter(record => record.styleNotice === '风格较特别').length,
   ctextRecords: ctext.records.length,
-  localReview
+  localReview,
+  intakeReview
 }, null, 2));
