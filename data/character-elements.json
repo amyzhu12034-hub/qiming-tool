@@ -1,0 +1,906 @@
+{
+  "method": "笔画五行基础匹配：优先康熙笔画，缺失字以开源现行笔画补全；仅作传统文化参考。",
+  "generatedAt": "2026-10-07T04:58:03.309Z",
+  "characters": {
+    "与": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "中": {
+      "strokes": 4,
+      "source": "kangxi"
+    },
+    "久": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "之": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "乐": {
+      "strokes": 15,
+      "source": "kangxi"
+    },
+    "乔": {
+      "strokes": 12,
+      "source": "kangxi"
+    },
+    "于": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "云": {
+      "strokes": 12,
+      "source": "kangxi"
+    },
+    "亭": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "人": {
+      "strokes": 2,
+      "source": "modern"
+    },
+    "仁": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "令": {
+      "strokes": 5,
+      "source": "kangxi"
+    },
+    "仪": {
+      "strokes": 15,
+      "source": "kangxi"
+    },
+    "伊": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "佩": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "信": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "修": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "允": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "光": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "兰": {
+      "strokes": 23,
+      "source": "kangxi"
+    },
+    "兴": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "其": {
+      "strokes": 8,
+      "source": "kangxi"
+    },
+    "凌": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "则": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "初": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "千": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "卉": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "华": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "南": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "博": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "厚": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "只": {
+      "strokes": 5,
+      "source": "kangxi"
+    },
+    "含": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "和": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "善": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "嘉": {
+      "strokes": 14,
+      "source": "kangxi"
+    },
+    "均": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "垂": {
+      "strokes": 8,
+      "source": "kangxi"
+    },
+    "大": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "天": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "央": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "女": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "好": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "如": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "姝": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "婉": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "子": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "孤": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "学": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "宁": {
+      "strokes": 14,
+      "source": "kangxi"
+    },
+    "安": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "容": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "寒": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "山": {
+      "strokes": 3,
+      "source": "kangxi"
+    },
+    "川": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "帆": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "建": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "弘": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "强": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "归": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "影": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "德": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "心": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "志": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "忠": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "怀": {
+      "strokes": 20,
+      "source": "kangxi"
+    },
+    "思": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "恕": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "恭": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "悠": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "慎": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "成": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "扬": {
+      "strokes": 13,
+      "source": "kangxi"
+    },
+    "扶": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "搖": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "攸": {
+      "strokes": 7,
+      "source": "kangxi"
+    },
+    "故": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "敏": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "敬": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "文": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "新": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "方": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "旗": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "既": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "日": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "时": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "明": {
+      "strokes": 8,
+      "source": "kangxi"
+    },
+    "星": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "映": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "春": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "昭": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "晖": {
+      "strokes": 13,
+      "source": "kangxi"
+    },
+    "晚": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "景": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "晴": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "暗": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "月": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "望": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "木": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "未": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "杜": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "松": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "林": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "枝": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "柔": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "柳": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "树": {
+      "strokes": 16,
+      "source": "kangxi"
+    },
+    "桑": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "桢": {
+      "strokes": 13,
+      "source": "kangxi"
+    },
+    "梢": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "横": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "欢": {
+      "strokes": 22,
+      "source": "kangxi"
+    },
+    "歌": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "止": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "正": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "毅": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "水": {
+      "strokes": 4,
+      "source": "modern"
+    },
+    "江": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "沅": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "河": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "泉": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "波": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "润": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "淑": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "清": {
+      "strokes": 12,
+      "source": "kangxi"
+    },
+    "温": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "溪": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "溶": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "滟": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "潋": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "灵": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "灼": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "烟": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "熙": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "燕": {
+      "strokes": 16,
+      "source": "kangxi"
+    },
+    "物": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "犀": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "玉": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "珊": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "琚": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "琛": {
+      "strokes": 13,
+      "source": "kangxi"
+    },
+    "琢": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "琼": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "瑞": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "瑶": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "瑾": {
+      "strokes": 16,
+      "source": "kangxi"
+    },
+    "生": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "田": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "疏": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "白": {
+      "strokes": 5,
+      "source": "modern"
+    },
+    "皎": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "知": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "碧": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "秉": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "秋": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "章": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "笃": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "素": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "细": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "绝": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "绥": {
+      "strokes": 13,
+      "source": "kangxi"
+    },
+    "维": {
+      "strokes": 14,
+      "source": "kangxi"
+    },
+    "缉": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "翠": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "能": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "自": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "至": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "致": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "舒": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "舜": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "舟": {
+      "strokes": 6,
+      "source": "kangxi"
+    },
+    "良": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "色": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "芙": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "花": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "芳": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "芷": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "若": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "英": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "草": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "萝": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "营": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "葆": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "蓁": {
+      "strokes": 16,
+      "source": "kangxi"
+    },
+    "蓉": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "蓝": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "行": {
+      "strokes": 6,
+      "source": "modern"
+    },
+    "衡": {
+      "strokes": 16,
+      "source": "modern"
+    },
+    "衿": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "诚": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "质": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "起": {
+      "strokes": 10,
+      "source": "kangxi"
+    },
+    "身": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "辰": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "近": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "远": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "连": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "逍": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "逸": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "道": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "遙": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "邻": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "金": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "锦": {
+      "strokes": 13,
+      "source": "modern"
+    },
+    "长": {
+      "strokes": 8,
+      "source": "kangxi"
+    },
+    "间": {
+      "strokes": 7,
+      "source": "modern"
+    },
+    "阑": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "雅": {
+      "strokes": 12,
+      "source": "modern"
+    },
+    "雨": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "雪": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "霁": {
+      "strokes": 14,
+      "source": "modern"
+    },
+    "霄": {
+      "strokes": 15,
+      "source": "modern"
+    },
+    "露": {
+      "strokes": 21,
+      "source": "modern"
+    },
+    "青": {
+      "strokes": 8,
+      "source": "kangxi"
+    },
+    "静": {
+      "strokes": 16,
+      "source": "kangxi"
+    },
+    "音": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "风": {
+      "strokes": 9,
+      "source": "kangxi"
+    },
+    "飞": {
+      "strokes": 3,
+      "source": "modern"
+    },
+    "香": {
+      "strokes": 9,
+      "source": "modern"
+    },
+    "馨": {
+      "strokes": 20,
+      "source": "modern"
+    },
+    "高": {
+      "strokes": 10,
+      "source": "modern"
+    },
+    "鸣": {
+      "strokes": 8,
+      "source": "modern"
+    },
+    "鸿": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "鹿": {
+      "strokes": 11,
+      "source": "modern"
+    },
+    "齐": {
+      "strokes": 6,
+      "source": "modern"
+    }
+  }
+}

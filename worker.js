@@ -1,4 +1,5 @@
 import nameDictionary from './data/character-dictionary.json';
+import characterElements from './data/character-elements.json';
 import phoneticRisks from './data/phonetic-risks.json';
 import expandedCorpus from './data/expanded-corpus.json';
 import approvedCorpus from './data/approved-corpus.json';
@@ -52,7 +53,7 @@ corpus.splice(0, corpus.length, ...uniqueCorpus);
 
 const category = input => { const item = typeof input === 'string' ? { work: input } : input; const work = item.work || ''; return item.collection === 'shijing' || work.includes('诗经') ? '诗经' : item.collection === 'chuci' || work.includes('楚辞') ? '楚辞' : item.collection === 'tang' || /王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work) ? '唐诗' : item.collection === 'song' || /苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work) ? '宋词' : item.collection === 'yuanqu' ? '元曲' : item.collection === 'wudai' ? '五代词' : item.collection === 'nalan' ? '纳兰词' : item.collection === 'prose' ? '古文' : item.collection === 'philosophy' ? '哲学与先秦古籍' : item.collection === 'wikisource' || work.includes('论语') ? '论语' : item.collection === 'confucian' || /大学|中庸|孟子/.test(work) ? '儒家经典' : item.collection === 'classics' || /尚书|礼记|周易|孝经|尔雅|春秋/.test(work) ? '十三经与诸子' : '其他'; };
 const element = number => ({ 1: '木', 2: '木', 3: '火', 4: '火', 5: '土', 6: '土', 7: '金', 8: '金', 9: '水', 0: '水' })[number % 10];
-const charElements = name => Array.from(name).map(char => nameDictionary.characters[char] ? element(nameDictionary.characters[char].strokes) : null).filter(Boolean);
+const charElements = name => Array.from(name).map(char => characterElements.characters[char] ? element(characterElements.characters[char].strokes) : null).filter(Boolean);
 
 function conditions(input) {
   const chosen = input.conditions || []; const tags = [];
@@ -67,16 +68,17 @@ function conditions(input) {
 
 function bazi(input) {
   if (!input.conditions?.includes('八字')) return { status: 'not_requested' };
-  if (!input.birthDate || !input.birthTime || !input.birthLocation) return { status: 'needs_input', note: '需补全出生日期、时间与地点。' };
+  if (!input.birthDate || !input.birthTime) return { status: 'needs_input', note: '需补全出生日期和时间。' };
   const [year, month, day] = input.birthDate.split('-').map(Number); const [hour, minute] = input.birthTime.split(':').map(Number);
   try {
     const ec = Solar.fromYmdHms(year, month, day, hour, minute, 0).getLunar().getEightChar();
     const pillars = { 年柱: ec.getYear(), 月柱: ec.getMonth(), 日柱: ec.getDay(), 时柱: ec.getTime() };
     const map = { 甲:'木',乙:'木',丙:'火',丁:'火',戊:'土',己:'土',庚:'金',辛:'金',壬:'水',癸:'水',子:'水',丑:'土',寅:'木',卯:'木',辰:'土',巳:'火',午:'火',未:'土',申:'金',酉:'金',戌:'土',亥:'水' };
     const counts = { 木:0,火:0,土:0,金:0,水:0 }; Object.values(pillars).join('').split('').forEach(char => { if (map[char]) counts[map[char]] += 1; });
-    return { status: 'calculated_reference', pillars, visibleElementCounts: counts, location: input.birthLocation, note: '按用户输入的当地标准时间排盘，未作真太阳时修正；五行统计仅统计四柱天干地支的显性元素，供传统文化参考。' };
+    return { status: 'calculated_reference', pillars, visibleElementCounts: counts, location: input.birthLocation || '未填写（按当地标准时间）', note: '按填写的标准时间排盘，未作真太阳时修正；五行仅统计四柱天干地支的显性元素，供传统文化参考。' };
   } catch { return { status: 'calculation_failed', note: '该日期无法完成排盘，请检查输入。' }; }
 }
+const weakerBaziElements = counts => { const values = Object.values(counts); const minimum = Math.min(...values); const maximum = Math.max(...values); return minimum === maximum ? [] : Object.entries(counts).filter(([, count]) => count === minimum).map(([element]) => element); };
 
 function analysis(surname, givenName, requested) {
   const family = nameDictionary.surnames[surname]; const missing = Array.from(givenName).filter(char => !nameDictionary.characters[char]);
@@ -97,10 +99,10 @@ function dialect(fullName, input) {
 }
 
 function buildNames(input) {
-  const checks = input.conditions || []; const wishes = `${input.wish || ''} ${input.revision || ''}`; const excluded = (input.avoid || '').split(/[，,、\s]+/).filter(Boolean); const gen = checks.includes('辈分') ? Array.from(input.generationChar || '')[0] : ''; const targetLength = input.givenNameLength || 'two'; const birth = bazi(input); const targets = birth.status === 'calculated_reference' ? Object.entries(birth.visibleElementCounts).filter(([, n]) => n === 0).map(([key]) => key) : []; const sources = ['诗经','楚辞','唐诗','宋词','论语','儒家经典','十三经与诸子','哲学与先秦古籍','元曲','五代词','纳兰词','古文'].filter(value => (input.source || '').includes(value));
-  const ranked = corpus.map((record, index) => ({ ...record, score:(input.gender === '中性' || record.gender === '中性' || record.gender === input.gender ? 2 : 0) + (record.themes.some(theme => wishes.includes(theme)) ? 2 : 0) + (sources.includes(category(record)) ? 2 : 0) + ((input.source || '').includes('古典') ? 1 : 0) + (targets.some(value => charElements(record.name).includes(value)) ? .8 : 0) - (excluded.some(word => record.name.includes(word)) ? 20 : 0) - index / 10000 })).sort((a,b) => b.score - a.score);
+  const checks = input.conditions || []; const wishes = `${input.wish || ''} ${input.revision || ''}`; const excluded = (input.avoid || '').split(/[，,、\s]+/).filter(Boolean); const gen = checks.includes('辈分') ? Array.from(input.generationChar || '')[0] : ''; const targetLength = input.givenNameLength || 'two'; const birth = bazi(input); const targets = birth.status === 'calculated_reference' ? weakerBaziElements(birth.visibleElementCounts) : []; const sources = ['诗经','楚辞','唐诗','宋词','论语','儒家经典','十三经与诸子','哲学与先秦古籍','元曲','五代词','纳兰词','古文'].filter(value => (input.source || '').includes(value));
+  const ranked = corpus.map((record, index) => { const matchedElements = charElements(record.name).filter(value => targets.includes(value)); return { ...record, score:(input.gender === '中性' || record.gender === '中性' || record.gender === input.gender ? 2 : 0) + (record.themes.some(theme => wishes.includes(theme)) ? 2 : 0) + (sources.includes(category(record)) ? 2 : 0) + ((input.source || '').includes('古典') ? 1 : 0) + (matchedElements.length * 4) - (excluded.some(word => record.name.includes(word)) ? 20 : 0) - index / 10000 }; }).sort((a,b) => b.score - a.score);
   const expected = targetLength === 'one' ? 1 : targetLength === 'two' ? 2 : 0; const matched = expected ? ranked.filter(record => (gen ? 2 : Array.from(record.name).length) === expected) : ranked; const pool = matched.length >= 5 ? matched : ranked; const offset = (Math.max(0, Math.floor(Number(input.generationRound) || 0)) * 5) % pool.length; const selected = [...pool.slice(offset), ...pool.slice(0, offset)].slice(0,5);
-  return selected.map(record => { const sourceChar = input.generationPosition === 'first' ? record.name[1] : record.name[0]; const givenName = gen ? (input.generationPosition === 'second' ? `${sourceChar}${gen}` : `${gen}${sourceChar}`) : record.name; const fullName = `${input.surname}${givenName}`; const matchedElements = charElements(givenName).filter(value => targets.includes(value)); return { fullName, givenName, pinyin:gen ? '' : record.pinyin, meaning:record.meaning, styleNotice:record.styleNotice || '', source:{ work:record.work, original:record.quote, extractedCharacters:gen ? sourceChar : record.extracted, note:gen ? `家族辈分字「${gen}」；典籍取字「${sourceChar}」` : `取名自「${record.extracted}」`, verified:true }, nameAnalysis:analysis(input.surname, givenName, checks), baziNaming:birth.status === 'calculated_reference' ? { status:'partial_element_matching', targetElements:targets, matchedNameElements, note:'按康熙笔画尾数五行进行基础匹配；不同传统流派的用字五行规则并不完全一致，仅供参考。' } : { status:'not_requested' }, dialectCheck:dialect(fullName,input), rulesMatched:conditions(input), duplicateName:{ status:'source_not_connected', count:null, source:'需接入经授权的全国同名数据源' }, publicFigures:{ status:'source_not_connected', entries:[], source:'当代人物数据源待接入' } }; });
+  return selected.map(record => { const sourceChar = input.generationPosition === 'first' ? record.name[1] : record.name[0]; const givenName = gen ? (input.generationPosition === 'second' ? `${sourceChar}${gen}` : `${gen}${sourceChar}`) : record.name; const fullName = `${input.surname}${givenName}`; const matchedElements = charElements(givenName).filter(value => targets.includes(value)); return { fullName, givenName, pinyin:gen ? '' : record.pinyin, meaning:record.meaning, styleNotice:record.styleNotice || '', source:{ work:record.work, original:record.quote, extractedCharacters:gen ? sourceChar : record.extracted, note:gen ? `家族辈分字「${gen}」；典籍取字「${sourceChar}」` : `取名自「${record.extracted}」`, verified:true }, nameAnalysis:analysis(input.surname, givenName, checks), baziNaming:birth.status === 'calculated_reference' ? { status:'partial_element_matching', pillars:birth.pillars, targetElements:targets, matchedNameElements, note:characterElements.method } : { status:'not_requested' }, dialectCheck:dialect(fullName,input), rulesMatched:conditions(input), duplicateName:{ status:'source_not_connected', count:null, source:'需接入经授权的全国同名数据源' }, publicFigures:{ status:'source_not_connected', entries:[], source:'当代人物数据源待接入' } }; });
 }
 
 const reply = (data, status = 200) => Response.json(data, { status, headers:{ 'Cache-Control':'no-store', ...cors } });

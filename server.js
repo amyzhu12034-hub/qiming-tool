@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { URL } = require('url');
 const nameDictionary = require('./data/character-dictionary.json');
+const characterElements = require('./data/character-elements.json');
 const phoneticRisks = require('./data/phonetic-risks.json');
 const expandedCorpus = require('./data/expanded-corpus.json');
 const approvedCorpus = require('./data/approved-corpus.json');
@@ -93,7 +94,7 @@ function readBody(req) { return new Promise((resolve, reject) => { let raw = '';
 function pinyin(name) { return ({ 清扬: 'qīng yáng', 维桢: 'wéi zhēn', 攸宁: 'yōu níng', 嘉树: 'jiā shù', 既明: 'jì míng', 静姝: 'jìng shū', 其琛: 'qí chēn', 燕绥: 'yàn suí', 柔嘉: 'róu jiā', 怀瑾: 'huái jǐn', 乐只: 'lè zhǐ', 令仪: 'lìng yí', 蓁: 'zhēn', 乔: 'qiáo', 宁: 'níng', 昭: 'zhāo', 乐: 'lè', 嘉: 'jiā', 云起: 'yún qǐ', 清泉: 'qīng quán', 春晖: 'chūn huī', 星垂: 'xīng chuí', 长风: 'cháng fēng', 清欢: 'qīng huān', 兰舟: 'lán zhōu', 云中: 'yún zhōng', 青山: 'qīng shān' })[name] || ''; }
 function sourceCategory(input) { const record = typeof input === 'string' ? { work: input } : input; const work = record.work || ''; if (record.collection === 'shijing' || work.includes('诗经')) return '诗经'; if (record.collection === 'chuci' || work.includes('楚辞')) return '楚辞'; if (record.collection === 'tang' || /王维|孟郊|杜甫|李白|李商隐|刘禹锡|白居易|杜牧|孟浩然|王勃|崔颢|张若虚/.test(work)) return '唐诗'; if (record.collection === 'song' || /苏轼|李清照|辛弃疾|陆游|晏殊|秦观|杨万里|范仲淹|欧阳修|王安石|林逋/.test(work)) return '宋词'; if (record.collection === 'yuanqu') return '元曲'; if (record.collection === 'wudai') return '五代词'; if (record.collection === 'nalan') return '纳兰词'; if (record.collection === 'prose') return '古文'; if (record.collection === 'philosophy') return '哲学与先秦古籍'; if (record.collection === 'wikisource' || work.includes('论语')) return '论语'; if (record.collection === 'confucian' || /大学|中庸|孟子/.test(work)) return '儒家经典'; if (record.collection === 'classics' || /尚书|礼记|周易|孝经|尔雅|春秋/.test(work)) return '十三经与诸子'; return '其他'; }
 function numerologyElement(number) { return ({ 1: '木', 2: '木', 3: '火', 4: '火', 5: '土', 6: '土', 7: '金', 8: '金', 9: '水', 0: '水' })[number % 10]; }
-function nameStrokeElements(name) { return Array.from(name).map(char => nameDictionary.characters[char] ? numerologyElement(nameDictionary.characters[char].strokes) : null).filter(Boolean); }
+function nameStrokeElements(name) { return Array.from(name).map(char => characterElements.characters[char] ? numerologyElement(characterElements.characters[char].strokes) : null).filter(Boolean); }
 function analyzeName(surname, givenName, requested) {
   const surnameChars = Array.from(surname);
   const givenChars = Array.from(givenName);
@@ -116,7 +117,7 @@ function analyzeName(surname, givenName, requested) {
 }
 function calculateBazi(input) {
   if (!input.conditions?.includes('八字')) return { status: 'not_requested' };
-  if (!input.birthDate || !input.birthTime || !input.birthLocation) return { status: 'needs_input', note: '需补全出生日期、时间与地点。' };
+  if (!input.birthDate || !input.birthTime) return { status: 'needs_input', note: '需补全出生日期和时间。' };
   const [year, month, day] = input.birthDate.split('-').map(Number);
   const [hour, minute] = input.birthTime.split(':').map(Number);
   if (![year, month, day, hour, minute].every(Number.isInteger)) return { status: 'invalid_input', note: '出生日期或时间格式不正确。' };
@@ -128,10 +129,16 @@ function calculateBazi(input) {
     const branches = { 子: '水', 丑: '土', 寅: '木', 卯: '木', 辰: '土', 巳: '火', 午: '火', 未: '土', 申: '金', 酉: '金', 戌: '土', 亥: '水' };
     const elements = { 木: 0, 火: 0, 土: 0, 金: 0, 水: 0 };
     Object.values(pillars).join('').split('').forEach(char => { const element = stems[char] || branches[char]; if (element) elements[element] += 1; });
-    return { status: 'calculated_reference', pillars, visibleElementCounts: elements, location: input.birthLocation, note: '按用户输入的当地标准时间排盘，未作真太阳时修正；五行统计仅统计四柱天干地支的显性元素，供传统文化参考。' };
+    return { status: 'calculated_reference', pillars, visibleElementCounts: elements, location: input.birthLocation || '未填写（按当地标准时间）', note: '按填写的标准时间排盘，未作真太阳时修正；五行仅统计四柱天干地支的显性元素，供传统文化参考。' };
   } catch {
     return { status: 'calculation_failed', note: '该日期无法完成排盘，请检查输入。' };
   }
+}
+function weakerBaziElements(counts) {
+  const values = Object.values(counts);
+  const minimum = Math.min(...values);
+  const maximum = Math.max(...values);
+  return minimum === maximum ? [] : Object.entries(counts).filter(([, count]) => count === minimum).map(([element]) => element);
 }
 function checkDialect(fullName, input) {
   if (!input.conditions?.includes('方言')) return { status: 'not_requested' };
@@ -156,7 +163,7 @@ function buildNames(input) {
   const generationChar = input.conditions?.includes('辈分') ? Array.from(input.generationChar || '')[0] : '';
   const targetLength = input.givenNameLength || 'two';
   const bazi = calculateBazi(input);
-  const baziTargets = bazi.status === 'calculated_reference' ? Object.entries(bazi.visibleElementCounts).filter(([, count]) => count === 0).map(([element]) => element) : [];
+  const baziTargets = bazi.status === 'calculated_reference' ? weakerBaziElements(bazi.visibleElementCounts) : [];
   const requestedSources = ['诗经', '楚辞', '唐诗', '宋词', '论语', '儒家经典', '十三经与诸子', '哲学与先秦古籍', '元曲', '五代词', '纳兰词', '古文'].filter(category => (input.source || '').includes(category));
   const chosen = corpus.map((record, index) => {
     let score = -index / 10000;
@@ -164,7 +171,8 @@ function buildNames(input) {
     if (record.themes.some(theme => wishes.includes(theme))) score += 2;
     if (requestedSources.includes(sourceCategory(record))) score += 2;
     if ((input.source || '').includes('古典') && sourceCategory(record) !== '其他') score += 1;
-    if (baziTargets.some(element => nameStrokeElements(record.name).includes(element))) score += 0.8;
+    const baziMatches = nameStrokeElements(record.name).filter(element => baziTargets.includes(element));
+    if (baziMatches.length) score += baziMatches.length * 4;
     if (excluded.some(word => record.name.includes(word))) score -= 20;
     return { ...record, score };
   }).sort((a, b) => b.score - a.score);
@@ -182,7 +190,7 @@ function buildNames(input) {
     const givenName = generationChar ? (position === 'second' ? `${sourceChar}${generationChar}` : `${generationChar}${sourceChar}`) : record.name;
     const sourceNote = generationChar ? `家族辈分字「${generationChar}」；典籍取字「${sourceChar}」` : `取名自「${record.extracted}」`;
     const matchedElements = nameStrokeElements(givenName).filter(element => baziTargets.includes(element));
-    const baziNaming = bazi.status === 'calculated_reference' ? { status: 'partial_element_matching', targetElements: baziTargets, matchedNameElements: matchedElements, note: '按康熙笔画尾数五行进行基础匹配；不同传统流派的用字五行规则并不完全一致，仅供参考。' } : { status: 'not_requested' };
+    const baziNaming = bazi.status === 'calculated_reference' ? { status: 'partial_element_matching', pillars: bazi.pillars, targetElements: baziTargets, matchedNameElements: matchedElements, note: characterElements.method } : { status: 'not_requested' };
     const fullName = `${input.surname}${givenName}`;
     return { fullName, givenName, pinyin: generationChar ? '' : (record.pinyin || pinyin(record.name)), meaning: record.meaning, styleNotice: record.styleNotice || '', source: { work: record.work, original: record.quote, extractedCharacters: generationChar ? sourceChar : record.extracted, note: sourceNote, verified: true }, nameAnalysis: analyzeName(input.surname, givenName, input.conditions || []), baziNaming, dialectCheck: checkDialect(fullName, input), rulesMatched: tags, duplicateName: { status: 'source_not_connected', count: null, source: '需接入经授权的全国同名数据源' }, publicFigures: { status: 'source_not_connected', entries: [], source: '历史人物可接 CBDB；当代人物数据源待接入' } };
   });

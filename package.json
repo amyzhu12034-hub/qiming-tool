@@ -17,6 +17,7 @@
     "corpus:import:early-chinese": "node scripts/import-early-chinese-texts.js",
     "corpus:publish": "node scripts/publish-reviewed-corpus.js",
     "corpus:pinyin": "node scripts/enrich-pinyin.js",
+    "corpus:elements": "node scripts/build-character-elements.js",
     "pages:build": "node scripts/build-pages-site.js",
     "corpus:review:intake": "node scripts/apply-intake-review.js",
     "corpus:promote:distinctive": "node scripts/promote-distinctive-candidates.js",
@@ -24,6 +25,7 @@
     "review:seed": "node scripts/seed-editorial-review.js"
   },
   "dependencies": {
+    "hanzi-writer-data": "^2.0.1",
     "lunar-javascript": "^1.7.7",
     "pinyin-pro": "^3.29.4"
   },

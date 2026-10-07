@@ -11,13 +11,21 @@ const copy = relative => {
   fs.mkdirSync(path.dirname(destination), { recursive: true });
   fs.copyFileSync(source, destination);
 };
+const copyAs = (sourceRelative, destinationRelative) => {
+  const source = path.join(root, sourceRelative);
+  const destination = path.join(output, destinationRelative);
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.copyFileSync(source, destination);
+};
 
 execFileSync(process.execPath, [path.join(root, 'scripts', 'build-static-corpus.js')], { stdio: 'inherit' });
+execFileSync(process.execPath, [path.join(root, 'scripts', 'build-character-elements.js')], { stdio: 'inherit' });
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(path.join(output, 'data'), { recursive: true });
 [
   'index.html', 'styles.css', 'source-cards.css', 'preference-flow.css', 'app.js', 'static-generator.js',
-  'data/client-corpus.json'
+  'data/client-corpus.json', 'data/character-elements.json'
 ].forEach(copy);
+copyAs('node_modules/lunar-javascript/lunar.js', 'vendor/lunar.js');
 fs.writeFileSync(path.join(output, '.nojekyll'), '', 'utf8');
 console.log(`GitHub Pages 静态站点已生成：${output}`);
