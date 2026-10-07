@@ -130,7 +130,7 @@ async function loadFromBackend(endpoint, payload) {
     return { name: item.givenName, pinyin: item.pinyin, meaning: item.meaning, styleNotice: item.styleNotice,
       work: item.source.work, quote: item.source.original,
       extract: `${item.source.note || `取名自「${item.source.extractedCharacters}」`} · 已校验`,
-      strokes: strokeText, same: '打开官方查询页', figure: '百度搜索', sameLink: backendUrl('/api/lookups/same-name?redirect=1'), figureLink: backendUrl(`/api/lookups/public-figures?redirect=1&name=${encodeURIComponent(item.fullName)}`), traditional: `${gridText}${baziText ? `；${baziText}` : ''}${dialectText ? `；${dialectText}` : ''}` };
+      strokes: strokeText, same: '查询同名人数（公安部）', figure: '百度搜索', sameLink: backendUrl('/api/lookups/same-name?redirect=1'), figureLink: backendUrl(`/api/lookups/public-figures?redirect=1&name=${encodeURIComponent(item.fullName)}`), traditional: `${gridText}${baziText ? `；${baziText}` : ''}${dialectText ? `；${dialectText}` : ''}` };
   });
 }
 

@@ -1,6 +1,7 @@
 /* GitHub Pages 静态试用版：推荐逻辑与已审核语料均在浏览器本地运行。 */
 (() => {
-  const officialSameName = 'https://ywtb.mps.gov.cn/newhome/portal/search/%E6%9F%A5%E8%AF%A2%E5%90%8C%E5%90%8D%E4%BA%BA%E6%95%B0';
+  // 公安部“查询同名人数”官方直达入口。需由用户在官方页面自行填写姓名。
+  const officialSameName = 'https://ywtb.mps.gov.cn/newhome/portal/cmcx';
   let corpusPromise;
   const loadCorpus = () => corpusPromise ||= fetch('./data/client-corpus.json').then(response => {
     if (!response.ok) throw new Error('本地语料加载失败');
@@ -86,7 +87,7 @@
         quote: record.quote || '',
         extract: `取名自「${record.extracted || record.name}」· 已审核`,
         strokes: '静态版未接入笔画字典',
-        same: '打开官方查询页',
+        same: '查询同名人数（公安部）',
         sameLink: officialSameName,
         figure: '百度搜索',
         figureLink: `https://www.baidu.com/s?wd=${encodeURIComponent(`${input.surname}${record.name} 公众人物`)}`,

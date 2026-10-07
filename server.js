@@ -228,7 +228,7 @@ const server = http.createServer(async (req, res) => {
       const categories = ['诗经', '楚辞', '唐诗', '宋词', '论语', '儒家经典', '十三经与诸子', '哲学与先秦古籍', '元曲', '五代词', '纳兰词', '古文'].map(category => ({ category, records: corpus.filter(record => sourceCategory(record) === category).length }));
       return json(res, 200, { categories, policies: { uncommonCharacters: '默认不推荐生僻字；最终以字库分级校验为准', traditionalNaming: '五行、三才五格、八字均为用户主动选择的传统文化参考' } });
     }
-    if (req.method === 'GET' && url.pathname === '/api/lookups/same-name') { const target = 'https://ywtb.mps.gov.cn/?device=mobile'; return url.searchParams.get('redirect') === '1' ? redirect(res, target) : json(res, 200, { status: 'official_redirect', label: '前往公安政务服务平台查询同名人数', url: target }); }
+    if (req.method === 'GET' && url.pathname === '/api/lookups/same-name') { const target = 'https://ywtb.mps.gov.cn/newhome/portal/cmcx'; return url.searchParams.get('redirect') === '1' ? redirect(res, target) : json(res, 200, { status: 'official_redirect', label: '前往公安部查询同名人数页面（需自行填写姓名）', url: target }); }
     if (req.method === 'GET' && url.pathname === '/api/lookups/public-figures') {
       const name = url.searchParams.get('name') || '';
       const target = `https://www.baidu.com/s?wd=${encodeURIComponent(`${name} 公众人物`)}`;
