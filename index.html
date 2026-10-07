@@ -57,7 +57,7 @@
               <div class="condition-row"><label class="preference-card"><input type="checkbox" name="condition" value="辈分" /><span class="check"></span><span><b>家族辈分字</b><small>确定辈分字与位置</small></span></label><div class="condition-detail data-field two-fields" data-requires="辈分"><label class="field">辈分字<input id="generationChar" maxlength="1" placeholder="如：承" /></label><label class="field">辈分字位置<select id="generationPosition"><option value="first">名字第一个字</option><option value="second">名字第二个字</option><option value="either">位置不限</option></select></label></div></div>
               <div class="condition-row"><label class="preference-card"><input type="checkbox" name="condition" value="五格" /><span class="check"></span><span><b>五行与三才五格</b><small>作为传统命名参考</small></span></label><div class="condition-detail data-field helper-text" data-requires="五格">将展示康熙笔画及五格计算参考，不作吉凶断言。</div></div>
               <div class="condition-row"><label class="preference-card"><input type="checkbox" name="condition" value="方言" /><span class="check"></span><span><b>方言谐音提示</b><small>检查指定地区的读音风险</small></span></label><div class="condition-detail data-field" data-requires="方言"><label class="field">需要提示的方言区<select id="dialect"><option value="普通话">普通话</option><option value="粤语">粤语</option><option value="吴语">吴语</option><option value="闽南语">闽南语</option><option value="四川话">四川话</option></select></label></div></div>
-              <div class="condition-row"><label class="preference-card"><input type="checkbox" name="condition" value="避讳" /><span class="check"></span><span><b>避讳与限制</b><small>不喜欢的字、读音或风格</small></span></label><div class="condition-detail data-field" data-requires="避讳"><label class="field">避用的字 / 读音<input id="avoid" placeholder="如：不要“豪”，避免谐音" /></label></div></div>
+              <div class="condition-row"><label class="preference-card"><input type="checkbox" name="condition" value="避讳" /><span class="check"></span><span><b>避讳与限制</b><small>明确避用字会严格排除；读音和风格会显示识别结果</small></span></label><div class="condition-detail data-field" data-requires="避讳"><label class="field">避用的字 / 读音<input id="avoid" placeholder="如：不要“豪”、避开“轩”；谐音会提示复核" /></label></div></div>
             </div>
           </div>
 
@@ -77,7 +77,7 @@
         <div class="result-grid" id="resultGrid"></div>
         <div class="revision-panel">
           <div><p class="eyebrow">EXPLORE MORE</p><h3>不是很满意？想查看更多？</h3><p>告诉我想保留或调整的方向，我们会据此换一批更贴近你期待的名字。比如“更现代一点”“不要太古风”或“第二个字更温柔”。</p></div>
-          <div class="revision-action"><label class="sr-only" for="revision">补充偏好</label><input id="revision" placeholder="例如：更现代、温柔，避开“轩”字" /><button id="regenerateButton" type="button">按这些偏好再生成 →</button></div>
+          <div class="revision-action"><label class="sr-only" for="revision">补充偏好</label><input id="revision" placeholder="例如：更现代、更温柔，避开“轩”字（结果会展示识别规则）" /><button id="regenerateButton" type="button">按这些偏好再生成 →</button></div>
         </div>
       </section>
     </main>

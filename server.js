@@ -100,6 +100,7 @@ function numerologyElement(number) { return ({ 1: '木', 2: '木', 3: '火', 4: 
 function nameStrokeElements(name) { return Array.from(name).map(char => characterElements.characters[char] ? numerologyElement(characterElements.characters[char].strokes) : null).filter(Boolean); }
 function strokeRange(value) { const numbers = String(value || '').match(/\d+/g)?.map(Number) || []; return numbers.length > 1 ? { min: Math.min(...numbers), max: Math.max(...numbers) } : numbers.length ? { min: numbers[0], max: numbers[0] } : null; }
 function avoidedCharacters(value) { return Array.from(String(value || '').replace(/不要|避开|避免|不喜欢|读音|谐音|字/g, '')).filter(char => /[\u3400-\u9fff]/.test(char)); }
+function parsedConstraints(input) { const strictAvoid = []; const collect = value => { for (const match of String(value || '').matchAll(/(?:不要|避开|避免|不喜欢)\s*[“”"'「]?([\u3400-\u9fff]{1,2})/g)) { const word = match[1]; if (!/太古|古风|现代|温柔|大气|网红|生僻|谐音|读音/.test(word)) strictAvoid.push(...Array.from(word)); } }; collect(input.avoid); collect(input.revision); if (input.avoid && !/(不要|避开|避免|不喜欢)/.test(input.avoid)) strictAvoid.push(...avoidedCharacters(input.avoid)); const text = `${input.avoid || ''} ${input.revision || ''}`; const ranking = []; if (/现代|简洁|清爽/.test(text)) ranking.push('更现代'); if (/温柔|柔和/.test(text)) ranking.push('更温柔'); if (/大气|开阔/.test(text)) ranking.push('更大气'); if (/古风/.test(text)) ranking.push('减少古典感'); const pending = /谐音|读音/.test(text) ? ['谐音 / 读音需结合所选方言复核'] : []; return { strictAvoid:[...new Set(strictAvoid)], ranking, pending }; }
 function inferSiblingStyle(value) { const text = String(value || ''); const categories = []; const themes = []; if (/诗经|楚辞|唐诗|宋词|论语|古文|典/.test(text)) categories.push('诗经', '楚辞', '唐诗', '宋词', '论语', '古文'); if (/春|夏|秋|冬|山|海|江|河|云|星|月|风|花|林|川|雨|阳/.test(text)) categories.push('自然意象'); if (/安|宁|泰|佑|祺/.test(text)) themes.push('平安'); if (/乐|欢|怡|欣/.test(text)) themes.push('喜乐'); if (/知|思|书|明|慧/.test(text)) themes.push('智慧'); if (/勇|毅|恒|行/.test(text)) themes.push('勇敢', '坚定'); if (/柔|婉|清|雅/.test(text)) themes.push('温柔'); return { categories: [...new Set(categories)], themes: [...new Set(themes)] }; }
 function analyzeName(surname, givenName, requested) {
   const surnameChars = Array.from(surname);
@@ -158,7 +159,7 @@ function checkDialect(fullName, input) {
   if (!profile || !profile.rules.length) return { status: 'dictionary_not_configured', region, note: profile?.coverage || '该方言词库尚未配置。' };
   const matches = profile.rules.filter(rule => fullName.includes(rule.match)); return { status: 'partial_lexicon_check', region, coverage: profile.coverage, matches, note: matches.length ? '发现需复核的连读风险。' : '未匹配当前内置风险词条；这不是完整方言安全保证。' };
 }
-function conditions(input) { const tags = []; if (input.conditions?.includes('八字')) tags.push('出生信息 / 八字参考'); if (input.conditions?.includes('胎次')) { const style = inferSiblingStyle(input.siblingName); tags.push(input.siblingName ? `${input.birthOrder || '二胎'} · 自动延续一胎：${[...style.categories, ...style.themes].join('、') || '未识别到明确风格'}` : `${input.birthOrder || '二胎'} · 可填写一胎名字以自动延续风格`); } if (input.conditions?.includes('出处')) tags.push(input.source ? `偏爱：${input.source}` : '出处不限'); if (input.conditions?.includes('期望')) tags.push(input.wish ? `期望：${input.wish}` : '美好品性'); if (input.conditions?.includes('辈分') && input.generationChar) tags.push(`辈分字「${input.generationChar}」`); if (input.conditions?.includes('笔画') && input.strokes) tags.push(`全名笔画：${input.strokes}`); if (input.avoid) tags.push(`避开：${input.avoid}`); return tags.length ? tags : ['有明确出处', '简洁好读']; }
+function conditions(input, understood = parsedConstraints(input)) { const tags = []; if (input.conditions?.includes('八字')) tags.push('出生信息 / 八字参考'); if (input.conditions?.includes('胎次')) { const style = inferSiblingStyle(input.siblingName); tags.push(input.siblingName ? `${input.birthOrder || '二胎'} · 自动延续一胎：${[...style.categories, ...style.themes].join('、') || '未识别到明确风格'}` : `${input.birthOrder || '二胎'} · 可填写一胎名字以自动延续风格`); } if (input.conditions?.includes('出处')) tags.push(input.source ? `偏爱：${input.source}` : '出处不限'); if (input.conditions?.includes('期望')) tags.push(input.wish ? `期望：${input.wish}` : '美好品性'); if (input.conditions?.includes('辈分') && input.generationChar) tags.push(`辈分字「${input.generationChar}」`); if (input.conditions?.includes('笔画') && input.strokes) tags.push(`全名笔画：${input.strokes}`); if (understood.strictAvoid.length) tags.push(`严格避用：${understood.strictAvoid.join('、')}`); if (understood.ranking.length) tags.push(`偏好排序：${understood.ranking.join('、')}`); if (understood.pending.length) tags.push(`待复核：${understood.pending.join('；')}`); return tags.length ? tags : ['有明确出处', '简洁好读']; }
 function traditionalChecks(input) {
   const requested = input.conditions || [];
   return {
@@ -169,7 +170,8 @@ function traditionalChecks(input) {
 }
 function buildNames(input) {
   const wishes = `${input.wish || ''} ${input.revision || ''}`;
-  const excluded = avoidedCharacters(input.avoid);
+  const understood = parsedConstraints(input);
+  const excluded = understood.strictAvoid;
   const generationChar = input.conditions?.includes('辈分') ? Array.from(input.generationChar || '')[0] : '';
   const targetLength = input.givenNameLength || 'two';
   if (generationChar && targetLength === 'one') throw new Error('已指定辈分字时，本版仅支持双字名或不限字数。');
@@ -196,6 +198,10 @@ function buildNames(input) {
     if (requestedSources.includes(sourceCategory(record))) score += 2;
     if (sibling.categories.includes(sourceCategory(record))) score += 3;
     if (sibling.themes.some(theme => record.themes.includes(theme))) score += 2;
+    if (understood.ranking.includes('更现代') && sourceCategory(record) === '现代常用好字') score += 3;
+    if (understood.ranking.includes('更温柔') && record.themes.includes('温柔')) score += 2;
+    if (understood.ranking.includes('更大气') && record.themes.includes('志向')) score += 2;
+    if (understood.ranking.includes('减少古典感') && ['诗经', '楚辞', '唐诗', '宋词', '论语', '古文'].includes(sourceCategory(record))) score -= 2;
     if ((input.source || '').includes('古典') && sourceCategory(record) !== '其他') score += 1;
     const baziMatches = nameStrokeElements(givenName).filter(element => baziTargets.includes(element));
     if (baziMatches.length) score += baziMatches.length * 4;
@@ -210,7 +216,7 @@ function buildNames(input) {
   const round = Math.max(0, Math.floor(Number(input.generationRound) || 0));
   const offset = (round * 5) % candidatePool.length;
   const selected = [...candidatePool.slice(offset), ...candidatePool.slice(0, offset)].slice(0, 5);
-  const tags = conditions(input);
+  const tags = conditions(input, understood);
   return selected.map(record => {
     const sourceNote = generationChar ? `家族辈分字「${generationChar}」；典籍取字「${record.sourceChar}」` : `取名自「${record.extracted}」`;
     const matchedElements = nameStrokeElements(record.givenName).filter(element => baziTargets.includes(element));
